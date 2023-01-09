@@ -11,7 +11,7 @@
     "id": 2,
     "remarks": "ClashNode",
     "site": "https://clashnode.com/f/freenode",
-    "url": "https://clashnode.com/wp-content/uploads/2023/01/20230108.txt",
+    "url": "https://clashnode.com/wp-content/uploads/2023/01/20230109.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "remarks": "Nodefree.org",
     "site": "https://github.com/Fukki-Z/nodefree",
-    "url": "https://nodefree.org/dy/2023/01/20230108.txt",
+    "url": "https://nodefree.org/dy/2023/01/20230109.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "remarks": "changfengoss",
     "site": "https://github.com/changfengoss/pub",
-    "url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/P6jeu7.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/XdK8er.txt",
+    "url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/Ge2sDZ.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/HPLhQw.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/IWQY5n.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/P6jeu7.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/QqzY92.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/XdK8er.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/k7M11T.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/li8mbB.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_01_09/mNQWkV.yaml",
     "update_method": "page_release",
     "enabled": true
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "remarks": "www.cfmem.com",
     "site": "https://www.cfmem.com/search/label/free",
-    "url": "https://oss.v2rayse.com/proxies/data/2023-01-08/gfzTnB.yaml",
+    "url": "https://oss.v2rayse.com/proxies/data/2023-01-09/eRuaV5.yaml",
     "update_method": "page_release",
     "enabled": true
   },
