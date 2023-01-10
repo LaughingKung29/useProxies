@@ -1,1 +1,50 @@
-Url 解析错误
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies: ~
+proxy-groups:
+  - name: 规则选择
+    type: select
+    proxies:
+      - 负载均衡
+      - 自动选择
+  - name: 中国节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 日本节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 新加坡节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 美国节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 手动切换
+    type: select
+    proxies:
+      - DIRECT
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+rules:
+ - MATCH,规则选择
