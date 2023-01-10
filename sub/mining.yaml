@@ -6,86 +6,64 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "🇸🇬 VX被封,新V：wuligod2018", server: www.sstzi.com, port: 10086, type: ss, cipher: chacha20-ietf, password: W0lrBF, udp: true}
-  - {name: A-新域名：sstzi.com 或 joyssr.com, server: cmaisallin.debugspace.work, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: "🇸🇬 俄罗斯 A-[使用前先更新订阅!]", server: eduall.buzzline.org, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: "🇷🇺 俄罗斯 B-[用不了及时联系]", server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇷🇺 俄罗斯 C, server: eduall.buzzline.org, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 B, server: cntwlayer1.standurl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 D, server: cntwlayer1.standurl.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 E, server: cntwlayer1.standurl.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾 H, server: cntwlayer1.standurl.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾LINK O, server: cncutw2.eucdurl.me, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾LINK P, server: cncutw2.eucdurl.me, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇹🇷 土耳其, server: eduall.buzzline.org, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇮🇹 意大利, server: eduall.buzzline.org, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 优化1 A, server: cmaisallin.debugspace.work, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 优化2 C, server: cnallaz2.eucdurl.me, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 A, server: cmaisallin.debugspace.work, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化 A 3.5, server: usstand1.eucdurl.me, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化 B 3.5, server: usstand1.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化 C 3.5, server: usstand1.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化 D 3.5, server: usstand1.eucdurl.me, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化 E 3.5, server: usstand1.eucdurl.me, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化2 F 3.5, server: usstand2.eucdurl.me, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化2 G 3.5, server: usstand2.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化2 H 3.5, server: usstand2.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国 优化2 I 3.5, server: usstand2.eucdurl.me, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇬🇧 英国 iplayer A, server: eduall.buzzline.org, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇬🇧 英国 iplayer B, server: eduall.buzzline.org, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇳🇱 荷兰, server: eduall.buzzline.org, port: 611, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇪🇸 西班牙, server: eduall.buzzline.org, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇰🇷 韩国高速 A, server: cmaisallin.debugspace.work, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKBN A, server: layercm05.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKBN B, server: layercm05.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKBN C, server: cmlayer6.standurls.co, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKBN D, server: initest08.initcloud.pro, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT A, server: 1cnrelay.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT B, server: 2cnrelay2.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT C, server: shgez3.eucdurl.me, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT D, server: cnhkall.debugex.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT E, server: 2cnrelay2.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT F, server: inlayer7.standurls.co, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT G, server: inlayer7.standurls.co, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT H, server: 1cnrelay.initcloud.pro, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT I, server: inlayer7.standurls.co, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT J, server: cmlayer6.standurls.co, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT K, server: 3layer03.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT L, server: 3layer03.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT M, server: cnhkall.debugex.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HKT N, server: initest08.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港动态 HKT A, server: shcuzxhk.eucdurl.me, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港动态 HKT B, server: shcuzxhk.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港动态 HKT C, server: shcuzxhk.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 54654:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: A-新域名：sstzi.com 或 joyssr.com, server: cmaisallin.debugspace.work, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: "🇸🇬 俄罗斯 A-[使用前先更新订阅!]", server: eduall.buzzline.org, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: "🇷🇺 俄罗斯 B-[用不了及时联系]", server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇷🇺 俄罗斯 C, server: eduall.buzzline.org, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 B, server: cntwlayer1.standurl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 D, server: cntwlayer1.standurl.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 E, server: cntwlayer1.standurl.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾 H, server: cntwlayer1.standurl.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾LINK O, server: cncutw2.eucdurl.me, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾LINK P, server: cncutw2.eucdurl.me, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇹🇷 土耳其, server: eduall.buzzline.org, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇮🇹 意大利, server: eduall.buzzline.org, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 优化1 A, server: cmaisallin.debugspace.work, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡 优化2 C, server: cnallaz2.eucdurl.me, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本 A, server: cmaisallin.debugspace.work, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化 A 3.5, server: usstand1.eucdurl.me, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化 B 3.5, server: usstand1.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化 C 3.5, server: usstand1.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化 D 3.5, server: usstand1.eucdurl.me, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化 E 3.5, server: usstand1.eucdurl.me, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化2 F 3.5, server: usstand2.eucdurl.me, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化2 G 3.5, server: usstand2.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化2 H 3.5, server: usstand2.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇺🇸 美国 优化2 I 3.5, server: usstand2.eucdurl.me, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇬🇧 英国 iplayer A, server: eduall.buzzline.org, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇬🇧 英国 iplayer B, server: eduall.buzzline.org, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇳🇱 荷兰, server: eduall.buzzline.org, port: 611, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇪🇸 西班牙, server: eduall.buzzline.org, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇰🇷 韩国高速 A, server: cmaisallin.debugspace.work, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKBN A, server: layercm05.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKBN B, server: layercm05.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKBN C, server: cmlayer6.standurls.co, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKBN D, server: initest08.initcloud.pro, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT A, server: 1cnrelay.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT B, server: 2cnrelay2.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT C, server: shgez3.eucdurl.me, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT D, server: cnhkall.debugex.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT E, server: 2cnrelay2.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT F, server: inlayer7.standurls.co, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT G, server: inlayer7.standurls.co, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT H, server: 1cnrelay.initcloud.pro, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT I, server: inlayer7.standurls.co, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT J, server: cmlayer6.standurls.co, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT K, server: 3layer03.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT L, server: 3layer03.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT M, server: cnhkall.debugex.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 HKT N, server: initest08.initcloud.pro, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港动态 HKT A, server: shcuzxhk.eucdurl.me, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港动态 HKT B, server: shcuzxhk.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港动态 HKT C, server: shcuzxhk.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: 23ffd711.microsoft.com, udp: true}
   - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: "🏳️‍🌈 ️‍🌈 Expires: 23/01/12", server: gcssjp.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcssjpnode, headers: {Host: gcssjp.sylu.cyou}}, udp: true}
-  - {name: 🏳️‍🌈 ️‍🌈 Gcore free service will expires, server: gcssjp.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcssjpnode, headers: {Host: gcssjp.sylu.cyou}}, udp: true}
-  - {name: JP_G, server: gcssjp.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcssjpnode, headers: {Host: gcssjp.sylu.cyou}}, udp: true}
-  - {name: JP_G_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcssjpnode, headers: {Host: gcssjp.sylu.cyou}}, udp: true}
-  - {name: PL_G1, server: gcorepl.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcoreplnode, headers: {Host: gcorepl.sylu.cyou}}, udp: true}
-  - {name: PL_G1_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcoreplnode, headers: {Host: gcorepl.sylu.cyou}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
   - {name: CA_AWS, server: awsypca.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42awsypcanode, headers: {Host: awsypca.sylu.cyou}}, udp: true}
   - {name: CA_AWS_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42awsypcanode, headers: {Host: awsypca.sylu.cyou}}, udp: true}
-  - {name: SG_G1, server: gcoresg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcoresgnode, headers: {Host: gcoresg.sylu.cyou}}, udp: true}
-  - {name: SG_G1_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcoresgnode, headers: {Host: gcoresg.sylu.cyou}}, udp: true}
-  - {name: SG_G2, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: SG_G2_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: SG_G3, server: gcsssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
-  - {name: SG_G3_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
-  - {name: HK_G1, server: gcorehk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: HK_G1_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: HK_G2, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
-  - {name: HK_G2_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
-  - {name: HK_G3, server: gcsshk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}, udp: true}
-  - {name: HK_G3_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}, udp: true}
-  - {name: HK_G4, server: gcsshkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
-  - {name: HK_G4_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
-  - {name: HK_G5, server: gcsshkkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshkkknode, headers: {Host: gcsshkkk.sylu.cyou}}, udp: true}
-  - {name: HK_G5_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshkkknode, headers: {Host: gcsshkkk.sylu.cyou}}, udp: true}
-  - {name: NL_CF, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42hosmaticnode, headers: {Host: hosmatic.sylu.cyou}}, udp: true}
+  - {name: NL_CF, server: cms.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42hosmaticnode, headers: {Host: hosmatic.sylu.cyou}}, udp: true}
 proxy-groups:
   - name: 规则选择
     type: select
@@ -122,33 +100,15 @@ proxy-groups:
       - 🇭🇰 香港动态 HKT A
       - 🇭🇰 香港动态 HKT B
       - 🇭🇰 香港动态 HKT C
-      - HK_G1
-      - HK_G1_CF
-      - HK_G2
-      - HK_G2_CF
-      - HK_G3
-      - HK_G3_CF
-      - HK_G4
-      - HK_G4_CF
-      - HK_G5
-      - HK_G5_CF
   - name: 日本节点
     type: select
     proxies:
       - 🇯🇵 日本 A
-      - JP_G
-      - JP_G_CF
   - name: 新加坡节点
     type: select
     proxies:
       - 🇸🇬 新加坡 优化1 A
       - 🇸🇬 新加坡 优化2 C
-      - SG_G1
-      - SG_G1_CF
-      - SG_G2
-      - SG_G2_CF
-      - SG_G3
-      - SG_G3_CF
   - name: 美国节点
     type: select
     proxies:
@@ -215,35 +175,13 @@ proxy-groups:
       - 🇭🇰 香港动态 HKT A
       - 🇭🇰 香港动态 HKT B
       - 🇭🇰 香港动态 HKT C
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Amsterdam
       - GetAFreeNode-Phoenix
-      - "🏳️‍🌈 ️‍🌈 Expires: 23/01/12"
-      - 🏳️‍🌈 ️‍🌈 Gcore free service will expires
-      - JP_G
-      - JP_G_CF
-      - PL_G1
-      - PL_G1_CF
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
       - CA_AWS
       - CA_AWS_CF
-      - SG_G1
-      - SG_G1_CF
-      - SG_G2
-      - SG_G2_CF
-      - SG_G3
-      - SG_G3_CF
-      - HK_G1
-      - HK_G1_CF
-      - HK_G2
-      - HK_G2_CF
-      - HK_G3
-      - HK_G3_CF
-      - HK_G4
-      - HK_G4_CF
-      - HK_G5
-      - HK_G5_CF
       - NL_CF
   - name: 自动选择
     type: url-test
@@ -302,35 +240,13 @@ proxy-groups:
       - 🇭🇰 香港动态 HKT A
       - 🇭🇰 香港动态 HKT B
       - 🇭🇰 香港动态 HKT C
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Amsterdam
       - GetAFreeNode-Phoenix
-      - "🏳️‍🌈 ️‍🌈 Expires: 23/01/12"
-      - 🏳️‍🌈 ️‍🌈 Gcore free service will expires
-      - JP_G
-      - JP_G_CF
-      - PL_G1
-      - PL_G1_CF
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
       - CA_AWS
       - CA_AWS_CF
-      - SG_G1
-      - SG_G1_CF
-      - SG_G2
-      - SG_G2_CF
-      - SG_G3
-      - SG_G3_CF
-      - HK_G1
-      - HK_G1_CF
-      - HK_G2
-      - HK_G2_CF
-      - HK_G3
-      - HK_G3_CF
-      - HK_G4
-      - HK_G4_CF
-      - HK_G5
-      - HK_G5_CF
       - NL_CF
   - name: 负载均衡
     type: load-balance
@@ -390,35 +306,13 @@ proxy-groups:
       - 🇭🇰 香港动态 HKT A
       - 🇭🇰 香港动态 HKT B
       - 🇭🇰 香港动态 HKT C
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Amsterdam
       - GetAFreeNode-Phoenix
-      - "🏳️‍🌈 ️‍🌈 Expires: 23/01/12"
-      - 🏳️‍🌈 ️‍🌈 Gcore free service will expires
-      - JP_G
-      - JP_G_CF
-      - PL_G1
-      - PL_G1_CF
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
       - CA_AWS
       - CA_AWS_CF
-      - SG_G1
-      - SG_G1_CF
-      - SG_G2
-      - SG_G2_CF
-      - SG_G3
-      - SG_G3_CF
-      - HK_G1
-      - HK_G1_CF
-      - HK_G2
-      - HK_G2_CF
-      - HK_G3
-      - HK_G3_CF
-      - HK_G4
-      - HK_G4_CF
-      - HK_G5
-      - HK_G5_CF
       - NL_CF
 rules:
  - MATCH,规则选择
