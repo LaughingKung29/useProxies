@@ -5,97 +5,105 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇦 CA-99.79.195.217-0655, server: 23jnd.mealstream.xyz, port: 15523, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RELAY-172.67.97.190-0749, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: 🇬🇧 GB-185.16.206.209-1181, server: 185.16.206.209, port: 443, type: trojan, password: shefelnak, sni: content-provider20.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE-35.158.220.70-0654, server: 22dg.mealstream.xyz, port: 15622, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE-5.75.129.202-1000, server: 5.75.129.202, port: 55039, type: vmess, uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.75.129.202}}, udp: true}
-  - {name: 🇯🇵 JP-3.113.29.56-0641, server: 03rb.mealstream.xyz, port: 15403, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-43.206.219.214-0648, server: 10rb.mealstream.xyz, port: 443, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-18.179.9.49-0642, server: 04rb.mealstream.xyz, port: 15504, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-52.193.39.110-0650, server: 18rb.mealstream.xyz, port: 17018, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-54.238.189.209-0643, server: 05rb.mealstream.xyz, port: 15305, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-13.115.78.100-0647, server: 09rb.mealstream.xyz, port: 443, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.17.101.202-0056, server: speed.marisalnc.com, port: 2083, type: vmess, uuid: 5770670c-0f97-4614-84d7-aa2704d99857, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.lywyydsdy.xyz}}, udp: true}
-  - {name: 🇯🇵 JP-3.113.7.22-0644, server: 06rb.mealstream.xyz, port: 15206, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RELAY-141.193.213.20-0673, server: 141.193.213.20, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇬🇧 GB-51.38.71.175-0217, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: 211f5876-8c89-4d97-9004-ff16acddd506, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-3.38.180.243-0639, server: 01hg.mealstream.xyz, port: 15201, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇱 PL-94.156.45.134-0680, server: gcorepl.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcorepl.sylu.cyou}}, udp: true}
-  - {name: 🇰🇷 KR-152.70.252.218-1002, server: 152.70.252.218, port: 10020, type: vmess, uuid: fb91e1d7-440e-4470-b0a0-a791e5c32dc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.70.252.218}}, udp: true}
-  - {name: 🇰🇷 KR-54.180.160.84-0645, server: 07hg.mealstream.xyz, port: 15007, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-43.201.103.55-0646, server: 08hg.mealstream.xyz, port: 443, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-3.36.61.46-0640, server: 02hg.mealstream.xyz, port: 15302, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU-54.253.95.205-0653, server: 21adly.mealstream.xyz, port: 15521, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇱 PL-94.156.45.134-0231, server: gcorepl.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcorepl.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 HK-16.163.49.28-0192, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: efb61090-f0e5-4db5-ad02-d5e1ed8637f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 🇸🇬 SG-157.230.36.235-1174, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 157.230.36.235}}, udp: true}
-  - {name: 🇭🇰 HK-194.99.79.83-0196, server: gcorehk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: RELAY-172.67.97.190-0055, server: cf-lt.sharecentre.online, port: 2083, type: vmess, uuid: 5770670c-0f97-4614-84d7-aa2704d99857, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.lywyydsdy.xyz}}, udp: true}
-  - {name: 🇸🇬 SG-51.79.173.222-0204, server: 51.79.173.222, port: 80, type: vmess, uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.79.173.222}}, udp: true}
-  - {name: 🇭🇰 HK-42.2.101.108-0201, server: api-a-asia-2.mcqqn.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82add7d3-b43d-4fc3-9c68-4a2e36512893, udp: true}
-  - {name: SA-193.122.65.167-0992, server: 193.122.65.167, port: 80, type: vmess, uuid: ed71c245-88af-484e-970c-29ac50637847, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 193.122.65.167}}, udp: true}
-  - {name: 🇸🇬 SG-13.229.44.12-0651, server: 19xjp.mealstream.xyz, port: 15919, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG-91.243.81.57-0207, server: gcoresg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcoresg.sylu.cyou}}, udp: true}
-  - {name: 🇸🇬 SG-15.235.163.25-1191, server: 15.235.163.25, port: 443, type: trojan, password: 8eb63951-0286-4d33-98cd-f46007afa74e, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG-91.199.87.48-0206, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 🇺🇸 US-138.124.183.222-0994, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, sni: 138.124.183.222, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG-103.172.116.121-0210, server: 103.172.116.121, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: true, udp: true}
-  - {name: VN-103.124.92.48-0723, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇸🇬 SG-103.172.116.196-0188, server: 103.172.116.196, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: true, udp: true}
-  - {name: VN-103.166.183.226-0238, server: 103.166.183.226, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN-103.82.24.79-0235, server: 103.82.24.79, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇸🇬 SG-139.99.45.193-1178, server: 139.99.45.193, port: 80, type: vmess, uuid: 98958185-8b1b-4718-9578-a13460c53b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 139.99.45.193}}, udp: true}
-  - {name: 🇸🇬 SG-139.99.61.53-1187, server: 139.99.61.53, port: 80, type: vmess, uuid: 60f30e26-0af7-4b64-ba94-71450ed77e23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 139.99.61.53}}, udp: true}
-  - {name: VN-103.82.24.174-0236, server: 103.82.24.174, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN-103.75.186.153-0239, server: 103.75.186.153, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN-103.166.184.157-0234, server: 103.166.184.157, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: RELAY-185.162.228.229-0674, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇸🇬 SG-15.235.140.178-0203, server: 15.235.140.178, port: 80, type: vmess, uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.235.140.178}}, udp: true}
-  - {name: 🇸🇬 SG-15.235.202.111-1184, server: 15.235.202.111, port: 80, type: vmess, uuid: 8097cc41-e2b8-46cc-b1e2-c9fe4776a9c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.235.202.111}}, udp: true}
-  - {name: 🇸🇬 SG-139.99.61.154-1169, server: 139.99.61.154, port: 80, type: vmess, uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 139.99.61.154}}, udp: true}
-  - {name: 🇮🇳 IN-68.183.83.94-0998, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 68.183.83.94}}, udp: true}
-  - {name: 🇺🇸 US-38.91.101.242-1190, server: 38.91.101.242, port: 1036, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
-  - {name: 🇸🇬 SG-139.162.5.19-1003, server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 🇮🇳 IN-3.110.179.245-0652, server: 20yd.mealstream.xyz, port: 443, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RELAY-141.101.114.32-1180, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: MN-103.168.56.77-0225, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR-141.95.61.209-0214, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU-91.193.181.192-1185, server: 91.193.181.192, port: 8090, type: vmess, uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 91.193.181.192}}, udp: true}
-  - {name: 🇵🇱 PL-51.68.139.22-0229, server: 51.68.139.22, port: 80, type: vmess, uuid: c6744c44-4eb7-48d5-a879-a10474e2ba34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.68.139.22}}, udp: true}
-  - {name: "%�\x11�'��\x15T�LM�ˎ\f����K�L�\x0bLLL�", server: 173.82.235.124, port: 60000, type: ssr, cipher: dummy, password: fdsfdsnqwjhasnbwhubfabda, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇯🇵 JP-85.208.108.21-1168, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇯🇵 JP-85.208.108.60-0663, server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 US-38.91.102.125-0989, server: 38.91.102.125, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: VN-103.56.160.184-0233, server: 103.56.160.184, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇳🇱 NL-172.99.188.99-0228, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: UZ-146.59.92.219-1009, server: 146.59.92.219, port: 2096, type: vmess, uuid: aca71b13-ec8a-466d-c28f-43516d3cf246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 146.59.92.219}}, udp: true}
-  - {name: 🇨🇳 CN-106.119.155.243-0189, server: 20003.purefast2.com, port: 20003, type: trojan, password: ed3ccb1e-7057-3d40-b794-630ef18fb7d2, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-38.91.107.37-0984, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 US-38.91.107.37-0985, server: 38.91.107.37, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 US-38.68.134.48-0986, server: 38.68.134.48, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: RELAY-172.67.199.34-0670, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: FI-135.181.235.21-1192, server: 135.181.235.21, port: 25034, type: vmess, uuid: e549fc8d-2416-46f7-aadc-8747553091b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 135.181.235.21}}, udp: true}
-  - {name: RELAY-162.159.135.42-0684, server: 162.159.135.42, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: RELAY-172.67.113.244-0683, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: FI-135.181.235.21-0997, server: 135.181.235.21, port: 12951, type: vmess, uuid: 18827895-b647-4570-81e2-de3bd795fa04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 135.181.235.21}}, udp: true}
-  - {name: 🇨🇳 CN-111.45.22.145-0949, server: ppy-moblev2.gatknqh.cn, port: 26135, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RELAY-162.159.128.7-1170, server: 162.159.128.7, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇫🇷 FR-193.70.85.191-0215, server: 193.70.85.191, port: 80, type: vmess, uuid: ed579687-5171-46ad-a89a-bd06af52705d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Irancell.ir}}, udp: true}
-  - {name: 🇵🇱 PL-51.83.186.142-0230, server: 51.83.186.142, port: 80, type: trojan, password: 555034c8-6420-45d0-893c-905c02342150, sni: pl1.trojanvh.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK-185.14.47.210-0195, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
-  - {name: RELAY-172.67.199.34-0678, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-lb.sshkit.org}}, udp: true}
-  - {name: 🇷🇺 RU-45.136.244.181-0226, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.136.244.181}}, udp: true}
-  - {name: RELAY-172.67.199.34-1076, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-lb.sshkit.org}}, udp: true}
-  - {name: RELAY-172.67.97.190-0748, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 HK-16.162.32.177-0193, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: efb61090-f0e5-4db5-ad02-d5e1ed8637f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 🇸🇬 SG-15.235.184.36-0209, server: 15.235.184.36, port: 80, type: vmess, uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.235.184.36}}, udp: true}
-  - {name: 🇺🇸 US-51.81.220.34-0187, server: 51.81.220.34, port: 80, type: vmess, uuid: 0842be25-d718-491a-bca8-5e9d080150e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.81.220.34}}, udp: true}
-  - {name: 🇸🇬 SG-91.199.87.36-0208, server: gcsssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
-  - {name: 🇺🇸 US-216.45.54.175-1010, server: 216.45.54.175, port: 34152, type: vmess, uuid: 02b5a95f-2453-464d-bb99-ede41caf9b5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 216.45.54.175}}, udp: true}
-  - {name: 🇰🇷 KR-130.162.141.104-0223, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: surongwei.eu.org}}, udp: true}
-  - {name: VN-103.153.254.231-0240, server: vn1.v2rayserv.com, port: 80, type: vmess, uuid: a94966a1-2225-422b-b756-dd4b4d6b974b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn1.v2rayserv.com}}, udp: true}
-  - {name: MK-46.183.185.15-1001, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇺🇸 US-149.248.4.124-0195, server: v2ray.damesppd.club, port: 443, type: vmess, uuid: ae0b2b4a-47ac-4d72-b03c-524f959d5a1a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.damesppd.club}}, udp: true}
+  - {name: 🇺🇸 US-18.219.2.213-0695, server: 24mg.mealstream.xyz, port: 15624, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB-88.150.137.177-0260, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB-51.38.71.175-0258, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: 211f5876-8c89-4d97-9004-ff16acddd506, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB-185.16.206.209-1209, server: 185.16.206.209, port: 443, type: trojan, password: shefelnak, sni: content-provider20.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE-5.75.129.202-1007, server: 5.75.129.202, port: 55039, type: vmess, uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.75.129.202}}, udp: true}
+  - {name: 🇯🇵 JP-13.230.199.175-0697, server: 26rb.mealstream.xyz, port: 17026, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-20.222.226.159-0330, server: dl-us1.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-us.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-20.222.226.159-0193, server: dl-us1.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-us.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-13.115.78.100-0686, server: 09rb.mealstream.xyz, port: 443, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-20.222.226.254-0190, server: dl-us2.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-us.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-20.222.226.254-0244, server: dl-jp2.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-jp.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-3.113.29.56-0680, server: 03rb.mealstream.xyz, port: 15403, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-20.222.226.159-0243, server: dl-jp1.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-jp.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-20.188.25.73-0262, server: dl-kr2.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-ockrcc.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-23.95.222.199-0189, server: 23.95.222.199, port: 443, type: vmess, uuid: 5c93ab53-409c-497c-99ff-3ffaca04a603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇬🇧 GB-51.89.138.147-0259, server: 51.89.138.147, port: 80, type: vmess, uuid: 96da5902-9c0a-473c-bb9f-577eb4b9f214, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.89.138.147}}, udp: true}
+  - {name: RELAY-172.67.73.157-0055, server: cf-lt.sharecentre.online, port: 2083, type: vmess, uuid: 5770670c-0f97-4614-84d7-aa2704d99857, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.lywyydsdy.xyz}}, udp: true}
+  - {name: 🇯🇵 JP-20.222.226.254-0263, server: dl-kr1.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-ockrsl.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR-152.70.252.218-1009, server: 152.70.252.218, port: 10020, type: vmess, uuid: fb91e1d7-440e-4470-b0a0-a791e5c32dc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.70.252.218}}, udp: true}
+  - {name: 🇰🇷 KR-3.38.180.243-0678, server: 01hg.mealstream.xyz, port: 15201, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR-141.95.61.209-0254, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR-3.36.61.46-0679, server: 02hg.mealstream.xyz, port: 15302, type: vmess, uuid: 37e2db1f-a142-466e-8de5-0fb5cdb20736, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK-20.247.107.26-0210, server: dl-hk1.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK-20.247.106.224-0209, server: dl-hk2.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: NOWHERE-0.0.0.0-0202, server: hk5.jstcx.com, port: 80, type: vmess, uuid: af8de5e0-4eda-41ae-87e2-93b65f2a789f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 HK-18.167.12.100-0204, server: hk4.jstcx.com, port: 443, type: vmess, uuid: af8de5e0-4eda-41ae-87e2-93b65f2a789f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: RELAY-104.29.64.28-0242, server: cloudflare.binghe.design, port: 443, type: vmess, uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.binghe.design}}, udp: true}
+  - {name: 🇭🇰 HK-45.136.197.217-0214, server: 45.136.197.217, port: 443, type: trojan, password: 6416f8c6-8db1-4b59-a0af-09d58d7eb19b, sni: wx.qq.com, skip-cert-verify: true, udp: true}
+  - {name: SA-193.122.65.167-0997, server: 193.122.65.167, port: 80, type: vmess, uuid: ed71c245-88af-484e-970c-29ac50637847, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 193.122.65.167}}, udp: true}
+  - {name: 🇸🇬 SG-91.199.87.48-0238, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
+  - {name: 🇺🇸 US-38.91.101.242-1216, server: 38.91.101.242, port: 1036, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: 🇸🇬 SG-103.172.116.121-0239, server: 103.172.116.121, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-157.230.36.235-1203, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 157.230.36.235}}, udp: true}
+  - {name: VN-103.195.236.24-0275, server: 103.195.236.24, port: 443, type: trojan, password: 5bc475b9-18f4-4eeb-8b2e-65d66a928a76, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-20.212.13.65-0233, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-20.212.13.58-0236, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 IN-68.183.83.94-1005, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 68.183.83.94}}, udp: true}
+  - {name: VN-103.173.255.127-0272, server: 103.173.255.127, port: 443, type: trojan, password: 5bc475b9-18f4-4eeb-8b2e-65d66a928a76, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: VN-103.81.85.238-0273, server: 103.81.85.238, port: 443, type: trojan, password: 5bc475b9-18f4-4eeb-8b2e-65d66a928a76, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: VN-103.124.92.48-0847, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: VN-103.173.255.234-0274, server: 103.173.255.234, port: 443, type: trojan, password: 5bc475b9-18f4-4eeb-8b2e-65d66a928a76, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: VN-103.166.183.226-0269, server: 103.166.183.226, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: 🇭🇰 HK-20.24.93.50-0220, server: dl-tw2.efyunpan.com, port: 443, type: trojan, password: 2974838f-e81a-46a3-ada4-fcb1b781b457, sni: data-tw.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: RELAY-141.193.213.20-1092, server: 141.193.213.20, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: VN-103.173.255.21-0277, server: 103.173.255.21, port: 443, type: trojan, password: 5bc475b9-18f4-4eeb-8b2e-65d66a928a76, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: VN-103.82.24.79-0268, server: 103.82.24.79, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: RELAY-185.162.228.229-1093, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: VN-103.166.184.157-0271, server: 103.166.184.157, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN-103.82.24.174-0276, server: 103.82.24.174, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN-103.166.185.227-0270, server: 103.166.185.227, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: RELAY-104.17.101.226-0056, server: speed.marisalnc.com, port: 2083, type: vmess, uuid: 5770670c-0f97-4614-84d7-aa2704d99857, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.lywyydsdy.xyz}}, udp: true}
+  - {name: 🇸🇬 SG-15.235.163.25-1217, server: 15.235.163.25, port: 443, type: trojan, password: 8eb63951-0286-4d33-98cd-f46007afa74e, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "%�\x11�'��\x15T�LM�ˎ\f����K�L�\x0bLLM�", server: 173.82.235.124, port: 60000, type: ssr, cipher: dummy, password: fdsfdsnqwjhasnbwhubfabda, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇸🇬 SG-103.172.116.196-0196, server: 103.172.116.196, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: true, udp: true}
+  - {name: MN-103.168.56.77-0264, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-85.208.108.21-1197, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP-85.208.108.60-1082, server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 CA-134.195.198.95-1215, server: ak1608.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 US-38.91.102.125-0994, server: 38.91.102.125, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 US-45.63.17.79-0197, server: vul.kdanmmgmasz.xyz, port: 443, type: vmess, uuid: ae0b2b4a-47ac-4d72-b03c-524f959d5a1a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vul.kdanmmgmasz.xyz}}, udp: true}
+  - {name: 🇺🇸 US-138.124.183.222-0999, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, sni: 138.124.183.222, skip-cert-verify: true, udp: true}
+  - {name: RELAY-172.67.199.34-1097, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-lb.sshkit.org}}, udp: true}
+  - {name: MN-103.168.56.168-0265, server: 103.168.56.168, port: 443, type: trojan, password: 6416f8c6-8db1-4b59-a0af-09d58d7eb19b, sni: wx.qq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-15.235.202.111-0231, server: 15.235.202.111, port: 80, type: vmess, uuid: 8097cc41-e2b8-46cc-b1e2-c9fe4776a9c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.235.202.111}}, udp: true}
+  - {name: 🇭🇰 HK-38.54.23.174-0895, server: gang1.htvviru.top, port: 345, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dong1.htvviru.top}}, udp: true}
+  - {name: 🇭🇰 HK-38.54.23.174-0894, server: gang1.htvviru.top, port: 6776, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
+  - {name: RELAY-162.159.128.7-1199, server: 162.159.128.7, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: RELAY-141.101.114.32-1208, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 🇺🇸 US-38.91.107.37-0989, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇸🇬 SG-139.99.45.193-0232, server: 139.99.45.193, port: 80, type: vmess, uuid: 98958185-8b1b-4718-9578-a13460c53b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 139.99.45.193}}, udp: true}
+  - {name: 🇺🇸 US-38.68.134.48-0991, server: 38.68.134.48, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 US-38.91.107.37-0990, server: 38.91.107.37, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: RELAY-172.67.199.34-1102, server: 172.67.199.34, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: RELAY-172.67.41.78-0188, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
+  - {name: RELAY-172.67.140.101-0187, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-dp.sharecentre.online}}, udp: true}
+  - {name: 🇨🇳 CN-61.132.227.249-0252, server: 20004.purefast2.com, port: 20004, type: trojan, password: ed3ccb1e-7057-3d40-b794-630ef18fb7d2, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU-91.193.181.192-1212, server: 91.193.181.192, port: 8090, type: vmess, uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 91.193.181.192}}, udp: true}
+  - {name: 🇭🇰 HK-185.14.47.210-0216, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
+  - {name: 🇸🇬 SG-139.99.61.53-0230, server: 139.99.61.53, port: 80, type: vmess, uuid: 60f30e26-0af7-4b64-ba94-71450ed77e23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 139.99.61.53}}, udp: true}
+  - {name: FI-135.181.235.21-1218, server: 135.181.235.21, port: 25034, type: vmess, uuid: e549fc8d-2416-46f7-aadc-8747553091b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 135.181.235.21}}, udp: true}
+  - {name: 🇭🇰 HK-16.162.191.112-0203, server: hk3.jstcx.com, port: 80, type: vmess, uuid: af8de5e0-4eda-41ae-87e2-93b65f2a789f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: RELAY-172.67.73.157-0898, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
+  - {name: 🇵🇱 PL-51.83.186.142-0266, server: 51.83.186.142, port: 80, type: trojan, password: 555034c8-6420-45d0-893c-905c02342150, sni: pl1.trojanvh.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-141.193.213.21-0253, server: 141.193.213.21, port: 443, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca2.v2rayserv.com}}, udp: true}
+  - {name: 🇭🇰 HK-16.162.32.177-0206, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: efb61090-f0e5-4db5-ad02-d5e1ed8637f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇸🇬 SG-139.99.61.154-1198, server: 139.99.61.154, port: 80, type: vmess, uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 139.99.61.154}}, udp: true}
+  - {name: 🇫🇷 FR-193.70.85.191-0256, server: 193.70.85.191, port: 80, type: vmess, uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 193.70.85.191}}, udp: true}
+  - {name: 🇭🇰 HK-16.163.49.28-0205, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: efb61090-f0e5-4db5-ad02-d5e1ed8637f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇸🇬 SG-15.235.140.178-0229, server: 15.235.140.178, port: 80, type: vmess, uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.235.140.178}}, udp: true}
+  - {name: 🇵🇱 PL-51.68.139.22-0267, server: 51.68.139.22, port: 80, type: vmess, uuid: c6744c44-4eb7-48d5-a879-a10474e2ba34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.68.139.22}}, udp: true}
+  - {name: RELAY-172.67.199.34-1089, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.sharecentre.online}}, udp: true}
+  - {name: 🇸🇬 SG-15.235.184.36-0227, server: 15.235.184.36, port: 80, type: vmess, uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.235.184.36}}, udp: true}
+  - {name: VN-103.56.160.184-0278, server: 103.56.160.184, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: 🇸🇬 SG-139.162.5.19-1010, server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 🇸🇬 SG-51.79.173.222-0237, server: 51.79.173.222, port: 80, type: vmess, uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.79.173.222}}, udp: true}
+  - {name: 🇺🇸 US-216.45.54.175-1017, server: 216.45.54.175, port: 34152, type: vmess, uuid: 02b5a95f-2453-464d-bb99-ede41caf9b5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 216.45.54.175}}, udp: true}
+  - {name: 🇰🇷 KR-130.162.141.104-0261, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: surongwei.eu.org}}, udp: true}
+  - {name: 🇺🇸 US-51.81.220.34-0200, server: 51.81.220.34, port: 80, type: vmess, uuid: 0842be25-d718-491a-bca8-5e9d080150e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.81.220.34}}, udp: true}
 proxy-groups:
   - name: 规则选择
     type: select
@@ -105,244 +113,271 @@ proxy-groups:
   - name: 中国节点
     type: select
     proxies:
-      - 🇭🇰 HK-16.163.49.28-0192
-      - 🇭🇰 HK-194.99.79.83-0196
-      - 🇭🇰 HK-42.2.101.108-0201
-      - 🇨🇳 CN-106.119.155.243-0189
-      - 🇨🇳 CN-111.45.22.145-0949
-      - 🇭🇰 HK-185.14.47.210-0195
-      - 🇭🇰 HK-16.162.32.177-0193
+      - 🇭🇰 HK-20.247.107.26-0210
+      - 🇭🇰 HK-20.247.106.224-0209
+      - 🇭🇰 HK-18.167.12.100-0204
+      - 🇭🇰 HK-45.136.197.217-0214
+      - 🇭🇰 HK-20.24.93.50-0220
+      - 🇭🇰 HK-38.54.23.174-0895
+      - 🇭🇰 HK-38.54.23.174-0894
+      - 🇨🇳 CN-61.132.227.249-0252
+      - 🇭🇰 HK-185.14.47.210-0216
+      - 🇭🇰 HK-16.162.191.112-0203
+      - 🇭🇰 HK-16.162.32.177-0206
+      - 🇭🇰 HK-16.163.49.28-0205
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 JP-3.113.29.56-0641
-      - 🇯🇵 JP-43.206.219.214-0648
-      - 🇯🇵 JP-18.179.9.49-0642
-      - 🇯🇵 JP-52.193.39.110-0650
-      - 🇯🇵 JP-54.238.189.209-0643
-      - 🇯🇵 JP-13.115.78.100-0647
-      - 🇯🇵 JP-3.113.7.22-0644
-      - 🇯🇵 JP-85.208.108.21-1168
-      - 🇯🇵 JP-85.208.108.60-0663
+      - 🇯🇵 JP-13.230.199.175-0697
+      - 🇯🇵 JP-20.222.226.159-0330
+      - 🇯🇵 JP-20.222.226.159-0193
+      - 🇯🇵 JP-13.115.78.100-0686
+      - 🇯🇵 JP-20.222.226.254-0190
+      - 🇯🇵 JP-20.222.226.254-0244
+      - 🇯🇵 JP-3.113.29.56-0680
+      - 🇯🇵 JP-20.222.226.159-0243
+      - 🇯🇵 JP-20.188.25.73-0262
+      - 🇯🇵 JP-20.222.226.254-0263
+      - 🇯🇵 JP-85.208.108.21-1197
+      - 🇯🇵 JP-85.208.108.60-1082
   - name: 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 SG-157.230.36.235-1174
-      - 🇸🇬 SG-51.79.173.222-0204
-      - 🇸🇬 SG-13.229.44.12-0651
-      - 🇸🇬 SG-91.243.81.57-0207
-      - 🇸🇬 SG-15.235.163.25-1191
-      - 🇸🇬 SG-91.199.87.48-0206
-      - 🇸🇬 SG-103.172.116.121-0210
-      - 🇸🇬 SG-103.172.116.196-0188
-      - 🇸🇬 SG-139.99.45.193-1178
-      - 🇸🇬 SG-139.99.61.53-1187
-      - 🇸🇬 SG-15.235.140.178-0203
-      - 🇸🇬 SG-15.235.202.111-1184
-      - 🇸🇬 SG-139.99.61.154-1169
-      - 🇸🇬 SG-139.162.5.19-1003
-      - 🇸🇬 SG-15.235.184.36-0209
-      - 🇸🇬 SG-91.199.87.36-0208
+      - 🇸🇬 SG-91.199.87.48-0238
+      - 🇸🇬 SG-103.172.116.121-0239
+      - 🇸🇬 SG-157.230.36.235-1203
+      - 🇸🇬 SG-20.212.13.65-0233
+      - 🇸🇬 SG-20.212.13.58-0236
+      - 🇸🇬 SG-15.235.163.25-1217
+      - 🇸🇬 SG-103.172.116.196-0196
+      - 🇸🇬 SG-15.235.202.111-0231
+      - 🇸🇬 SG-139.99.45.193-0232
+      - 🇸🇬 SG-139.99.61.53-0230
+      - 🇸🇬 SG-139.99.61.154-1198
+      - 🇸🇬 SG-15.235.140.178-0229
+      - 🇸🇬 SG-15.235.184.36-0227
+      - 🇸🇬 SG-139.162.5.19-1010
+      - 🇸🇬 SG-51.79.173.222-0237
   - name: 美国节点
     type: select
     proxies:
-      - 🇺🇸 US-138.124.183.222-0994
-      - 🇺🇸 US-38.91.101.242-1190
-      - 🇺🇸 US-38.91.102.125-0989
-      - 🇺🇸 US-38.91.107.37-0984
-      - 🇺🇸 US-38.91.107.37-0985
-      - 🇺🇸 US-38.68.134.48-0986
-      - 🇺🇸 US-51.81.220.34-0187
-      - 🇺🇸 US-216.45.54.175-1010
+      - 🇺🇸 US-149.248.4.124-0195
+      - 🇺🇸 US-18.219.2.213-0695
+      - 🇺🇸 US-23.95.222.199-0189
+      - 🇺🇸 US-38.91.101.242-1216
+      - 🇺🇸 US-38.91.102.125-0994
+      - 🇺🇸 US-45.63.17.79-0197
+      - 🇺🇸 US-138.124.183.222-0999
+      - 🇺🇸 US-38.91.107.37-0989
+      - 🇺🇸 US-38.68.134.48-0991
+      - 🇺🇸 US-38.91.107.37-0990
+      - 🇺🇸 US-216.45.54.175-1017
+      - 🇺🇸 US-51.81.220.34-0200
   - name: 手动切换
     type: select
     proxies:
-      - 🇨🇦 CA-99.79.195.217-0655
-      - RELAY-172.67.97.190-0749
-      - 🇬🇧 GB-185.16.206.209-1181
-      - 🇩🇪 DE-35.158.220.70-0654
-      - 🇩🇪 DE-5.75.129.202-1000
-      - 🇯🇵 JP-3.113.29.56-0641
-      - 🇯🇵 JP-43.206.219.214-0648
-      - 🇯🇵 JP-18.179.9.49-0642
-      - 🇯🇵 JP-52.193.39.110-0650
-      - 🇯🇵 JP-54.238.189.209-0643
-      - 🇯🇵 JP-13.115.78.100-0647
-      - RELAY-104.17.101.202-0056
-      - 🇯🇵 JP-3.113.7.22-0644
-      - RELAY-141.193.213.20-0673
-      - 🇬🇧 GB-51.38.71.175-0217
-      - 🇰🇷 KR-3.38.180.243-0639
-      - 🇵🇱 PL-94.156.45.134-0680
-      - 🇰🇷 KR-152.70.252.218-1002
-      - 🇰🇷 KR-54.180.160.84-0645
-      - 🇰🇷 KR-43.201.103.55-0646
-      - 🇰🇷 KR-3.36.61.46-0640
-      - 🇦🇺 AU-54.253.95.205-0653
-      - 🇵🇱 PL-94.156.45.134-0231
-      - 🇭🇰 HK-16.163.49.28-0192
-      - 🇸🇬 SG-157.230.36.235-1174
-      - 🇭🇰 HK-194.99.79.83-0196
-      - RELAY-172.67.97.190-0055
-      - 🇸🇬 SG-51.79.173.222-0204
-      - 🇭🇰 HK-42.2.101.108-0201
-      - SA-193.122.65.167-0992
-      - 🇸🇬 SG-13.229.44.12-0651
-      - 🇸🇬 SG-91.243.81.57-0207
-      - 🇸🇬 SG-15.235.163.25-1191
-      - 🇸🇬 SG-91.199.87.48-0206
-      - 🇺🇸 US-138.124.183.222-0994
-      - 🇸🇬 SG-103.172.116.121-0210
-      - VN-103.124.92.48-0723
-      - 🇸🇬 SG-103.172.116.196-0188
-      - VN-103.166.183.226-0238
-      - VN-103.82.24.79-0235
-      - 🇸🇬 SG-139.99.45.193-1178
-      - 🇸🇬 SG-139.99.61.53-1187
-      - VN-103.82.24.174-0236
-      - VN-103.75.186.153-0239
-      - VN-103.166.184.157-0234
-      - RELAY-185.162.228.229-0674
-      - 🇸🇬 SG-15.235.140.178-0203
-      - 🇸🇬 SG-15.235.202.111-1184
-      - 🇸🇬 SG-139.99.61.154-1169
-      - 🇮🇳 IN-68.183.83.94-0998
-      - 🇺🇸 US-38.91.101.242-1190
-      - 🇸🇬 SG-139.162.5.19-1003
-      - 🇮🇳 IN-3.110.179.245-0652
-      - RELAY-141.101.114.32-1180
-      - MN-103.168.56.77-0225
-      - 🇫🇷 FR-141.95.61.209-0214
-      - 🇷🇺 RU-91.193.181.192-1185
-      - 🇵🇱 PL-51.68.139.22-0229
-      - 🇯🇵 JP-85.208.108.21-1168
-      - 🇯🇵 JP-85.208.108.60-0663
-      - 🇺🇸 US-38.91.102.125-0989
-      - VN-103.56.160.184-0233
-      - 🇳🇱 NL-172.99.188.99-0228
-      - UZ-146.59.92.219-1009
-      - 🇨🇳 CN-106.119.155.243-0189
-      - 🇺🇸 US-38.91.107.37-0984
-      - 🇺🇸 US-38.91.107.37-0985
-      - 🇺🇸 US-38.68.134.48-0986
-      - RELAY-172.67.199.34-0670
-      - FI-135.181.235.21-1192
-      - RELAY-162.159.135.42-0684
-      - RELAY-172.67.113.244-0683
-      - FI-135.181.235.21-0997
-      - 🇨🇳 CN-111.45.22.145-0949
-      - RELAY-162.159.128.7-1170
-      - 🇫🇷 FR-193.70.85.191-0215
-      - 🇵🇱 PL-51.83.186.142-0230
-      - 🇭🇰 HK-185.14.47.210-0195
-      - RELAY-172.67.199.34-0678
-      - 🇷🇺 RU-45.136.244.181-0226
-      - RELAY-172.67.199.34-1076
-      - RELAY-172.67.97.190-0748
-      - 🇭🇰 HK-16.162.32.177-0193
-      - 🇸🇬 SG-15.235.184.36-0209
-      - 🇺🇸 US-51.81.220.34-0187
-      - 🇸🇬 SG-91.199.87.36-0208
-      - 🇺🇸 US-216.45.54.175-1010
-      - 🇰🇷 KR-130.162.141.104-0223
-      - VN-103.153.254.231-0240
-      - MK-46.183.185.15-1001
+      - 🇺🇸 US-149.248.4.124-0195
+      - 🇺🇸 US-18.219.2.213-0695
+      - 🇬🇧 GB-88.150.137.177-0260
+      - 🇬🇧 GB-51.38.71.175-0258
+      - 🇬🇧 GB-185.16.206.209-1209
+      - 🇩🇪 DE-5.75.129.202-1007
+      - 🇯🇵 JP-13.230.199.175-0697
+      - 🇯🇵 JP-20.222.226.159-0330
+      - 🇯🇵 JP-20.222.226.159-0193
+      - 🇯🇵 JP-13.115.78.100-0686
+      - 🇯🇵 JP-20.222.226.254-0190
+      - 🇯🇵 JP-20.222.226.254-0244
+      - 🇯🇵 JP-3.113.29.56-0680
+      - 🇯🇵 JP-20.222.226.159-0243
+      - 🇯🇵 JP-20.188.25.73-0262
+      - 🇺🇸 US-23.95.222.199-0189
+      - 🇬🇧 GB-51.89.138.147-0259
+      - RELAY-172.67.73.157-0055
+      - 🇯🇵 JP-20.222.226.254-0263
+      - 🇰🇷 KR-152.70.252.218-1009
+      - 🇰🇷 KR-3.38.180.243-0678
+      - 🇫🇷 FR-141.95.61.209-0254
+      - 🇰🇷 KR-3.36.61.46-0679
+      - 🇭🇰 HK-20.247.107.26-0210
+      - 🇭🇰 HK-20.247.106.224-0209
+      - NOWHERE-0.0.0.0-0202
+      - 🇭🇰 HK-18.167.12.100-0204
+      - RELAY-104.29.64.28-0242
+      - 🇭🇰 HK-45.136.197.217-0214
+      - SA-193.122.65.167-0997
+      - 🇸🇬 SG-91.199.87.48-0238
+      - 🇺🇸 US-38.91.101.242-1216
+      - 🇸🇬 SG-103.172.116.121-0239
+      - 🇸🇬 SG-157.230.36.235-1203
+      - VN-103.195.236.24-0275
+      - 🇸🇬 SG-20.212.13.65-0233
+      - 🇸🇬 SG-20.212.13.58-0236
+      - 🇮🇳 IN-68.183.83.94-1005
+      - VN-103.173.255.127-0272
+      - VN-103.81.85.238-0273
+      - VN-103.124.92.48-0847
+      - VN-103.173.255.234-0274
+      - VN-103.166.183.226-0269
+      - 🇭🇰 HK-20.24.93.50-0220
+      - RELAY-141.193.213.20-1092
+      - VN-103.173.255.21-0277
+      - VN-103.82.24.79-0268
+      - RELAY-185.162.228.229-1093
+      - VN-103.166.184.157-0271
+      - VN-103.82.24.174-0276
+      - VN-103.166.185.227-0270
+      - RELAY-104.17.101.226-0056
+      - 🇸🇬 SG-15.235.163.25-1217
+      - 🇸🇬 SG-103.172.116.196-0196
+      - MN-103.168.56.77-0264
+      - 🇯🇵 JP-85.208.108.21-1197
+      - 🇯🇵 JP-85.208.108.60-1082
+      - 🇨🇦 CA-134.195.198.95-1215
+      - 🇺🇸 US-38.91.102.125-0994
+      - 🇺🇸 US-45.63.17.79-0197
+      - 🇺🇸 US-138.124.183.222-0999
+      - RELAY-172.67.199.34-1097
+      - MN-103.168.56.168-0265
+      - 🇸🇬 SG-15.235.202.111-0231
+      - 🇭🇰 HK-38.54.23.174-0895
+      - 🇭🇰 HK-38.54.23.174-0894
+      - RELAY-162.159.128.7-1199
+      - RELAY-141.101.114.32-1208
+      - 🇺🇸 US-38.91.107.37-0989
+      - 🇸🇬 SG-139.99.45.193-0232
+      - 🇺🇸 US-38.68.134.48-0991
+      - 🇺🇸 US-38.91.107.37-0990
+      - RELAY-172.67.199.34-1102
+      - RELAY-172.67.41.78-0188
+      - RELAY-172.67.140.101-0187
+      - 🇨🇳 CN-61.132.227.249-0252
+      - 🇷🇺 RU-91.193.181.192-1212
+      - 🇭🇰 HK-185.14.47.210-0216
+      - 🇸🇬 SG-139.99.61.53-0230
+      - FI-135.181.235.21-1218
+      - 🇭🇰 HK-16.162.191.112-0203
+      - RELAY-172.67.73.157-0898
+      - 🇵🇱 PL-51.83.186.142-0266
+      - RELAY-141.193.213.21-0253
+      - 🇭🇰 HK-16.162.32.177-0206
+      - 🇸🇬 SG-139.99.61.154-1198
+      - 🇫🇷 FR-193.70.85.191-0256
+      - 🇭🇰 HK-16.163.49.28-0205
+      - 🇸🇬 SG-15.235.140.178-0229
+      - 🇵🇱 PL-51.68.139.22-0267
+      - RELAY-172.67.199.34-1089
+      - 🇸🇬 SG-15.235.184.36-0227
+      - VN-103.56.160.184-0278
+      - 🇸🇬 SG-139.162.5.19-1010
+      - 🇸🇬 SG-51.79.173.222-0237
+      - 🇺🇸 US-216.45.54.175-1017
+      - 🇰🇷 KR-130.162.141.104-0261
+      - 🇺🇸 US-51.81.220.34-0200
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦 CA-99.79.195.217-0655
-      - RELAY-172.67.97.190-0749
-      - 🇬🇧 GB-185.16.206.209-1181
-      - 🇩🇪 DE-35.158.220.70-0654
-      - 🇩🇪 DE-5.75.129.202-1000
-      - 🇯🇵 JP-3.113.29.56-0641
-      - 🇯🇵 JP-43.206.219.214-0648
-      - 🇯🇵 JP-18.179.9.49-0642
-      - 🇯🇵 JP-52.193.39.110-0650
-      - 🇯🇵 JP-54.238.189.209-0643
-      - 🇯🇵 JP-13.115.78.100-0647
-      - RELAY-104.17.101.202-0056
-      - 🇯🇵 JP-3.113.7.22-0644
-      - RELAY-141.193.213.20-0673
-      - 🇬🇧 GB-51.38.71.175-0217
-      - 🇰🇷 KR-3.38.180.243-0639
-      - 🇵🇱 PL-94.156.45.134-0680
-      - 🇰🇷 KR-152.70.252.218-1002
-      - 🇰🇷 KR-54.180.160.84-0645
-      - 🇰🇷 KR-43.201.103.55-0646
-      - 🇰🇷 KR-3.36.61.46-0640
-      - 🇦🇺 AU-54.253.95.205-0653
-      - 🇵🇱 PL-94.156.45.134-0231
-      - 🇭🇰 HK-16.163.49.28-0192
-      - 🇸🇬 SG-157.230.36.235-1174
-      - 🇭🇰 HK-194.99.79.83-0196
-      - RELAY-172.67.97.190-0055
-      - 🇸🇬 SG-51.79.173.222-0204
-      - 🇭🇰 HK-42.2.101.108-0201
-      - SA-193.122.65.167-0992
-      - 🇸🇬 SG-13.229.44.12-0651
-      - 🇸🇬 SG-91.243.81.57-0207
-      - 🇸🇬 SG-15.235.163.25-1191
-      - 🇸🇬 SG-91.199.87.48-0206
-      - 🇺🇸 US-138.124.183.222-0994
-      - 🇸🇬 SG-103.172.116.121-0210
-      - VN-103.124.92.48-0723
-      - 🇸🇬 SG-103.172.116.196-0188
-      - VN-103.166.183.226-0238
-      - VN-103.82.24.79-0235
-      - 🇸🇬 SG-139.99.45.193-1178
-      - 🇸🇬 SG-139.99.61.53-1187
-      - VN-103.82.24.174-0236
-      - VN-103.75.186.153-0239
-      - VN-103.166.184.157-0234
-      - RELAY-185.162.228.229-0674
-      - 🇸🇬 SG-15.235.140.178-0203
-      - 🇸🇬 SG-15.235.202.111-1184
-      - 🇸🇬 SG-139.99.61.154-1169
-      - 🇮🇳 IN-68.183.83.94-0998
-      - 🇺🇸 US-38.91.101.242-1190
-      - 🇸🇬 SG-139.162.5.19-1003
-      - 🇮🇳 IN-3.110.179.245-0652
-      - RELAY-141.101.114.32-1180
-      - MN-103.168.56.77-0225
-      - 🇫🇷 FR-141.95.61.209-0214
-      - 🇷🇺 RU-91.193.181.192-1185
-      - 🇵🇱 PL-51.68.139.22-0229
-      - 🇯🇵 JP-85.208.108.21-1168
-      - 🇯🇵 JP-85.208.108.60-0663
-      - 🇺🇸 US-38.91.102.125-0989
-      - VN-103.56.160.184-0233
-      - 🇳🇱 NL-172.99.188.99-0228
-      - UZ-146.59.92.219-1009
-      - 🇨🇳 CN-106.119.155.243-0189
-      - 🇺🇸 US-38.91.107.37-0984
-      - 🇺🇸 US-38.91.107.37-0985
-      - 🇺🇸 US-38.68.134.48-0986
-      - RELAY-172.67.199.34-0670
-      - FI-135.181.235.21-1192
-      - RELAY-162.159.135.42-0684
-      - RELAY-172.67.113.244-0683
-      - FI-135.181.235.21-0997
-      - 🇨🇳 CN-111.45.22.145-0949
-      - RELAY-162.159.128.7-1170
-      - 🇫🇷 FR-193.70.85.191-0215
-      - 🇵🇱 PL-51.83.186.142-0230
-      - 🇭🇰 HK-185.14.47.210-0195
-      - RELAY-172.67.199.34-0678
-      - 🇷🇺 RU-45.136.244.181-0226
-      - RELAY-172.67.199.34-1076
-      - RELAY-172.67.97.190-0748
-      - 🇭🇰 HK-16.162.32.177-0193
-      - 🇸🇬 SG-15.235.184.36-0209
-      - 🇺🇸 US-51.81.220.34-0187
-      - 🇸🇬 SG-91.199.87.36-0208
-      - 🇺🇸 US-216.45.54.175-1010
-      - 🇰🇷 KR-130.162.141.104-0223
-      - VN-103.153.254.231-0240
-      - MK-46.183.185.15-1001
+      - 🇺🇸 US-149.248.4.124-0195
+      - 🇺🇸 US-18.219.2.213-0695
+      - 🇬🇧 GB-88.150.137.177-0260
+      - 🇬🇧 GB-51.38.71.175-0258
+      - 🇬🇧 GB-185.16.206.209-1209
+      - 🇩🇪 DE-5.75.129.202-1007
+      - 🇯🇵 JP-13.230.199.175-0697
+      - 🇯🇵 JP-20.222.226.159-0330
+      - 🇯🇵 JP-20.222.226.159-0193
+      - 🇯🇵 JP-13.115.78.100-0686
+      - 🇯🇵 JP-20.222.226.254-0190
+      - 🇯🇵 JP-20.222.226.254-0244
+      - 🇯🇵 JP-3.113.29.56-0680
+      - 🇯🇵 JP-20.222.226.159-0243
+      - 🇯🇵 JP-20.188.25.73-0262
+      - 🇺🇸 US-23.95.222.199-0189
+      - 🇬🇧 GB-51.89.138.147-0259
+      - RELAY-172.67.73.157-0055
+      - 🇯🇵 JP-20.222.226.254-0263
+      - 🇰🇷 KR-152.70.252.218-1009
+      - 🇰🇷 KR-3.38.180.243-0678
+      - 🇫🇷 FR-141.95.61.209-0254
+      - 🇰🇷 KR-3.36.61.46-0679
+      - 🇭🇰 HK-20.247.107.26-0210
+      - 🇭🇰 HK-20.247.106.224-0209
+      - NOWHERE-0.0.0.0-0202
+      - 🇭🇰 HK-18.167.12.100-0204
+      - RELAY-104.29.64.28-0242
+      - 🇭🇰 HK-45.136.197.217-0214
+      - SA-193.122.65.167-0997
+      - 🇸🇬 SG-91.199.87.48-0238
+      - 🇺🇸 US-38.91.101.242-1216
+      - 🇸🇬 SG-103.172.116.121-0239
+      - 🇸🇬 SG-157.230.36.235-1203
+      - VN-103.195.236.24-0275
+      - 🇸🇬 SG-20.212.13.65-0233
+      - 🇸🇬 SG-20.212.13.58-0236
+      - 🇮🇳 IN-68.183.83.94-1005
+      - VN-103.173.255.127-0272
+      - VN-103.81.85.238-0273
+      - VN-103.124.92.48-0847
+      - VN-103.173.255.234-0274
+      - VN-103.166.183.226-0269
+      - 🇭🇰 HK-20.24.93.50-0220
+      - RELAY-141.193.213.20-1092
+      - VN-103.173.255.21-0277
+      - VN-103.82.24.79-0268
+      - RELAY-185.162.228.229-1093
+      - VN-103.166.184.157-0271
+      - VN-103.82.24.174-0276
+      - VN-103.166.185.227-0270
+      - RELAY-104.17.101.226-0056
+      - 🇸🇬 SG-15.235.163.25-1217
+      - 🇸🇬 SG-103.172.116.196-0196
+      - MN-103.168.56.77-0264
+      - 🇯🇵 JP-85.208.108.21-1197
+      - 🇯🇵 JP-85.208.108.60-1082
+      - 🇨🇦 CA-134.195.198.95-1215
+      - 🇺🇸 US-38.91.102.125-0994
+      - 🇺🇸 US-45.63.17.79-0197
+      - 🇺🇸 US-138.124.183.222-0999
+      - RELAY-172.67.199.34-1097
+      - MN-103.168.56.168-0265
+      - 🇸🇬 SG-15.235.202.111-0231
+      - 🇭🇰 HK-38.54.23.174-0895
+      - 🇭🇰 HK-38.54.23.174-0894
+      - RELAY-162.159.128.7-1199
+      - RELAY-141.101.114.32-1208
+      - 🇺🇸 US-38.91.107.37-0989
+      - 🇸🇬 SG-139.99.45.193-0232
+      - 🇺🇸 US-38.68.134.48-0991
+      - 🇺🇸 US-38.91.107.37-0990
+      - RELAY-172.67.199.34-1102
+      - RELAY-172.67.41.78-0188
+      - RELAY-172.67.140.101-0187
+      - 🇨🇳 CN-61.132.227.249-0252
+      - 🇷🇺 RU-91.193.181.192-1212
+      - 🇭🇰 HK-185.14.47.210-0216
+      - 🇸🇬 SG-139.99.61.53-0230
+      - FI-135.181.235.21-1218
+      - 🇭🇰 HK-16.162.191.112-0203
+      - RELAY-172.67.73.157-0898
+      - 🇵🇱 PL-51.83.186.142-0266
+      - RELAY-141.193.213.21-0253
+      - 🇭🇰 HK-16.162.32.177-0206
+      - 🇸🇬 SG-139.99.61.154-1198
+      - 🇫🇷 FR-193.70.85.191-0256
+      - 🇭🇰 HK-16.163.49.28-0205
+      - 🇸🇬 SG-15.235.140.178-0229
+      - 🇵🇱 PL-51.68.139.22-0267
+      - RELAY-172.67.199.34-1089
+      - 🇸🇬 SG-15.235.184.36-0227
+      - VN-103.56.160.184-0278
+      - 🇸🇬 SG-139.162.5.19-1010
+      - 🇸🇬 SG-51.79.173.222-0237
+      - 🇺🇸 US-216.45.54.175-1017
+      - 🇰🇷 KR-130.162.141.104-0261
+      - 🇺🇸 US-51.81.220.34-0200
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -350,95 +385,103 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦 CA-99.79.195.217-0655
-      - RELAY-172.67.97.190-0749
-      - 🇬🇧 GB-185.16.206.209-1181
-      - 🇩🇪 DE-35.158.220.70-0654
-      - 🇩🇪 DE-5.75.129.202-1000
-      - 🇯🇵 JP-3.113.29.56-0641
-      - 🇯🇵 JP-43.206.219.214-0648
-      - 🇯🇵 JP-18.179.9.49-0642
-      - 🇯🇵 JP-52.193.39.110-0650
-      - 🇯🇵 JP-54.238.189.209-0643
-      - 🇯🇵 JP-13.115.78.100-0647
-      - RELAY-104.17.101.202-0056
-      - 🇯🇵 JP-3.113.7.22-0644
-      - RELAY-141.193.213.20-0673
-      - 🇬🇧 GB-51.38.71.175-0217
-      - 🇰🇷 KR-3.38.180.243-0639
-      - 🇵🇱 PL-94.156.45.134-0680
-      - 🇰🇷 KR-152.70.252.218-1002
-      - 🇰🇷 KR-54.180.160.84-0645
-      - 🇰🇷 KR-43.201.103.55-0646
-      - 🇰🇷 KR-3.36.61.46-0640
-      - 🇦🇺 AU-54.253.95.205-0653
-      - 🇵🇱 PL-94.156.45.134-0231
-      - 🇭🇰 HK-16.163.49.28-0192
-      - 🇸🇬 SG-157.230.36.235-1174
-      - 🇭🇰 HK-194.99.79.83-0196
-      - RELAY-172.67.97.190-0055
-      - 🇸🇬 SG-51.79.173.222-0204
-      - 🇭🇰 HK-42.2.101.108-0201
-      - SA-193.122.65.167-0992
-      - 🇸🇬 SG-13.229.44.12-0651
-      - 🇸🇬 SG-91.243.81.57-0207
-      - 🇸🇬 SG-15.235.163.25-1191
-      - 🇸🇬 SG-91.199.87.48-0206
-      - 🇺🇸 US-138.124.183.222-0994
-      - 🇸🇬 SG-103.172.116.121-0210
-      - VN-103.124.92.48-0723
-      - 🇸🇬 SG-103.172.116.196-0188
-      - VN-103.166.183.226-0238
-      - VN-103.82.24.79-0235
-      - 🇸🇬 SG-139.99.45.193-1178
-      - 🇸🇬 SG-139.99.61.53-1187
-      - VN-103.82.24.174-0236
-      - VN-103.75.186.153-0239
-      - VN-103.166.184.157-0234
-      - RELAY-185.162.228.229-0674
-      - 🇸🇬 SG-15.235.140.178-0203
-      - 🇸🇬 SG-15.235.202.111-1184
-      - 🇸🇬 SG-139.99.61.154-1169
-      - 🇮🇳 IN-68.183.83.94-0998
-      - 🇺🇸 US-38.91.101.242-1190
-      - 🇸🇬 SG-139.162.5.19-1003
-      - 🇮🇳 IN-3.110.179.245-0652
-      - RELAY-141.101.114.32-1180
-      - MN-103.168.56.77-0225
-      - 🇫🇷 FR-141.95.61.209-0214
-      - 🇷🇺 RU-91.193.181.192-1185
-      - 🇵🇱 PL-51.68.139.22-0229
-      - 🇯🇵 JP-85.208.108.21-1168
-      - 🇯🇵 JP-85.208.108.60-0663
-      - 🇺🇸 US-38.91.102.125-0989
-      - VN-103.56.160.184-0233
-      - 🇳🇱 NL-172.99.188.99-0228
-      - UZ-146.59.92.219-1009
-      - 🇨🇳 CN-106.119.155.243-0189
-      - 🇺🇸 US-38.91.107.37-0984
-      - 🇺🇸 US-38.91.107.37-0985
-      - 🇺🇸 US-38.68.134.48-0986
-      - RELAY-172.67.199.34-0670
-      - FI-135.181.235.21-1192
-      - RELAY-162.159.135.42-0684
-      - RELAY-172.67.113.244-0683
-      - FI-135.181.235.21-0997
-      - 🇨🇳 CN-111.45.22.145-0949
-      - RELAY-162.159.128.7-1170
-      - 🇫🇷 FR-193.70.85.191-0215
-      - 🇵🇱 PL-51.83.186.142-0230
-      - 🇭🇰 HK-185.14.47.210-0195
-      - RELAY-172.67.199.34-0678
-      - 🇷🇺 RU-45.136.244.181-0226
-      - RELAY-172.67.199.34-1076
-      - RELAY-172.67.97.190-0748
-      - 🇭🇰 HK-16.162.32.177-0193
-      - 🇸🇬 SG-15.235.184.36-0209
-      - 🇺🇸 US-51.81.220.34-0187
-      - 🇸🇬 SG-91.199.87.36-0208
-      - 🇺🇸 US-216.45.54.175-1010
-      - 🇰🇷 KR-130.162.141.104-0223
-      - VN-103.153.254.231-0240
-      - MK-46.183.185.15-1001
+      - 🇺🇸 US-149.248.4.124-0195
+      - 🇺🇸 US-18.219.2.213-0695
+      - 🇬🇧 GB-88.150.137.177-0260
+      - 🇬🇧 GB-51.38.71.175-0258
+      - 🇬🇧 GB-185.16.206.209-1209
+      - 🇩🇪 DE-5.75.129.202-1007
+      - 🇯🇵 JP-13.230.199.175-0697
+      - 🇯🇵 JP-20.222.226.159-0330
+      - 🇯🇵 JP-20.222.226.159-0193
+      - 🇯🇵 JP-13.115.78.100-0686
+      - 🇯🇵 JP-20.222.226.254-0190
+      - 🇯🇵 JP-20.222.226.254-0244
+      - 🇯🇵 JP-3.113.29.56-0680
+      - 🇯🇵 JP-20.222.226.159-0243
+      - 🇯🇵 JP-20.188.25.73-0262
+      - 🇺🇸 US-23.95.222.199-0189
+      - 🇬🇧 GB-51.89.138.147-0259
+      - RELAY-172.67.73.157-0055
+      - 🇯🇵 JP-20.222.226.254-0263
+      - 🇰🇷 KR-152.70.252.218-1009
+      - 🇰🇷 KR-3.38.180.243-0678
+      - 🇫🇷 FR-141.95.61.209-0254
+      - 🇰🇷 KR-3.36.61.46-0679
+      - 🇭🇰 HK-20.247.107.26-0210
+      - 🇭🇰 HK-20.247.106.224-0209
+      - NOWHERE-0.0.0.0-0202
+      - 🇭🇰 HK-18.167.12.100-0204
+      - RELAY-104.29.64.28-0242
+      - 🇭🇰 HK-45.136.197.217-0214
+      - SA-193.122.65.167-0997
+      - 🇸🇬 SG-91.199.87.48-0238
+      - 🇺🇸 US-38.91.101.242-1216
+      - 🇸🇬 SG-103.172.116.121-0239
+      - 🇸🇬 SG-157.230.36.235-1203
+      - VN-103.195.236.24-0275
+      - 🇸🇬 SG-20.212.13.65-0233
+      - 🇸🇬 SG-20.212.13.58-0236
+      - 🇮🇳 IN-68.183.83.94-1005
+      - VN-103.173.255.127-0272
+      - VN-103.81.85.238-0273
+      - VN-103.124.92.48-0847
+      - VN-103.173.255.234-0274
+      - VN-103.166.183.226-0269
+      - 🇭🇰 HK-20.24.93.50-0220
+      - RELAY-141.193.213.20-1092
+      - VN-103.173.255.21-0277
+      - VN-103.82.24.79-0268
+      - RELAY-185.162.228.229-1093
+      - VN-103.166.184.157-0271
+      - VN-103.82.24.174-0276
+      - VN-103.166.185.227-0270
+      - RELAY-104.17.101.226-0056
+      - 🇸🇬 SG-15.235.163.25-1217
+      - 🇸🇬 SG-103.172.116.196-0196
+      - MN-103.168.56.77-0264
+      - 🇯🇵 JP-85.208.108.21-1197
+      - 🇯🇵 JP-85.208.108.60-1082
+      - 🇨🇦 CA-134.195.198.95-1215
+      - 🇺🇸 US-38.91.102.125-0994
+      - 🇺🇸 US-45.63.17.79-0197
+      - 🇺🇸 US-138.124.183.222-0999
+      - RELAY-172.67.199.34-1097
+      - MN-103.168.56.168-0265
+      - 🇸🇬 SG-15.235.202.111-0231
+      - 🇭🇰 HK-38.54.23.174-0895
+      - 🇭🇰 HK-38.54.23.174-0894
+      - RELAY-162.159.128.7-1199
+      - RELAY-141.101.114.32-1208
+      - 🇺🇸 US-38.91.107.37-0989
+      - 🇸🇬 SG-139.99.45.193-0232
+      - 🇺🇸 US-38.68.134.48-0991
+      - 🇺🇸 US-38.91.107.37-0990
+      - RELAY-172.67.199.34-1102
+      - RELAY-172.67.41.78-0188
+      - RELAY-172.67.140.101-0187
+      - 🇨🇳 CN-61.132.227.249-0252
+      - 🇷🇺 RU-91.193.181.192-1212
+      - 🇭🇰 HK-185.14.47.210-0216
+      - 🇸🇬 SG-139.99.61.53-0230
+      - FI-135.181.235.21-1218
+      - 🇭🇰 HK-16.162.191.112-0203
+      - RELAY-172.67.73.157-0898
+      - 🇵🇱 PL-51.83.186.142-0266
+      - RELAY-141.193.213.21-0253
+      - 🇭🇰 HK-16.162.32.177-0206
+      - 🇸🇬 SG-139.99.61.154-1198
+      - 🇫🇷 FR-193.70.85.191-0256
+      - 🇭🇰 HK-16.163.49.28-0205
+      - 🇸🇬 SG-15.235.140.178-0229
+      - 🇵🇱 PL-51.68.139.22-0267
+      - RELAY-172.67.199.34-1089
+      - 🇸🇬 SG-15.235.184.36-0227
+      - VN-103.56.160.184-0278
+      - 🇸🇬 SG-139.162.5.19-1010
+      - 🇸🇬 SG-51.79.173.222-0237
+      - 🇺🇸 US-216.45.54.175-1017
+      - 🇰🇷 KR-130.162.141.104-0261
+      - 🇺🇸 US-51.81.220.34-0200
 rules:
  - MATCH,规则选择
