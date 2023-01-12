@@ -1080,7 +1080,7 @@ proxies:
 - {name: US_478, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true}
 - {name: US_664, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true}
 - {name: US_489, server: 38.91.100.207, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-- {name: CN_2, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: /, headers: {Host: 39.103.165.178}}}
+- {name: CN_1, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: /, headers: {Host: 39.103.165.178}}}
 - {name: AU_16, server: 152.67.98.30, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true}
 - {name: Relay_🇧🇭BH-🇱🇹LT_22, server: 23.247.137.70, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true}
 - {name: CA_24, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
