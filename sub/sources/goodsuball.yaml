@@ -106,7 +106,6 @@ proxies:
 - {name: "🇭🇰 香港极速|tg频道_@ripaojiedian", server: 16.163.126.219, port: 443, type: trojan, password: 7ecd5702-c8d3-41af-98a3-d1346e6f2370, sni: vzwzasc.cn, skip-cert-verify: true}
 - {name: "🇭🇰 香港3|tg频道_@ripaojiedian", server: wwe5g.cdn.node.a.tddns-ounk.com, port: 40342, type: vmess, uuid: 60ea91bb-fc92-37b9-9aeb-8394c24f5f9e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8, headers: {Host: wwe5g.cdn.node.a.tddns-ounk.com}}}
 - {name: "🇨🇳 台湾2|tg频道_@ripaojiedian", server: tw103.103.130.151tw.xhtk.cc, port: 443, type: vmess, uuid: 7107d986-c23d-9c74-dd87-991b369be452, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /ymhnvws, headers: {Host: tw103.103.130.151tw.xhtk.cc}}}
-- {name: "tg频道_@ripaojiedian", server: 18.183.174.81, port: 443, type: ssr, cipher: none, password: |C<RYpOT@oq]{%=, obfs: tls1.2_ticket_auth, protocol: auth_chain_a, obfsparam: uedata.d23ea1289107.amazon.com, protoparam: "1289107:Vd>Zs\\b5o$s56oB"}, group: SSRProvider}
 - {name: 测试节点, server: zz2.suishihuigai.top, port: 10051, type: trojan, password: d0a7c867d11ea88e5691712f662ff36a, sni: asdf.91js.pw, skip-cert-verify: true}
 - {name: "🇭🇰 香港HKT|tg频道_@ripaojiedian", server: download2hkt.windowsupdate.lol, port: 80, type: vmess, uuid: 7ecd5702-c8d3-41af-98a3-d1346e6f2370, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
 - {name: "🇭🇰 香港快速|tg频道_@ripaojiedian", server: otynu-4-tr-2.hkg-01.o-two.xyz, port: 889, type: trojan, password: vLumIwOkgGYGemUUJXUdcsjIwtkZfCSa, sni: o-two.bond, skip-cert-verify: true}
@@ -1142,7 +1141,7 @@ proxies:
 - {name: US_740🇺🇸US_703, server: 129.146.255.158, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true}
 - {name: 🇺🇸 Relay_Relay_🇺🇸US-🇺🇸US_746🇺🇸US-🇺🇸US_707, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true}
 - {name: US_702🇺🇸US_739, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
-- {name: CN_1, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: /, headers: {Host: 39.103.165.178}}}
+- {name: CN_2, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: /, headers: {Host: 39.103.165.178}}}
 - {name: , server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: "QazEdcTgb159@$*"}
 - {name: , server: 23.247.137.70, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true}
 - {name: , server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-sdertyuijh, skip-cert-verify: true}
