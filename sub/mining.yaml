@@ -5,6 +5,42 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: 🇨🇳 中国-台湾01, server: 19211tj.matrixxx888.com, port: 19211, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国-台湾02, server: 19212tj.matrixxx888.com, port: 19212, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国-台湾03, server: 19213tj.matrixxx888.com, port: 19213, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国-台湾04, server: 19214tj.matrixxx888.com, port: 19214, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国-台湾05, server: 19215tj.matrixxx888.com, port: 19215, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国-台湾06, server: 19216tj.matrixxx888.com, port: 19216, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国-香港01, server: 19201tj.matrixxx888.com, port: 19201, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国-香港02, server: 19202tj.matrixxx888.com, port: 19202, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国-香港03, server: 19203tj.matrixxx888.com, port: 19203, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国-香港04, server: 19204tj.matrixxx888.com, port: 19204, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国-香港05, server: 19205tj.matrixxx888.com, port: 19205, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国-香港06, server: 19206tj.matrixxx888.com, port: 19206, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡01, server: 19221tj.matrixxx888.com, port: 19221, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡02, server: 19222tj.matrixxx888.com, port: 19222, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡03, server: 19223tj.matrixxx888.com, port: 19223, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡04, server: 19224tj.matrixxx888.com, port: 19224, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡05, server: 19225tj.matrixxx888.com, port: 19225, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡06, server: 19226tj.matrixxx888.com, port: 19226, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-东京01, server: 19242tj.matrixxx888.com, port: 19242, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-东京02, server: 19243tj.matrixxx888.com, port: 19243, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-东京03, server: 19244tj.matrixxx888.com, port: 19244, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-圣何塞01, server: 19231tj.matrixxx888.com, port: 19231, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-圣何塞02, server: 19232tj.matrixxx888.com, port: 19232, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-圣何塞03, server: 19233tj.matrixxx888.com, port: 19233, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-圣何塞04, server: 19234tj.matrixxx888.com, port: 19234, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-圣何塞05, server: 19235tj.matrixxx888.com, port: 19235, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶01, server: 19236tj.matrixxx888.com, port: 19236, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶02, server: 19237tj.matrixxx888.com, port: 19237, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶03, server: 19238tj.matrixxx888.com, port: 19238, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国-伦敦01, server: 19248tj.matrixxx888.com, port: 19248, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国-伦敦02, server: 19249tj.matrixxx888.com, port: 19249, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Hong Kong 01, server: jupiter.maailman.cyou, port: 20001, type: ssr, cipher: aes-128-ctr, password: v0nxhydtt4, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 182194:rgonZg, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 02, server: neptune.maailman.cyou, port: 20002, type: ssr, cipher: aes-128-ctr, password: v0nxhydtt4, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 182194:rgonZg, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 03, server: pluto.maailman.cyou, port: 20003, type: ssr, cipher: aes-128-ctr, password: v0nxhydtt4, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 182194:rgonZg, obfs-param: "", udp: true}
@@ -56,6 +92,42 @@ proxy-groups:
   - name: 手动切换
     type: select
     proxies:
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Amsterdam
+      - 🇨🇳 中国-台湾01
+      - 🇨🇳 中国-台湾02
+      - 🇨🇳 中国-台湾03
+      - 🇨🇳 中国-台湾04
+      - 🇨🇳 中国-台湾05
+      - 🇨🇳 中国-台湾06
+      - 🇭🇰 中国-香港01
+      - 🇭🇰 中国-香港02
+      - 🇭🇰 中国-香港03
+      - 🇭🇰 中国-香港04
+      - 🇭🇰 中国-香港05
+      - 🇭🇰 中国-香港06
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇯🇵 日本-东京01
+      - 🇯🇵 日本-东京02
+      - 🇯🇵 日本-东京03
+      - 🇺🇸 美国-圣何塞01
+      - 🇺🇸 美国-圣何塞02
+      - 🇺🇸 美国-圣何塞03
+      - 🇺🇸 美国-圣何塞04
+      - 🇺🇸 美国-圣何塞05
+      - 🇺🇸 美国-洛杉矶01
+      - 🇺🇸 美国-洛杉矶02
+      - 🇺🇸 美国-洛杉矶03
+      - 🇬🇧 英国-伦敦01
+      - 🇬🇧 英国-伦敦02
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
@@ -109,6 +181,42 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Amsterdam
+      - 🇨🇳 中国-台湾01
+      - 🇨🇳 中国-台湾02
+      - 🇨🇳 中国-台湾03
+      - 🇨🇳 中国-台湾04
+      - 🇨🇳 中国-台湾05
+      - 🇨🇳 中国-台湾06
+      - 🇭🇰 中国-香港01
+      - 🇭🇰 中国-香港02
+      - 🇭🇰 中国-香港03
+      - 🇭🇰 中国-香港04
+      - 🇭🇰 中国-香港05
+      - 🇭🇰 中国-香港06
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇯🇵 日本-东京01
+      - 🇯🇵 日本-东京02
+      - 🇯🇵 日本-东京03
+      - 🇺🇸 美国-圣何塞01
+      - 🇺🇸 美国-圣何塞02
+      - 🇺🇸 美国-圣何塞03
+      - 🇺🇸 美国-圣何塞04
+      - 🇺🇸 美国-圣何塞05
+      - 🇺🇸 美国-洛杉矶01
+      - 🇺🇸 美国-洛杉矶02
+      - 🇺🇸 美国-洛杉矶03
+      - 🇬🇧 英国-伦敦01
+      - 🇬🇧 英国-伦敦02
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
@@ -163,6 +271,42 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Amsterdam
+      - 🇨🇳 中国-台湾01
+      - 🇨🇳 中国-台湾02
+      - 🇨🇳 中国-台湾03
+      - 🇨🇳 中国-台湾04
+      - 🇨🇳 中国-台湾05
+      - 🇨🇳 中国-台湾06
+      - 🇭🇰 中国-香港01
+      - 🇭🇰 中国-香港02
+      - 🇭🇰 中国-香港03
+      - 🇭🇰 中国-香港04
+      - 🇭🇰 中国-香港05
+      - 🇭🇰 中国-香港06
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
+      - 🇯🇵 日本-东京01
+      - 🇯🇵 日本-东京02
+      - 🇯🇵 日本-东京03
+      - 🇺🇸 美国-圣何塞01
+      - 🇺🇸 美国-圣何塞02
+      - 🇺🇸 美国-圣何塞03
+      - 🇺🇸 美国-圣何塞04
+      - 🇺🇸 美国-圣何塞05
+      - 🇺🇸 美国-洛杉矶01
+      - 🇺🇸 美国-洛杉矶02
+      - 🇺🇸 美国-洛杉矶03
+      - 🇬🇧 英国-伦敦01
+      - 🇬🇧 英国-伦敦02
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
@@ -213,21 +357,46 @@ proxy-groups:
   - name: 中国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 中国-台湾01
+      - 🇨🇳 中国-台湾02
+      - 🇨🇳 中国-台湾03
+      - 🇨🇳 中国-台湾04
+      - 🇨🇳 中国-台湾05
+      - 🇨🇳 中国-台湾06
+      - 🇭🇰 中国-香港01
+      - 🇭🇰 中国-香港02
+      - 🇭🇰 中国-香港03
+      - 🇭🇰 中国-香港04
+      - 🇭🇰 中国-香港05
+      - 🇭🇰 中国-香港06
   - name: 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 日本-东京01
+      - 🇯🇵 日本-东京02
+      - 🇯🇵 日本-东京03
   - name: 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡04
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡06
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - DIRECT
+      - 🇺🇸 美国-圣何塞01
+      - 🇺🇸 美国-圣何塞02
+      - 🇺🇸 美国-圣何塞03
+      - 🇺🇸 美国-圣何塞04
+      - 🇺🇸 美国-圣何塞05
+      - 🇺🇸 美国-洛杉矶01
+      - 🇺🇸 美国-洛杉矶02
+      - 🇺🇸 美国-洛杉矶03
 rules:
  - MATCH,手动切换
