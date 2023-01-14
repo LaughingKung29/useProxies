@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
   - {name: 🇭🇰 Hong Kong 01, server: jupiter.maailman.cyou, port: 20001, type: ssr, cipher: aes-128-ctr, password: v0nxhydtt4, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 182194:rgonZg, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 02, server: neptune.maailman.cyou, port: 20002, type: ssr, cipher: aes-128-ctr, password: v0nxhydtt4, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 182194:rgonZg, obfs-param: "", udp: true}
   - {name: 🇭🇰 Hong Kong 03, server: pluto.maailman.cyou, port: 20003, type: ssr, cipher: aes-128-ctr, password: v0nxhydtt4, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 182194:rgonZg, obfs-param: "", udp: true}
@@ -111,11 +111,11 @@ proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
@@ -219,11 +219,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
@@ -328,11 +328,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
       - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
       - 🇭🇰 Hong Kong 03
