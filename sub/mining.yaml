@@ -5,36 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: 距离下次重置剩余：2 天, server: 183.245.149.5, port: 12207, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 01, server: 183.245.149.5, port: 12207, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 02, server: 183.245.149.5, port: 12208, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 03, server: 183.245.7.181, port: 12209, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 04, server: 183.245.7.181, port: 12210, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 05, server: 183.245.149.5, port: 12211, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 06, server: 183.245.7.181, port: 61013, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 07, server: 183.245.149.5, port: 61014, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 08*, server: 183.245.7.181, port: 61014, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 09*, server: 183.245.149.5, port: 61014, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 10*, server: 183.245.7.181, port: 61014, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 01, server: 183.245.7.181, port: 12196, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 02, server: 183.245.7.181, port: 12197, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 03, server: 183.245.7.181, port: 12198, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 04, server: 183.245.7.181, port: 12199, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美國 01, server: 183.245.149.5, port: 12200, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美國 02, server: 183.245.7.181, port: 12201, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美國 03, server: 183.245.7.181, port: 12202, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美國 04, server: 183.245.7.181, port: 12203, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 01, server: 183.245.7.181, port: 61007, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 02, server: 183.245.7.181, port: 61008, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 台灣 01, server: 183.245.7.181, port: 61011, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 台灣 02, server: 183.245.7.181, port: 61012, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 獅城 01, server: 183.245.7.181, port: 61009, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 獅城 02, server: 183.245.7.181, port: 61010, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: 🇸🇬 *若无法使用，请更新订阅，使用前最好更新一次*, server: 8.8.8.8, port: 443, type: vmess, uuid: 5218bee6-05f0-3ece-b492-db58072dd7c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 V1-俄罗斯01 中继A 1.2x, server: in01.my1188.org, port: 64071, type: vmess, uuid: 5218bee6-05f0-3ece-b492-db58072dd7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biteb-ru01.myn1des.com}}, udp: true}
   - {name: 🇷🇺 V1-俄罗斯01 中继B 1.2x, server: in02.my1188.org, port: 64071, type: vmess, uuid: 5218bee6-05f0-3ece-b492-db58072dd7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biteb-ru01.myn1des.com}}, udp: true}
@@ -77,36 +52,11 @@ proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
       - GetAFreeNode-Phoenix
-      - 距离下次重置剩余：2 天
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港 07
-      - 🇭🇰 香港 08*
-      - 🇭🇰 香港 09*
-      - 🇭🇰 香港 10*
-      - 🇻🇳 越南 01
-      - 🇻🇳 越南 02
-      - 🇻🇳 越南 03
-      - 🇻🇳 越南 04
-      - 美國 01
-      - 美國 02
-      - 美國 03
-      - 美國 04
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 台灣 01
-      - 台灣 02
-      - 獅城 01
-      - 獅城 02
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
       - 🇸🇬 *若无法使用，请更新订阅，使用前最好更新一次*
       - 🇷🇺 V1-俄罗斯01 中继A 1.2x
       - 🇷🇺 V1-俄罗斯01 中继B 1.2x
@@ -151,36 +101,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
       - GetAFreeNode-Phoenix
-      - 距离下次重置剩余：2 天
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港 07
-      - 🇭🇰 香港 08*
-      - 🇭🇰 香港 09*
-      - 🇭🇰 香港 10*
-      - 🇻🇳 越南 01
-      - 🇻🇳 越南 02
-      - 🇻🇳 越南 03
-      - 🇻🇳 越南 04
-      - 美國 01
-      - 美國 02
-      - 美國 03
-      - 美國 04
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 台灣 01
-      - 台灣 02
-      - 獅城 01
-      - 獅城 02
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
       - 🇸🇬 *若无法使用，请更新订阅，使用前最好更新一次*
       - 🇷🇺 V1-俄罗斯01 中继A 1.2x
       - 🇷🇺 V1-俄罗斯01 中继B 1.2x
@@ -226,36 +151,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
       - GetAFreeNode-Phoenix
-      - 距离下次重置剩余：2 天
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港 07
-      - 🇭🇰 香港 08*
-      - 🇭🇰 香港 09*
-      - 🇭🇰 香港 10*
-      - 🇻🇳 越南 01
-      - 🇻🇳 越南 02
-      - 🇻🇳 越南 03
-      - 🇻🇳 越南 04
-      - 美國 01
-      - 美國 02
-      - 美國 03
-      - 美國 04
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 台灣 01
-      - 台灣 02
-      - 獅城 01
-      - 獅城 02
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
       - 🇸🇬 *若无法使用，请更新订阅，使用前最好更新一次*
       - 🇷🇺 V1-俄罗斯01 中继A 1.2x
       - 🇷🇺 V1-俄罗斯01 中继B 1.2x
@@ -297,16 +197,6 @@ proxy-groups:
   - name: 中国节点
     type: select
     proxies:
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港 07
-      - 🇭🇰 香港 08*
-      - 🇭🇰 香港 09*
-      - 🇭🇰 香港 10*
       - 🇨🇳 V1-台湾 多台负载均衡 中继A 1.5x
       - 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
       - 🇨🇳 V1-台湾 多台负载均衡 中继C 1.5x
@@ -322,8 +212,6 @@ proxy-groups:
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
       - 🇨🇳 V1-日本 多台负载均衡 中继A 1.5x
       - 🇨🇳 V1-日本 多台负载均衡 中继B 1.5x
       - 🇨🇳 V1-日本 多台负载均衡 中继C 1.5x
