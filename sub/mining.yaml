@@ -5,31 +5,535 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
   - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・01", server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・02", server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・03", server: yd-05.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・04", server: yd-02.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・05", server: yd-02.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・06", server: yd-02.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・01", server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・02", server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・03", server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・05", server: yd-02.paofunlink.com, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・01", server: yd-05.paofunlink.com, port: 1050, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・02", server: yd-05.paofunlink.com, port: 1051, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・03", server: yd-02.paofunlink.com, port: 1052, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・04", server: yd-02.paofunlink.com, port: 1053, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・05", server: yd-02.paofunlink.com, port: 1054, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v1] 美国・01", server: yd-05.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v1] 美国・02", server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v1] 美国・03", server: yd-02.paofunlink.com, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v1] 美国・04", server: yd-02.paofunlink.com, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v1] 美国・05", server: yd-02.paofunlink.com, port: 1084, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・01", server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・02", server: yd-01.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・03", server: yd-01.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・04", server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・05", server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・06", server: yd-06.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・07", server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・08", server: yd-07.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・09", server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・10", server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:3qt2cfovh0g, obfs-param: b3295220134.microsoft.com, udp: true}
+  - {name: 🇯🇵 日本JP-T, server: jp.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡SG-T, server: sg.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: sg.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚MY-T, server: my.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: my.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港HKT-T, server: hkt.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: hkt.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇭 柬埔寨KH-T, server: kh.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南VN-T, server: vn.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾HINET-T, server: hinet.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国KR-T, server: kr.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇿 哈萨克斯坦KZ-T, server: kz.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国USLA-T, server: usla.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国DE-T, server: de.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: de.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国UK-T, server: uk.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: uk.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇱🇺 卢森堡LUX-T, server: lux.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯RU-T, server: ru.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其TR-T, server: tr.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: tr.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 阿根廷AR-T, server: ar.mjt001.com, port: 443, type: trojan, password: d2eb7266-b912-4fc0-bcfb-47277251b506, sni: ar.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-优化, server: yes.iamagoodman.net, port: 16617, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇯🇵 日本-优化2, server: m.lwvzmdu.cn, port: 16617, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇯🇵 日本-优化3, server: t.cccao.cyou, port: 16617, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇸🇬 新加坡-优化, server: yes.iamagoodman.net, port: 16618, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇸🇬 新加坡-优化2, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡-优化3, server: t.cccao.cyou, port: 16618, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港Az-优化, server: yes.iamagoodman.net, port: 16627, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇭🇰 香港Az-优化2, server: m.lwvzmdu.cn, port: 16627, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇭🇰 香港Az-优化3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港HKT-优化, server: yes.iamagoodman.net, port: 16620, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇭🇰 香港HKT-优化2, server: m.lwvzmdu.cn, port: 16620, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇭🇰 香港HKT-优化3, server: t.cccao.cyou, port: 16620, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇮🇳 印度-优化, server: yes.iamagoodman.net, port: 16626, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇨🇳 台湾, server: twipv4.useipv6now.com, port: 6617, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twipv4.useipv6now.com}}, udp: true}
+  - {name: 🇨🇳 台湾-智能, server: g.cccao.cyou, port: 16616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: g.cccao.cyou}}, udp: true}
+  - {name: 🇨🇳 台湾-优化, server: yes.iamagoodman.net, port: 16616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇨🇳 台湾-优化2, server: m.lwvzmdu.cn, port: 16616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇨🇳 台湾-优化3, server: t.cccao.cyou, port: 16616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇺🇸 美国LA-优化, server: yes.iamagoodman.net, port: 16648, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇺🇸 美国LA-优化2, server: m.lwvzmdu.cn, port: 16648, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇨🇦 加拿大-优化, server: yes.iamagoodman.net, port: 16641, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇩🇪 德国-优化, server: yes.iamagoodman.net, port: 23309, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇩🇪 德国-优化2, server: m.lwvzmdu.cn, port: 23309, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇩🇪 德国-优化3, server: t.cccao.cyou, port: 23309, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇫🇷 法国-优化, server: yes.iamagoodman.net, port: 16645, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇨🇭 瑞士CH, server: 5.182.36.199, port: 6616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇭 瑞士-优化, server: yes.iamagoodman.net, port: 16633, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇨🇭 瑞士-优化2, server: m.lwvzmdu.cn, port: 16633, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇨🇭 瑞士-优化3, server: t.cccao.cyou, port: 16633, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇵🇹 葡萄牙-优化, server: yes.iamagoodman.net, port: 16624, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇵🇹 葡萄牙-优化2, server: m.lwvzmdu.cn, port: 16624, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇵🇹 葡萄牙-优化3, server: t.cccao.cyou, port: 16624, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇳🇱 荷兰, server: 163.172.220.71, port: 6616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇳🇱 荷兰-优化, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇳🇱 荷兰-优化2, server: m.lwvzmdu.cn, port: 16642, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇳🇱 荷兰-优化3, server: t.cccao.cyou, port: 16642, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇫🇮 芬兰, server: 37.143.129.238, port: 6616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇫🇮 芬兰-优化, server: yes.iamagoodman.net, port: 16643, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇫🇮 芬兰-优化2, server: m.lwvzmdu.cn, port: 16643, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇫🇮 芬兰-优化3, server: t.cccao.cyou, port: 16643, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 乌克兰-优化, server: yes.iamagoodman.net, port: 16637, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 乌克兰-优化2, server: m.lwvzmdu.cn, port: 16637, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇮🇱 以色列, server: 77.91.74.2, port: 6616, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇧🇷 巴西-优化1, server: yes.iamagoodman.net, port: 16635, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇧🇷 巴西-优化2, server: m.lwvzmdu.cn, port: 16635, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇧🇷 巴西-优化3, server: t.cccao.cyou, port: 16635, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇲🇽 墨西哥-优化1, server: yes.iamagoodman.net, port: 16636, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇲🇽 墨西哥-优化2, server: m.lwvzmdu.cn, port: 16636, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇲🇽 墨西哥-优化3, server: t.cccao.cyou, port: 16636, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇦🇺 澳大利亚-优化, server: yes.iamagoodman.net, port: 16638, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mjp, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: 🇦🇺 澳大利亚-优化2, server: m.lwvzmdu.cn, port: 16638, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mjp, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: 🇯🇵 尼日利亚-优化, server: yes.iamagoodman.net, port: 16639, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇿🇦 南非-优化, server: yes.iamagoodman.net, port: 16640, type: vmess, uuid: d2eb7266-b912-4fc0-bcfb-47277251b506, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 🇷🇺 V1-俄罗斯01 中继A | x1.2, server: in01.my1188.org, port: 63071, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
+  - {name: 🇷🇺 V1-俄罗斯01 中继B | x1.2, server: in02.my1188.org, port: 63071, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
+  - {name: 🇷🇺 V1-俄罗斯01 中继C | x1.2, server: in03.my1188.org, port: 63071, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
+  - {name: 🇷🇺 V1-俄罗斯01 中继D | x1.2, server: in04.my1188.org, port: 63071, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-台湾 多台负载均衡 中继A 1.5x, server: in01.my1188.org, port: 63088, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x, server: in02.my1188.org, port: 63088, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-台湾 多台负载均衡 中继C 1.5x, server: in03.my1188.org, port: 63088, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-台湾 多台负载均衡 中继D 1.5x, server: in04.my1188.org, port: 63088, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-台湾 多台负载均衡 中继F 1.5x, server: in06.my1188.org, port: 63088, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-台湾99 Hinet直连 速度随缘 0.5x, server: tw99-hinet.mynodes001.one, port: 445, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 V1-德国01 CDN 中继 1.5x, server: in05.my1188.org, port: 63084, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01-cdn.airport-v2.com}}, udp: true}
+  - {name: "🇨🇳 V1-新加坡 多台负载均衡 中继A 1.5x\t", server: in01.my1188.org, port: 63087, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: 🇨🇳 V1-新加坡 多台负载均衡 中继B 1.5x, server: in02.my1188.org, port: 63087, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: 🇨🇳 V1-新加坡 多台负载均衡 中继C 1.5x, server: in03.my1188.org, port: 63087, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: 🇨🇳 V1-新加坡 多台负载均衡 中继D 1.5x, server: in04.my1188.org, port: 63087, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: 🇨🇳 V1-新加坡 多台负载均衡 中继F 1.5x, server: in06.my1188.org, port: 63087, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
+  - {name: 🇨🇳 V1-日本 多台负载均衡 中继A 1.5x, server: in01.my1188.org, port: 63086, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-日本 多台负载均衡 中继B 1.5x, server: in02.my1188.org, port: 63086, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-日本 多台负载均衡 中继C 1.5x, server: in03.my1188.org, port: 63086, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x, server: in04.my1188.org, port: 63086, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x, server: in06.my1188.org, port: 63086, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇯🇵 V1-日本99 1.5x, server: in06.my1188.org, port: 63005, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V1-美国01 中继A | 1.5x, server: in01.my1188.org, port: 63014, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V1-美国01 中继B | 1.5x, server: in02.my1188.org, port: 63014, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V1-美国01 中继C | 1.5x, server: in03.my1188.org, port: 63014, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V1-美国01 中继D | 1.5x, server: in04.my1188.org, port: 63014, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 V1-英国01 CDN 中继 1.5x, server: in05.my1188.org, port: 63021, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk01-cdn.airport-v2.com}}, udp: true}
+  - {name: 🇰🇷 V1-韩国01 中继A | x1.5, server: in01.my1188.org, port: 63004, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 V1-韩国01 中继B | x1.5, server: in02.my1188.org, port: 63004, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 V1-韩国01 中继C | x1.5, server: in03.my1188.org, port: 63004, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 V1-韩国01 中继D | x1.5, server: in04.my1188.org, port: 63004, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x, server: in01.my1188.org, port: 63078, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x, server: in02.my1188.org, port: 63078, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇭🇰 V1-香港 多台负载均衡 中继C | 1.5x, server: in03.my1188.org, port: 63078, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇭🇰 V1-香港 多台负载均衡 中继D | 1.5x, server: in04.my1188.org, port: 63078, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇭🇰 V1-香港HKT02 CDN 中继 2x, server: in05.my1188.org, port: 63081, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt2-cdn.tencent.best}}, udp: true}
+  - {name: 🇭🇰 V1-香港HKT03 CDN 中继 2x, server: in05.my1188.org, port: 63082, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt3-cdn.tencent.best}}, udp: true}
+  - {name: 🇩🇪 V2-PRO 德国01 7x, server: pro01.my1188.org, port: 3183, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.contabo.nbsd.us}}, udp: true}
+  - {name: 🇦🇺 V2-PRO 澳洲01 | 7x, server: pro01.my1188.org, port: 3213, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 V2-PRO 英国01 | 8x, server: pro01.my1188.org, port: 3153, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk01-iepl.nbsd.us}}, udp: true}
+  - {name: 🇷🇺 V2-俄罗斯01 中继E | x1.2, server: in05.my1188.org, port: 63071, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-ru01.myn1des.com}}, udp: true}
+  - {name: 🇮🇳 V2-印度01 中继A | 1.5x, server: in01.my1188.org, port: 63051, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 V2-印度01 中继B | 1.5x, server: in02.my1188.org, port: 63051, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 V2-印度01 中继C | 1.5x, server: in03.my1188.org, port: 63051, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 V2-印度01 中继D | 1.5x, server: in04.my1188.org, port: 63051, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 V2-印度01 中继E | 1.5x, server: in05.my1188.org, port: 63051, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 V2-台湾 多台负载均衡 中继E 1.5x, server: in05.my1188.org, port: 63088, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 🇹🇷 V2-土耳其01 中继A | 2x, server: in01.my1188.org, port: 63028, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-tr01.covid19.rip}}, udp: true}
+  - {name: 🇹🇷 V2-土耳其01 中继B | 2x, server: in02.my1188.org, port: 63028, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-tr01.covid19.rip}}, udp: true}
+  - {name: 🇹🇷 V2-土耳其01 中继C | 2x, server: in03.my1188.org, port: 63028, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-tr01.covid19.rip}}, udp: true}
+  - {name: 🇹🇷 V2-土耳其01 中继D | 2x, server: in04.my1188.org, port: 63028, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-tr01.covid19.rip}}, udp: true}
+  - {name: 🇹🇷 V2-土耳其01 中继E | 2x, server: in05.my1188.org, port: 63028, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-tr01.covid19.rip}}, udp: true}
+  - {name: 🇧🇷 V2-巴西01 中继A, server: in01.my1188.org, port: 63041, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 V2-巴西01 中继B, server: in02.my1188.org, port: 63041, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 V2-巴西01 中继C, server: in03.my1188.org, port: 63041, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 V2-巴西01 中继D, server: in04.my1188.org, port: 63041, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 V2-巴西01 中继E, server: in05.my1188.org, port: 63041, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x, server: in05.my1188.org, port: 63086, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇵🇱 V2-波兰01 直连 | x1.5, server: in06.my1188.org, port: 63077, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V2-美国01 中继E | 1.5x, server: in05.my1188.org, port: 63014, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V2-美国03 中继A | 1.5x, server: in06.my1188.org, port: 62072, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 V2-荷兰01 中继 | 1.3x, server: in06.my1188.org, port: 63089, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 V2-阿根廷01 CDN 中继 龟速2x, server: in05.my1188.org, port: 63072, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ag01-cdn.myn1des.com}}, udp: true}
+  - {name: 🇰🇷 V2-韩国01 中继E | x1.5, server: in05.my1188.org, port: 63004, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x, server: in05.my1188.org, port: 63078, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: "🇯🇵 日本直连A 速度随缘 0.3x\t", server: jp-direct.node002.xyz, port: 445, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国直连A 速度随缘 0.3x, server: kr-direct.node002.xyz, port: 445, type: vmess, uuid: bb4432de-695c-3d4f-94da-5e77813abf5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-LosAngeles
       - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Frankfurt
+      - 🇨🇳 [v1] 台湾・01
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v1] 台湾・04
+      - 🇨🇳 [v1] 台湾・05
+      - 🇨🇳 [v1] 台湾・06
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇯🇵 [v1] 日本・01
+      - 🇯🇵 [v1] 日本・02
+      - 🇯🇵 [v1] 日本・03
+      - 🇯🇵 [v1] 日本・04
+      - 🇯🇵 [v1] 日本・05
+      - 🇺🇸 [v1] 美国・01
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v1] 美国・03
+      - 🇺🇸 [v1] 美国・04
+      - 🇺🇸 [v1] 美国・05
+      - 🇭🇰 [v1] 香港・01
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・06
+      - 🇭🇰 [v1] 香港・07
+      - 🇭🇰 [v1] 香港・08
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v1] 香港・10
+      - 🇯🇵 日本JP-T
+      - 🇸🇬 新加坡SG-T
+      - 🇲🇾 马来西亚MY-T
+      - 🇭🇰 香港HKT-T
+      - 🇰🇭 柬埔寨KH-T
+      - 🇻🇳 越南VN-T
+      - 🇨🇳 台湾HINET-T
+      - 🇰🇷 韩国KR-T
+      - 🇰🇿 哈萨克斯坦KZ-T
+      - 🇺🇸 美国USLA-T
+      - 🇩🇪 德国DE-T
+      - 🇬🇧 英国UK-T
+      - 🇱🇺 卢森堡LUX-T
+      - 🇷🇺 俄罗斯RU-T
+      - 🇹🇷 土耳其TR-T
+      - 🇦🇷 阿根廷AR-T
+      - 🇯🇵 日本-优化
+      - 🇯🇵 日本-优化2
+      - 🇯🇵 日本-优化3
+      - 🇸🇬 新加坡-优化
+      - 🇸🇬 新加坡-优化2
+      - 🇸🇬 新加坡-优化3
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港Az-优化2
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇮🇳 印度-优化
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾-智能
+      - 🇨🇳 台湾-优化
+      - 🇨🇳 台湾-优化2
+      - 🇨🇳 台湾-优化3
+      - 🇺🇸 美国LA-优化
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化
+      - 🇩🇪 德国-优化
+      - 🇩🇪 德国-优化2
+      - 🇩🇪 德国-优化3
+      - 🇫🇷 法国-优化
+      - 🇨🇭 瑞士CH
+      - 🇨🇭 瑞士-优化
+      - 🇨🇭 瑞士-优化2
+      - 🇨🇭 瑞士-优化3
+      - 🇵🇹 葡萄牙-优化
+      - 🇵🇹 葡萄牙-优化2
+      - 🇵🇹 葡萄牙-优化3
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰-优化
+      - 🇳🇱 荷兰-优化2
+      - 🇳🇱 荷兰-优化3
+      - 🇫🇮 芬兰
+      - 🇫🇮 芬兰-优化
+      - 🇫🇮 芬兰-优化2
+      - 🇫🇮 芬兰-优化3
+      - 乌克兰-优化
+      - 乌克兰-优化2
+      - 🇮🇱 以色列
+      - 🇧🇷 巴西-优化1
+      - 🇧🇷 巴西-优化2
+      - 🇧🇷 巴西-优化3
+      - 🇲🇽 墨西哥-优化1
+      - 🇲🇽 墨西哥-优化2
+      - 🇲🇽 墨西哥-优化3
+      - 🇦🇺 澳大利亚-优化
+      - 🇦🇺 澳大利亚-优化2
+      - 🇯🇵 尼日利亚-优化
+      - 🇿🇦 南非-优化
+      - 🇷🇺 V1-俄罗斯01 中继A | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继B | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继C | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继D | x1.2
+      - 🇨🇳 V1-台湾 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-台湾99 Hinet直连 速度随缘 0.5x
+      - 🇩🇪 V1-德国01 CDN 中继 1.5x
+      - "🇨🇳 V1-新加坡 多台负载均衡 中继A 1.5x\t"
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇯🇵 V1-日本99 1.5x
+      - 🇺🇸 V1-美国01 中继A | 1.5x
+      - 🇺🇸 V1-美国01 中继B | 1.5x
+      - 🇺🇸 V1-美国01 中继C | 1.5x
+      - 🇺🇸 V1-美国01 中继D | 1.5x
+      - 🇬🇧 V1-英国01 CDN 中继 1.5x
+      - 🇰🇷 V1-韩国01 中继A | x1.5
+      - 🇰🇷 V1-韩国01 中继B | x1.5
+      - 🇰🇷 V1-韩国01 中继C | x1.5
+      - 🇰🇷 V1-韩国01 中继D | x1.5
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继C | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继D | 1.5x
+      - 🇭🇰 V1-香港HKT02 CDN 中继 2x
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
+      - 🇩🇪 V2-PRO 德国01 7x
+      - 🇦🇺 V2-PRO 澳洲01 | 7x
+      - 🇬🇧 V2-PRO 英国01 | 8x
+      - 🇷🇺 V2-俄罗斯01 中继E | x1.2
+      - 🇮🇳 V2-印度01 中继A | 1.5x
+      - 🇮🇳 V2-印度01 中继B | 1.5x
+      - 🇮🇳 V2-印度01 中继C | 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇮🇳 V2-印度01 中继E | 1.5x
+      - 🇨🇳 V2-台湾 多台负载均衡 中继E 1.5x
+      - 🇹🇷 V2-土耳其01 中继A | 2x
+      - 🇹🇷 V2-土耳其01 中继B | 2x
+      - 🇹🇷 V2-土耳其01 中继C | 2x
+      - 🇹🇷 V2-土耳其01 中继D | 2x
+      - 🇹🇷 V2-土耳其01 中继E | 2x
+      - 🇧🇷 V2-巴西01 中继A
+      - 🇧🇷 V2-巴西01 中继B
+      - 🇧🇷 V2-巴西01 中继C
+      - 🇧🇷 V2-巴西01 中继D
+      - 🇧🇷 V2-巴西01 中继E
+      - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
+      - 🇵🇱 V2-波兰01 直连 | x1.5
+      - 🇺🇸 V2-美国01 中继E | 1.5x
+      - 🇺🇸 V2-美国03 中继A | 1.5x
+      - 🇳🇱 V2-荷兰01 中继 | 1.3x
+      - 🇦🇷 V2-阿根廷01 CDN 中继 龟速2x
+      - 🇰🇷 V2-韩国01 中继E | x1.5
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - "🇯🇵 日本直连A 速度随缘 0.3x\t"
+      - 🇰🇷 韩国直连A 速度随缘 0.3x
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-LosAngeles
       - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Frankfurt
+      - 🇨🇳 [v1] 台湾・01
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v1] 台湾・04
+      - 🇨🇳 [v1] 台湾・05
+      - 🇨🇳 [v1] 台湾・06
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇯🇵 [v1] 日本・01
+      - 🇯🇵 [v1] 日本・02
+      - 🇯🇵 [v1] 日本・03
+      - 🇯🇵 [v1] 日本・04
+      - 🇯🇵 [v1] 日本・05
+      - 🇺🇸 [v1] 美国・01
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v1] 美国・03
+      - 🇺🇸 [v1] 美国・04
+      - 🇺🇸 [v1] 美国・05
+      - 🇭🇰 [v1] 香港・01
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・06
+      - 🇭🇰 [v1] 香港・07
+      - 🇭🇰 [v1] 香港・08
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v1] 香港・10
+      - 🇯🇵 日本JP-T
+      - 🇸🇬 新加坡SG-T
+      - 🇲🇾 马来西亚MY-T
+      - 🇭🇰 香港HKT-T
+      - 🇰🇭 柬埔寨KH-T
+      - 🇻🇳 越南VN-T
+      - 🇨🇳 台湾HINET-T
+      - 🇰🇷 韩国KR-T
+      - 🇰🇿 哈萨克斯坦KZ-T
+      - 🇺🇸 美国USLA-T
+      - 🇩🇪 德国DE-T
+      - 🇬🇧 英国UK-T
+      - 🇱🇺 卢森堡LUX-T
+      - 🇷🇺 俄罗斯RU-T
+      - 🇹🇷 土耳其TR-T
+      - 🇦🇷 阿根廷AR-T
+      - 🇯🇵 日本-优化
+      - 🇯🇵 日本-优化2
+      - 🇯🇵 日本-优化3
+      - 🇸🇬 新加坡-优化
+      - 🇸🇬 新加坡-优化2
+      - 🇸🇬 新加坡-优化3
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港Az-优化2
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇮🇳 印度-优化
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾-智能
+      - 🇨🇳 台湾-优化
+      - 🇨🇳 台湾-优化2
+      - 🇨🇳 台湾-优化3
+      - 🇺🇸 美国LA-优化
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化
+      - 🇩🇪 德国-优化
+      - 🇩🇪 德国-优化2
+      - 🇩🇪 德国-优化3
+      - 🇫🇷 法国-优化
+      - 🇨🇭 瑞士CH
+      - 🇨🇭 瑞士-优化
+      - 🇨🇭 瑞士-优化2
+      - 🇨🇭 瑞士-优化3
+      - 🇵🇹 葡萄牙-优化
+      - 🇵🇹 葡萄牙-优化2
+      - 🇵🇹 葡萄牙-优化3
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰-优化
+      - 🇳🇱 荷兰-优化2
+      - 🇳🇱 荷兰-优化3
+      - 🇫🇮 芬兰
+      - 🇫🇮 芬兰-优化
+      - 🇫🇮 芬兰-优化2
+      - 🇫🇮 芬兰-优化3
+      - 乌克兰-优化
+      - 乌克兰-优化2
+      - 🇮🇱 以色列
+      - 🇧🇷 巴西-优化1
+      - 🇧🇷 巴西-优化2
+      - 🇧🇷 巴西-优化3
+      - 🇲🇽 墨西哥-优化1
+      - 🇲🇽 墨西哥-优化2
+      - 🇲🇽 墨西哥-优化3
+      - 🇦🇺 澳大利亚-优化
+      - 🇦🇺 澳大利亚-优化2
+      - 🇯🇵 尼日利亚-优化
+      - 🇿🇦 南非-优化
+      - 🇷🇺 V1-俄罗斯01 中继A | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继B | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继C | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继D | x1.2
+      - 🇨🇳 V1-台湾 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-台湾99 Hinet直连 速度随缘 0.5x
+      - 🇩🇪 V1-德国01 CDN 中继 1.5x
+      - "🇨🇳 V1-新加坡 多台负载均衡 中继A 1.5x\t"
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇯🇵 V1-日本99 1.5x
+      - 🇺🇸 V1-美国01 中继A | 1.5x
+      - 🇺🇸 V1-美国01 中继B | 1.5x
+      - 🇺🇸 V1-美国01 中继C | 1.5x
+      - 🇺🇸 V1-美国01 中继D | 1.5x
+      - 🇬🇧 V1-英国01 CDN 中继 1.5x
+      - 🇰🇷 V1-韩国01 中继A | x1.5
+      - 🇰🇷 V1-韩国01 中继B | x1.5
+      - 🇰🇷 V1-韩国01 中继C | x1.5
+      - 🇰🇷 V1-韩国01 中继D | x1.5
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继C | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继D | 1.5x
+      - 🇭🇰 V1-香港HKT02 CDN 中继 2x
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
+      - 🇩🇪 V2-PRO 德国01 7x
+      - 🇦🇺 V2-PRO 澳洲01 | 7x
+      - 🇬🇧 V2-PRO 英国01 | 8x
+      - 🇷🇺 V2-俄罗斯01 中继E | x1.2
+      - 🇮🇳 V2-印度01 中继A | 1.5x
+      - 🇮🇳 V2-印度01 中继B | 1.5x
+      - 🇮🇳 V2-印度01 中继C | 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇮🇳 V2-印度01 中继E | 1.5x
+      - 🇨🇳 V2-台湾 多台负载均衡 中继E 1.5x
+      - 🇹🇷 V2-土耳其01 中继A | 2x
+      - 🇹🇷 V2-土耳其01 中继B | 2x
+      - 🇹🇷 V2-土耳其01 中继C | 2x
+      - 🇹🇷 V2-土耳其01 中继D | 2x
+      - 🇹🇷 V2-土耳其01 中继E | 2x
+      - 🇧🇷 V2-巴西01 中继A
+      - 🇧🇷 V2-巴西01 中继B
+      - 🇧🇷 V2-巴西01 中继C
+      - 🇧🇷 V2-巴西01 中继D
+      - 🇧🇷 V2-巴西01 中继E
+      - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
+      - 🇵🇱 V2-波兰01 直连 | x1.5
+      - 🇺🇸 V2-美国01 中继E | 1.5x
+      - 🇺🇸 V2-美国03 中继A | 1.5x
+      - 🇳🇱 V2-荷兰01 中继 | 1.3x
+      - 🇦🇷 V2-阿根廷01 CDN 中继 龟速2x
+      - 🇰🇷 V2-韩国01 中继E | x1.5
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - "🇯🇵 日本直连A 速度随缘 0.3x\t"
+      - 🇰🇷 韩国直连A 速度随缘 0.3x
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -37,29 +541,281 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-LosAngeles
       - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Frankfurt
+      - 🇨🇳 [v1] 台湾・01
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v1] 台湾・04
+      - 🇨🇳 [v1] 台湾・05
+      - 🇨🇳 [v1] 台湾・06
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇯🇵 [v1] 日本・01
+      - 🇯🇵 [v1] 日本・02
+      - 🇯🇵 [v1] 日本・03
+      - 🇯🇵 [v1] 日本・04
+      - 🇯🇵 [v1] 日本・05
+      - 🇺🇸 [v1] 美国・01
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v1] 美国・03
+      - 🇺🇸 [v1] 美国・04
+      - 🇺🇸 [v1] 美国・05
+      - 🇭🇰 [v1] 香港・01
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・06
+      - 🇭🇰 [v1] 香港・07
+      - 🇭🇰 [v1] 香港・08
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v1] 香港・10
+      - 🇯🇵 日本JP-T
+      - 🇸🇬 新加坡SG-T
+      - 🇲🇾 马来西亚MY-T
+      - 🇭🇰 香港HKT-T
+      - 🇰🇭 柬埔寨KH-T
+      - 🇻🇳 越南VN-T
+      - 🇨🇳 台湾HINET-T
+      - 🇰🇷 韩国KR-T
+      - 🇰🇿 哈萨克斯坦KZ-T
+      - 🇺🇸 美国USLA-T
+      - 🇩🇪 德国DE-T
+      - 🇬🇧 英国UK-T
+      - 🇱🇺 卢森堡LUX-T
+      - 🇷🇺 俄罗斯RU-T
+      - 🇹🇷 土耳其TR-T
+      - 🇦🇷 阿根廷AR-T
+      - 🇯🇵 日本-优化
+      - 🇯🇵 日本-优化2
+      - 🇯🇵 日本-优化3
+      - 🇸🇬 新加坡-优化
+      - 🇸🇬 新加坡-优化2
+      - 🇸🇬 新加坡-优化3
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港Az-优化2
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇮🇳 印度-优化
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾-智能
+      - 🇨🇳 台湾-优化
+      - 🇨🇳 台湾-优化2
+      - 🇨🇳 台湾-优化3
+      - 🇺🇸 美国LA-优化
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化
+      - 🇩🇪 德国-优化
+      - 🇩🇪 德国-优化2
+      - 🇩🇪 德国-优化3
+      - 🇫🇷 法国-优化
+      - 🇨🇭 瑞士CH
+      - 🇨🇭 瑞士-优化
+      - 🇨🇭 瑞士-优化2
+      - 🇨🇭 瑞士-优化3
+      - 🇵🇹 葡萄牙-优化
+      - 🇵🇹 葡萄牙-优化2
+      - 🇵🇹 葡萄牙-优化3
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰-优化
+      - 🇳🇱 荷兰-优化2
+      - 🇳🇱 荷兰-优化3
+      - 🇫🇮 芬兰
+      - 🇫🇮 芬兰-优化
+      - 🇫🇮 芬兰-优化2
+      - 🇫🇮 芬兰-优化3
+      - 乌克兰-优化
+      - 乌克兰-优化2
+      - 🇮🇱 以色列
+      - 🇧🇷 巴西-优化1
+      - 🇧🇷 巴西-优化2
+      - 🇧🇷 巴西-优化3
+      - 🇲🇽 墨西哥-优化1
+      - 🇲🇽 墨西哥-优化2
+      - 🇲🇽 墨西哥-优化3
+      - 🇦🇺 澳大利亚-优化
+      - 🇦🇺 澳大利亚-优化2
+      - 🇯🇵 尼日利亚-优化
+      - 🇿🇦 南非-优化
+      - 🇷🇺 V1-俄罗斯01 中继A | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继B | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继C | x1.2
+      - 🇷🇺 V1-俄罗斯01 中继D | x1.2
+      - 🇨🇳 V1-台湾 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-台湾99 Hinet直连 速度随缘 0.5x
+      - 🇩🇪 V1-德国01 CDN 中继 1.5x
+      - "🇨🇳 V1-新加坡 多台负载均衡 中继A 1.5x\t"
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇯🇵 V1-日本99 1.5x
+      - 🇺🇸 V1-美国01 中继A | 1.5x
+      - 🇺🇸 V1-美国01 中继B | 1.5x
+      - 🇺🇸 V1-美国01 中继C | 1.5x
+      - 🇺🇸 V1-美国01 中继D | 1.5x
+      - 🇬🇧 V1-英国01 CDN 中继 1.5x
+      - 🇰🇷 V1-韩国01 中继A | x1.5
+      - 🇰🇷 V1-韩国01 中继B | x1.5
+      - 🇰🇷 V1-韩国01 中继C | x1.5
+      - 🇰🇷 V1-韩国01 中继D | x1.5
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继C | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继D | 1.5x
+      - 🇭🇰 V1-香港HKT02 CDN 中继 2x
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
+      - 🇩🇪 V2-PRO 德国01 7x
+      - 🇦🇺 V2-PRO 澳洲01 | 7x
+      - 🇬🇧 V2-PRO 英国01 | 8x
+      - 🇷🇺 V2-俄罗斯01 中继E | x1.2
+      - 🇮🇳 V2-印度01 中继A | 1.5x
+      - 🇮🇳 V2-印度01 中继B | 1.5x
+      - 🇮🇳 V2-印度01 中继C | 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇮🇳 V2-印度01 中继E | 1.5x
+      - 🇨🇳 V2-台湾 多台负载均衡 中继E 1.5x
+      - 🇹🇷 V2-土耳其01 中继A | 2x
+      - 🇹🇷 V2-土耳其01 中继B | 2x
+      - 🇹🇷 V2-土耳其01 中继C | 2x
+      - 🇹🇷 V2-土耳其01 中继D | 2x
+      - 🇹🇷 V2-土耳其01 中继E | 2x
+      - 🇧🇷 V2-巴西01 中继A
+      - 🇧🇷 V2-巴西01 中继B
+      - 🇧🇷 V2-巴西01 中继C
+      - 🇧🇷 V2-巴西01 中继D
+      - 🇧🇷 V2-巴西01 中继E
+      - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
+      - 🇵🇱 V2-波兰01 直连 | x1.5
+      - 🇺🇸 V2-美国01 中继E | 1.5x
+      - 🇺🇸 V2-美国03 中继A | 1.5x
+      - 🇳🇱 V2-荷兰01 中继 | 1.3x
+      - 🇦🇷 V2-阿根廷01 CDN 中继 龟速2x
+      - 🇰🇷 V2-韩国01 中继E | x1.5
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - "🇯🇵 日本直连A 速度随缘 0.3x\t"
+      - 🇰🇷 韩国直连A 速度随缘 0.3x
   - name: 中国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 [v1] 台湾・01
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v1] 台湾・04
+      - 🇨🇳 [v1] 台湾・05
+      - 🇨🇳 [v1] 台湾・06
+      - 🇭🇰 [v1] 香港・01
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・06
+      - 🇭🇰 [v1] 香港・07
+      - 🇭🇰 [v1] 香港・08
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 香港HKT-T
+      - 🇨🇳 台湾HINET-T
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港Az-优化2
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾-智能
+      - 🇨🇳 台湾-优化
+      - 🇨🇳 台湾-优化2
+      - 🇨🇳 台湾-优化3
+      - 🇨🇳 V1-台湾 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-台湾 多台负载均衡 中继F 1.5x
+      - 🇨🇳 V1-台湾99 Hinet直连 速度随缘 0.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继B | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继C | 1.5x
+      - 🇭🇰 V1-香港 多台负载均衡 中继D | 1.5x
+      - 🇭🇰 V1-香港HKT02 CDN 中继 2x
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
+      - 🇨🇳 V2-台湾 多台负载均衡 中继E 1.5x
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
   - name: 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 [v1] 日本・01
+      - 🇯🇵 [v1] 日本・02
+      - 🇯🇵 [v1] 日本・03
+      - 🇯🇵 [v1] 日本・04
+      - 🇯🇵 [v1] 日本・05
+      - 🇯🇵 日本JP-T
+      - 🇯🇵 日本-优化
+      - 🇯🇵 日本-优化2
+      - 🇯🇵 日本-优化3
+      - 🇨🇳 V1-日本 多台负载均衡 中继A 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇯🇵 V1-日本99 1.5x
+      - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
+      - "🇯🇵 日本直连A 速度随缘 0.3x\t"
   - name: 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇸🇬 新加坡SG-T
+      - 🇸🇬 新加坡-优化
+      - 🇸🇬 新加坡-优化2
+      - 🇸🇬 新加坡-优化3
+      - "🇨🇳 V1-新加坡 多台负载均衡 中继A 1.5x\t"
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继B 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继C 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继D 1.5x
+      - 🇨🇳 V1-新加坡 多台负载均衡 中继F 1.5x
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - DIRECT
+      - 🇺🇸 [v1] 美国・01
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v1] 美国・03
+      - 🇺🇸 [v1] 美国・04
+      - 🇺🇸 [v1] 美国・05
+      - 🇺🇸 美国USLA-T
+      - 🇺🇸 美国LA-优化
+      - 🇺🇸 美国LA-优化2
+      - 🇺🇸 V1-美国01 中继A | 1.5x
+      - 🇺🇸 V1-美国01 中继B | 1.5x
+      - 🇺🇸 V1-美国01 中继C | 1.5x
+      - 🇺🇸 V1-美国01 中继D | 1.5x
+      - 🇺🇸 V2-美国01 中继E | 1.5x
+      - 🇺🇸 V2-美国03 中继A | 1.5x
 rules:
  - MATCH,手动切换
