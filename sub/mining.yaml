@@ -6,12 +6,12 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: 距离下次重置剩余：23 天, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
+  - {name: 距离下次重置剩余：22 天, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
   - {name: 🇳🇱 荷兰10G | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/nl1?ed=2048", headers: {Host: nl1.guolicheng.cyou}}, udp: true}
   - {name: 🇹🇷 土耳其, server: 104.29.64.3, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/tr1?ed=2048", headers: {Host: tr1.guolicheng.cyou}}, udp: true}
   - {name: 🇦🇷 阿根廷, server: 104.29.64.3, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/agt?ed=2048", headers: {Host: agt.guolicheng.cyou}}, udp: true}
@@ -29,8 +29,12 @@ proxies:
   - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南-3号, server: 103.81.85.238, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x, server: 4.193.124.130, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：11 天, server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x, server: 4.194.24.210, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: "🇫🇷 法国双栈|1x\t", server: fr.riemunode.ga, port: 8443, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /microsoft, headers: {Host: fr.riemunode.ga}}, udp: true}
+  - {name: 🇷🇴 罗马尼亚01 1x, server: ro.riemunode.ga, port: 8443, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/microsoft?ed=2048", headers: {Host: ro.riemunode.ga}}, udp: true}
+  - {name: 🇺🇸 美国05 1x, server: knfusa.riemunode.ga, port: 2096, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /microsoft, headers: {Host: knfusa.riemunode.ga}}, udp: true}
+  - {name: 🇳🇱 荷兰双栈|1x, server: nl.riemunode.ga, port: 8443, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /microsoft, headers: {Host: nl.riemunode.ga}}, udp: true}
+  - {name: 距离下次重置剩余：10 天, server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 Tokyo, Tj", server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
   - {name: "Incheon, Tj", server: agroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 Singapore, Tj", server: agroup.node3.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
@@ -46,34 +50,17 @@ proxies:
   - {name: "🇸🇬 Singapore, V2", server: agroup.node3.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 Hongkong, V2", server: agroup.node4.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "California, V2", server: agroup.node5.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇫🇷 法国双栈|1x\t", server: fr.riemunode.ga, port: 8443, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /microsoft, headers: {Host: fr.riemunode.ga}}, udp: true}
-  - {name: 🇷🇴 罗马尼亚01 1x, server: ro.riemunode.ga, port: 8443, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/microsoft?ed=2048", headers: {Host: ro.riemunode.ga}}, udp: true}
-  - {name: 🇺🇸 美国05 1x, server: knfusa.riemunode.ga, port: 2096, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /microsoft, headers: {Host: knfusa.riemunode.ga}}, udp: true}
-  - {name: 🇳🇱 荷兰双栈|1x, server: nl.riemunode.ga, port: 8443, type: vmess, uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /microsoft, headers: {Host: nl.riemunode.ga}}, udp: true}
-  - {name: 🇨🇳 台湾 全媒体 | Netflix/动画疯 | A1, server: tw-gx-1.dnspro.icu, port: 3433, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: tw-gx-1.dnspro.icu}}, udp: true}
-  - {name: 🇹🇷 土耳其 | 特殊用途 | A1, server: steam.dnspro.icu, port: 5000, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: steam.dnspro.icu}}, udp: true}
-  - {name: 🇸🇬 如无法更新订阅请挂此节点更新| A1, server: ru-1.dnspro.icu, port: 4342, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: ru-1.dnspro.icu}}, udp: true}
-  - {name: 🇵🇰 巴基斯坦 | 特殊用途 | A1, server: cn-pk.dnspro.icu, port: 8003, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: cn-pk.dnspro.icu}}, udp: true}
-  - {name: 🇸🇬 新加坡 V2ray | 全媒体 | A1, server: cu-hn.dnspro.icu, port: 4000, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: st-1.dnspro.icu}}, udp: true}
-  - {name: 🇸🇬 新加坡 沪新9929 | Netflix | A1, server: aws-beijing-1.dnspro.icu, port: 20028, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: aws-beijing-1.dnspro.icu}}, udp: true}
-  - {name: 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1, server: aws-beijing-1.dnspro.icu, port: 20022, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: aws-beijing-1.dnspro.icu}}, udp: true}
-  - {name: 🇺🇸 美国 V2ray | 全媒体 | A1, server: gz-us-1.dnspro.icu, port: 7300, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: gz-us-1.dnspro.icu}}, udp: true}
-  - {name: 🇦🇷 阿根廷 | 特殊用途 | A1, server: cn-ar.dnspro.icu, port: 41000, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: cn-ar.dnspro.icu}}, udp: true}
-  - {name: 🇰🇷 韩国 | Trojan测试 | A1, server: ftp.kr.debian.globe-api.host, port: 443, type: trojan, password: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, sni: ftp.kr.debian.globe-api.host, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1, server: st-2.dnspro.icu, port: 5100, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: lg-hkg-b.gcorelabs.info}}, udp: true}
-  - {name: 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1, server: st-1.dnspro.icu, port: 9111, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: hkt02.dnspro.icu}}, udp: true}
-  - {name: 🇭🇰 香港 沪港9929 | Netflix | A1, server: sh-cn-1.dnspro.icu, port: 20025, type: vmess, uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: sh-cn-1.dnspro.icu}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
       - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
       - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
-      - 距离下次重置剩余：23 天
+      - 距离下次重置剩余：22 天
       - 🇳🇱 荷兰10G | 解锁流媒体
       - 🇹🇷 土耳其
       - 🇦🇷 阿根廷
@@ -92,7 +79,11 @@ proxy-groups:
       - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
       - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - 距离下次重置剩余：11 天
+      - "🇫🇷 法国双栈|1x\t"
+      - 🇷🇴 罗马尼亚01 1x
+      - 🇺🇸 美国05 1x
+      - 🇳🇱 荷兰双栈|1x
+      - 距离下次重置剩余：10 天
       - 🇯🇵 Tokyo, Tj
       - Incheon, Tj
       - 🇸🇬 Singapore, Tj
@@ -108,23 +99,6 @@ proxy-groups:
       - 🇸🇬 Singapore, V2
       - 🇭🇰 Hongkong, V2
       - California, V2
-      - "🇫🇷 法国双栈|1x\t"
-      - 🇷🇴 罗马尼亚01 1x
-      - 🇺🇸 美国05 1x
-      - 🇳🇱 荷兰双栈|1x
-      - 🇨🇳 台湾 全媒体 | Netflix/动画疯 | A1
-      - 🇹🇷 土耳其 | 特殊用途 | A1
-      - 🇸🇬 如无法更新订阅请挂此节点更新| A1
-      - 🇵🇰 巴基斯坦 | 特殊用途 | A1
-      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
-      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
-      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
-      - 🇺🇸 美国 V2ray | 全媒体 | A1
-      - 🇦🇷 阿根廷 | 特殊用途 | A1
-      - 🇰🇷 韩国 | Trojan测试 | A1
-      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 沪港9929 | Netflix | A1
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
@@ -132,12 +106,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
       - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
-      - 距离下次重置剩余：23 天
+      - 距离下次重置剩余：22 天
       - 🇳🇱 荷兰10G | 解锁流媒体
       - 🇹🇷 土耳其
       - 🇦🇷 阿根廷
@@ -156,7 +130,11 @@ proxy-groups:
       - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
       - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - 距离下次重置剩余：11 天
+      - "🇫🇷 法国双栈|1x\t"
+      - 🇷🇴 罗马尼亚01 1x
+      - 🇺🇸 美国05 1x
+      - 🇳🇱 荷兰双栈|1x
+      - 距离下次重置剩余：10 天
       - 🇯🇵 Tokyo, Tj
       - Incheon, Tj
       - 🇸🇬 Singapore, Tj
@@ -172,23 +150,6 @@ proxy-groups:
       - 🇸🇬 Singapore, V2
       - 🇭🇰 Hongkong, V2
       - California, V2
-      - "🇫🇷 法国双栈|1x\t"
-      - 🇷🇴 罗马尼亚01 1x
-      - 🇺🇸 美国05 1x
-      - 🇳🇱 荷兰双栈|1x
-      - 🇨🇳 台湾 全媒体 | Netflix/动画疯 | A1
-      - 🇹🇷 土耳其 | 特殊用途 | A1
-      - 🇸🇬 如无法更新订阅请挂此节点更新| A1
-      - 🇵🇰 巴基斯坦 | 特殊用途 | A1
-      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
-      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
-      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
-      - 🇺🇸 美国 V2ray | 全媒体 | A1
-      - 🇦🇷 阿根廷 | 特殊用途 | A1
-      - 🇰🇷 韩国 | Trojan测试 | A1
-      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 沪港9929 | Netflix | A1
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -197,12 +158,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
       - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Phoenix
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
-      - 距离下次重置剩余：23 天
+      - 距离下次重置剩余：22 天
       - 🇳🇱 荷兰10G | 解锁流媒体
       - 🇹🇷 土耳其
       - 🇦🇷 阿根廷
@@ -221,7 +182,11 @@ proxy-groups:
       - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
       - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - 距离下次重置剩余：11 天
+      - "🇫🇷 法国双栈|1x\t"
+      - 🇷🇴 罗马尼亚01 1x
+      - 🇺🇸 美国05 1x
+      - 🇳🇱 荷兰双栈|1x
+      - 距离下次重置剩余：10 天
       - 🇯🇵 Tokyo, Tj
       - Incheon, Tj
       - 🇸🇬 Singapore, Tj
@@ -237,45 +202,20 @@ proxy-groups:
       - 🇸🇬 Singapore, V2
       - 🇭🇰 Hongkong, V2
       - California, V2
-      - "🇫🇷 法国双栈|1x\t"
-      - 🇷🇴 罗马尼亚01 1x
-      - 🇺🇸 美国05 1x
-      - 🇳🇱 荷兰双栈|1x
-      - 🇨🇳 台湾 全媒体 | Netflix/动画疯 | A1
-      - 🇹🇷 土耳其 | 特殊用途 | A1
-      - 🇸🇬 如无法更新订阅请挂此节点更新| A1
-      - 🇵🇰 巴基斯坦 | 特殊用途 | A1
-      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
-      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
-      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
-      - 🇺🇸 美国 V2ray | 全媒体 | A1
-      - 🇦🇷 阿根廷 | 特殊用途 | A1
-      - 🇰🇷 韩国 | Trojan测试 | A1
-      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 沪港9929 | Netflix | A1
   - name: 中国节点
     type: select
     proxies:
       - 🇭🇰 香港HGC-1号线路 | 解锁流媒体
       - 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体
-      - 🇨🇳 台湾 全媒体 | Netflix/动画疯 | A1
-      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
-      - 🇭🇰 香港 沪港9929 | Netflix | A1
   - name: 日本节点
     type: select
     proxies:
       - 🇯🇵 日本path | 解锁流媒体
       - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
   - name: 新加坡节点
     type: select
     proxies:
       - 🇸🇬 新加坡OVH | 解锁流媒体
-      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
-      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
-      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
@@ -286,6 +226,5 @@ proxy-groups:
       - 🇺🇸 美国圣何塞 | 解锁流媒体
       - 🇺🇸 美国凤凰城 | 解锁流媒体
       - 🇺🇸 美国05 1x
-      - 🇺🇸 美国 V2ray | 全媒体 | A1
 rules:
  - MATCH,手动切换
