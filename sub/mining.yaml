@@ -5,23 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 距离下次重置剩余：10 天, server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 Tokyo, Tj", server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
-  - {name: "Incheon, Tj", server: agroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 Singapore, Tj", server: agroup.node3.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 Hongkong, Tj", server: agroup.node4.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
-  - {name: "California, Tj", server: agroup.node5.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 Tokyo, SS", server: agroup.node1.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
-  - {name: "Incheon, SS", server: agroup.node2.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
-  - {name: "🇸🇬 Singapore, SS", server: agroup.node3.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
-  - {name: "🇭🇰 Hongkong, SS", server: agroup.node4.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
-  - {name: "California, SS", server: agroup.node5.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
-  - {name: "🇯🇵 Tokyo, V2", server: agroup.node1.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "Incheon, V2", server: agroup.node2.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 Singapore, V2", server: agroup.node3.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 Hongkong, V2", server: agroup.node4.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "California, V2", server: agroup.node5.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：27 天, server: awshk.6577617.xyz, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awshk.6577617.xyz}}, udp: true}
+  - {name: 距离下次重置剩余：26 天, server: awshk.6577617.xyz, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awshk.6577617.xyz}}, udp: true}
   - {name: 🇭🇰 香港1, server: awshk.6577617.xyz, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awshk.6577617.xyz}}, udp: true}
   - {name: 🇭🇰 香港2, server: awshk1.6577617.xyz, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awshk.6577617.xyz}}, udp: true}
   - {name: 🇭🇰 香港3, server: awshk2.6577617.xyz, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: awshk.6577617.xyz}}, udp: true}
@@ -33,16 +17,56 @@ proxies:
   - {name: 🇮🇳 印度 咖喱玩泥巴专线 1x, server: yd.6577617.xyz, port: 8880, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yd.6577617.xyz}}, udp: true}
   - {name: 🇮🇳 印度 联通不怕墙专线 1x, server: 104.29.65.78, port: 8880, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yd.6577617.xyz}}, udp: true}
   - {name: 🇰🇷 韩国1, server: kt.6577617.xyz, port: 8080, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kt.6577617.xyz}}, udp: true}
-  - {name: 🇰🇷 韩国2, server: 132.145.94.48, port: 443, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kt2.6577617.xyz}}, udp: true}
   - {name: 🇯🇵 日本大阪1, server: jpe146d92e-9f63-44bf-a0f8-a8bf3dc4405d.6577617.xyz, port: 8880, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 049e428d-2f7f-4a75-83c9-4241de8241a1.6577617.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡|优化|高速|优秀|, server: sgaws1.6577617.xyz, port: 8880, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgwyyoccdbfwmvkuak.6577617.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡2|优化|高速|1x, server: sgaws2.6577617.xyz, port: 8880, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgaws2.6577617.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡3|优化|高速 2, server: sgaws3.6577617.xyz, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgaws3.6577617.xyz}}, udp: true}
-  - {name: 🇸🇬 港新|优化|高速 2, server: 58.176.125.74, port: 80, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgaws3.6577617.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡|解锁奈飞 1x, server: sgn42thezxhhpjtks.6577617.xyz, port: 443, type: trojan, password: d60b46f4-2e7c-45e0-a098-7a160f27a459, sni: sgn42thezxhhpjtks.6577617.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡直连|高达战姬|新加密|1x, server: sgaws.6577617.xyz, port: 8080, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OWI1NzZlY2FmZjAwMzJmZWU3Mzk3OGY5MGUwMDE0Y2I=:ZDYwYjQ2ZjQtMmU3Yy00NWUwLWEwOTgtN2ExNjBmMjc=, udp: true}
   - {name: 🇸🇬 日本大阪直连|高达战姬|新加密|1x, server: jpe146d92e-9f63-44bf-a0f8-a8bf3dc4405d.6577617.xyz, port: 8080, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OWI1NzZlY2FmZjAwMzJmZWU3Mzk3OGY5MGUwMDE0Y2I=:ZDYwYjQ2ZjQtMmU3Yy00NWUwLWEwOTgtN2ExNjBmMjc=, udp: true}
   - {name: 🇺🇸 美国 1x, server: usa.6577617.xyz, port: 2082, type: vmess, uuid: d60b46f4-2e7c-45e0-a098-7a160f27a459, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usa.6577617.xyz}}, udp: true}
+  - {name: 距离下次重置剩余：6 天, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
+  - {name: 🇳🇱 荷兰10G | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/nl1?ed=2048", headers: {Host: nl1.guolicheng.cyou}}, udp: true}
+  - {name: 🇹🇷 土耳其, server: 104.29.64.3, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/tr1?ed=2048", headers: {Host: tr1.guolicheng.cyou}}, udp: true}
+  - {name: 🇦🇷 阿根廷, server: 104.29.64.3, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/agt?ed=2048", headers: {Host: agt.guolicheng.cyou}}, udp: true}
+  - {name: 🇸🇬 新加坡OVH | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/sgovh?ed=2048", headers: {Host: sgovh.guolicheng.cyou}}, udp: true}
+  - {name: 🇯🇵 日本path | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/jp1?ed=2048", headers: {Host: jp1.guolicheng.cyou}}, udp: true}
+  - {name: 🇭🇰 香港HGC-1号 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/hkhgc?ed=2048", headers: {Host: hkhgc.guolicheng.cyou}}, udp: true}
+  - {name: 🇨🇳 台湾Hinet-1号 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
+  - {name: 🇺🇸 美国洛杉矶 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/us1?ed=2048", headers: {Host: us1.guolicheng.cyou}}, udp: true}
+  - {name: 🇺🇸 美国圣何塞 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/us2?ed=2048", headers: {Host: us2.guolicheng.cyou}}, udp: true}
+  - {name: 🇺🇸 美国凤凰城 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/us3?ed=2048", headers: {Host: us3.guolicheng.cyou}}, udp: true}
+  - {name: 🇩🇪 德国 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/de?ed=2048", headers: {Host: de.guolicheng.cyou}}, udp: true}
+  - {name: 🇫🇷 法国 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/fr?ed=2048", headers: {Host: fr.guolicheng.cyou}}, udp: true}
+  - {name: 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/sgovh, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇯🇵 日本path-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/jp1, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇳🇱 荷兰10G-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/nl1, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇭🇰 香港HGC-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/hkhgc, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/hinet, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/us1, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/us2, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/us3, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇩🇪 德国-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/de, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇫🇷 法国-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/fr, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x, server: 4.194.24.210, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本path-江移 | 解锁流媒体, server: 223.111.202.167, port: 30120, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南1G | 解锁流媒体, server: 103.195.236.24, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.81.85.238, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港HGC-江移 | 解锁流媒体, server: 223.111.202.167, port: 30060, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-江移 | 解锁流媒体, server: 223.111.202.167, port: 30010, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国圣何塞-江移 | 解锁流媒体, server: 223.111.202.167, port: 30020, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国凤凰城-江移 | 解锁流媒体, server: 223.111.202.167, port: 30030, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-江移 | 解锁流媒体, server: 223.111.202.167, port: 30070, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate.lol, port: 28443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾Hinet-江移 | 解锁流媒体, server: 223.111.202.167, port: 30050, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate.lol, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港HKT-江移 | 解锁流媒体, server: 223.111.202.167, port: 30100, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡OVH-江移 | 解锁流媒体, server: 223.111.202.167, port: 30040, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国-江移 | 解锁流媒体, server: 223.111.202.167, port: 30080, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 距离下次重置剩余：30 天, server: gonggao01.niuniucloud.xyz, port: 53000, type: trojan, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, sni: niuniucloud.xyz, skip-cert-verify: true, udp: true}
   - {name: ♡备用网站：niuzixiaoxiao.top♡, server: gonggao02.niuniucloud.xyz, port: 53002, type: trojan, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, sni: niuniucloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 ♡建议每天更新订阅♡, server: gonggao03.niuniucloud.xyz, port: 53004, type: trojan, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, sni: niuniucloud.xyz, skip-cert-verify: true, udp: true}
   - {name: ♡使用前卸载国家反诈中心♡, server: gonggao04.niuniucloud.xyz, port: 53006, type: trojan, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, sni: niuniucloud.xyz, skip-cert-verify: true, udp: true}
@@ -62,112 +86,75 @@ proxies:
   - {name: 🇸🇬 新加坡04|流媒体, server: s-g04.niuniucloud.xyz, port: 53042, type: trojan, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, sni: niuniucloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本01, server: j-p01.niuniucloud.xyz, port: 53044, type: ss, cipher: aes-128-gcm, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, udp: true}
   - {name: 🇯🇵 日本02, server: j-p02.niuniucloud.xyz, port: 53046, type: ss, cipher: aes-128-gcm, password: f4d80fdf-db0a-45c0-9697-98eaf826b8ed, udp: true}
-  - {name: 距离下次重置剩余：22 天, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
-  - {name: 🇳🇱 荷兰10G | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/nl1?ed=2048", headers: {Host: nl1.guolicheng.cyou}}, udp: true}
-  - {name: 🇹🇷 土耳其, server: 104.29.64.3, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/tr1?ed=2048", headers: {Host: tr1.guolicheng.cyou}}, udp: true}
-  - {name: 🇦🇷 阿根廷, server: 104.29.64.3, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/agt?ed=2048", headers: {Host: agt.guolicheng.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡OVH | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/sgovh?ed=2048", headers: {Host: sgovh.guolicheng.cyou}}, udp: true}
-  - {name: 🇯🇵 日本path | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/jp1?ed=2048", headers: {Host: jp1.guolicheng.cyou}}, udp: true}
+  - {name: 距离下次重置剩余：21 天, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
+  - {name: 🇳🇱 荷兰10G | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/nl1?ed=2048", headers: {Host: nl1.guolicheng.cyou}}, udp: true}
+  - {name: 🇹🇷 土耳其 2, server: 104.29.64.3, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/tr1?ed=2048", headers: {Host: tr1.guolicheng.cyou}}, udp: true}
+  - {name: 🇦🇷 阿根廷 2, server: 104.29.64.3, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/agt?ed=2048", headers: {Host: agt.guolicheng.cyou}}, udp: true}
+  - {name: 🇸🇬 新加坡OVH | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/sgovh?ed=2048", headers: {Host: sgovh.guolicheng.cyou}}, udp: true}
+  - {name: 🇯🇵 日本path | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/jp1?ed=2048", headers: {Host: jp1.guolicheng.cyou}}, udp: true}
   - {name: 🇭🇰 香港HGC-1号线路 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hkhgc?ed=2048", headers: {Host: hkhgc.guolicheng.cyou}}, udp: true}
   - {name: 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
-  - {name: 🇺🇸 美国洛杉矶 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/us1?ed=2048", headers: {Host: us1.guolicheng.cyou}}, udp: true}
-  - {name: 🇺🇸 美国圣何塞 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/us2?ed=2048", headers: {Host: us2.guolicheng.cyou}}, udp: true}
-  - {name: 🇺🇸 美国凤凰城 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/us3?ed=2048", headers: {Host: us3.guolicheng.cyou}}, udp: true}
-  - {name: 🇩🇪 德国 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/de?ed=2048", headers: {Host: de.guolicheng.cyou}}, udp: true}
-  - {name: 🇫🇷 法国 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/fr?ed=2048", headers: {Host: fr.guolicheng.cyou}}, udp: true}
-  - {name: 🇻🇳 越南1G | 解锁流媒体, server: 103.195.236.24, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.81.85.238, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x, server: 4.194.24.210, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国洛杉矶 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/us1?ed=2048", headers: {Host: us1.guolicheng.cyou}}, udp: true}
+  - {name: 🇺🇸 美国圣何塞 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/us2?ed=2048", headers: {Host: us2.guolicheng.cyou}}, udp: true}
+  - {name: 🇺🇸 美国凤凰城 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/us3?ed=2048", headers: {Host: us3.guolicheng.cyou}}, udp: true}
+  - {name: 🇩🇪 德国 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/de?ed=2048", headers: {Host: de.guolicheng.cyou}}, udp: true}
+  - {name: 🇫🇷 法国 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6270e679-6b55-40e7-9dab-4143e32abf6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/fr?ed=2048", headers: {Host: fr.guolicheng.cyou}}, udp: true}
+  - {name: 🇻🇳 越南1G | 解锁流媒体 2, server: 103.195.236.24, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-1号 2, server: 103.173.255.21, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-2号 2, server: 103.173.255.127, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-3号 2, server: 103.81.85.238, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-4号 2, server: 103.173.255.234, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2, server: 4.194.24.210, port: 443, type: trojan, password: 6270e679-6b55-40e7-9dab-4143e32abf6d, sni: glc.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本1丨福利, server: ah.zhuanfa.tk, port: 18466, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本2丨福利, server: ah.zhuanfa.tk, port: 18469, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本3丨福利, server: ah.zhuanfa.tk, port: 18489, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本4丨福利, server: ah.zhuanfa.tk, port: 18420, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本5丨福利, server: gdzf.zhuanfa.tk, port: 34851, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本6, server: ah.zhuanfa.tk, port: 18440, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: DMM NETWORK 独家解锁Fanza流媒体, server: ah.zhuanfa.tk, port: 18466, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇸🇬 新加坡01, server: 110.52.234.104, port: 28474, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇸🇬 新加坡02, server: 120.240.45.167, port: 28347, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇸🇬 新加坡03, server: 120.240.45.167, port: 28348, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇸🇬 新加坡04, server: 120.240.45.167, port: 28349, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇸🇬 新加坡05, server: 120.240.45.167, port: 28340, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇺🇸 美国1, server: dxnanjing01.baipiaozf.com, port: 29153, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇨🇳 台湾01, server: ah.zhuanfa.tk, port: 15468, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇭🇰 香港02, server: 120.240.45.167, port: 18181, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇭🇰 香港03, server: dxnanning01.baipiaozf.com, port: 65175, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本07, server: ah.zhuanfa.tk, port: 18468, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本08, server: ah.zhuanfa.tk, port: 15847, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本09, server: ah.zhuanfa.tk, port: 15848, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 🇯🇵 日本10, server: ah.zhuanfa.tk, port: 15849, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
   - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: 距离下次重置剩余：18 天, server: sg.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG新加坡001 两元店yyds, server: sg.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA美国001, server: usa.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE德国001, server: de.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP日本001 两元店.com, server: jp.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA加拿大001, server: ca.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU澳大利亚001, server: ap.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 UK英国001, server: uk.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG新加坡002, server: sg.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG新加坡003, server: sg.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA美国002, server: usa.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA美国003, server: usa.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE德国002, server: de.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE德国003, server: de.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP日本002, server: jp.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP日本003, server: jp.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA加拿大002, server: ca.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA加拿大003, server: ca.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU澳大利亚002, server: ap.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU澳大利亚003, server: ap.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 UK英国002, server: uk.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇱🇺 lu卢森堡001, server: lu.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇱🇺 lu卢森堡002, server: lu.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇱🇺 lu卢森堡003, server: lu.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 IN印度001, server: in.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 IN印度002, server: in.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 IN印度003, server: in.stablize.top, port: 443, type: trojan, password: 9a572af7-35ba-4681-9405-4ec50df774d5, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 V108-0.4x-Russia, server: o108.tgfaka.com, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V111-1.2x-Chuncheon, server: ssrsub.o01.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V112-1.2x-Chuncheon, server: ssrsub.o02.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V113-1.2x-Seoul, server: ssrsub.o03.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V114-1.2x-Seoul, server: ssrsub.o04.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V115-1.2x-Tokyo, server: ssrsub.o05.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V116-1.2x-Tokyo, server: ssrsub.o06.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V117-1.2x-Osaka, server: ssrsub.o07.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V118-1.2x-Sanjose, server: ssrsub.o08.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 V119-1.5x-Singapore, server: ssrsub.o09.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 V120-1.5x-Singapore, server: ssrsub.o10.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V131-1.2x-Chuncheon, server: ssrsub.t02.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V132-1.2x-Chuncheon, server: ssrsub.t02.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V133-1.2x-Seoul, server: ssrsub.t03.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V134-1.2x-Seoul, server: ssrsub.t04.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V135-1.2x-Tokyo, server: ssrsub.t05.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V136-1.2x-Tokyo, server: ssrsub.t06.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V137-1.2x-Osaka, server: ssrsub.t07.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V138-1.2x-Sanjose, server: ssrsub.t08.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 V139-1.5x-Singapore, server: ssrsub.t09.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 V140-1.5x-Singapore, server: ssrsub.t10.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V141-0.5x-Saopaulo, server: ssrsub.t11.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 V142-0.5x-Montreal, server: ssrsub.t12.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V143-0.5x-Vinhedo, server: ssrsub.t13.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V144-0.5x-Jeddah, server: ssrsub.t14.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V145-0.5x-Melbourne, server: ssrsub.t15.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 V146-0.5x-London, server: ssrsub.t16.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V147-0.5x-Marseille, server: ssrsub.t17.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V148-1x-Ashburn, server: ssrsub.t18.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V149-1x-Phoenix, server: ssrsub.t19.trojan.tel, port: 80, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: V150-0.5x-Hyderabad, server: ssrsub.t20.trojan.tel, port: 52773, type: trojan, password: 49a5eb14-b6b0-446f-9b49-8fe661651152, sni: hk.jd.com, skip-cert-verify: true, udp: true}
-  - {name: 负载均衡节点—主, server: a015.zhuan99.men, port: 10015, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 负载均衡节点—备, server: a016.zhuan99.men, port: 10016, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡A—专线主, server: a003.zhuan99.men, port: 10003, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡A专线备, server: a009.zhuan99.men, port: 10009, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港A—专线主, server: a001.zhuan99.men, port: 10001, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港A专线备, server: a007.zhuan99.men, port: 10007, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本A—专线主, server: a002.zhuan99.men, port: 10002, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本A专线备, server: a008.zhuan99.men, port: 10008, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国A—专线主, server: a004.zhuan99.men, port: 10004, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国A专线备, server: a010.zhuan99.men, port: 10010, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰A—专线主, server: a005.zhuan99.men, port: 10005, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰A专线备, server: a011.zhuan99.men, port: 10011, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾A—专线主, server: a006.zhuan99.men, port: 10006, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾A专线备, server: a012.zhuan99.men, port: 10012, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: "防失联网址为:", server: a013.zhuan99.men, port: 10013, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
-  - {name: https://github.com/i2ii/i, server: a014.zhuan99.men, port: 10014, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
+  - {name: 距离下次重置剩余：9 天, server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 Tokyo, Tj", server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, Tj", server: agroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 Singapore, Tj", server: agroup.node3.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 Hongkong, Tj", server: agroup.node4.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: "California, Tj", server: agroup.node5.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 Tokyo, SS", server: agroup.node1.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
+  - {name: "Incheon, SS", server: agroup.node2.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
+  - {name: "🇸🇬 Singapore, SS", server: agroup.node3.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
+  - {name: "🇭🇰 Hongkong, SS", server: agroup.node4.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
+  - {name: "California, SS", server: agroup.node5.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, udp: true}
+  - {name: "🇯🇵 Tokyo, V2", server: agroup.node1.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, V2", server: agroup.node2.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 Singapore, V2", server: agroup.node3.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 Hongkong, V2", server: agroup.node4.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "California, V2", server: agroup.node5.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: a5ef9f95-a029-4c67-9cdb-d4b799e57eaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 距离下次重置剩余：30 天 2, server: ah.zhuanfa.tk, port: 40409, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇭🇰 香港01HKG 0.01x, server: ah.zhuanfa.tk, port: 40409, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇺🇸 美国01, server: dxshanghai.99zf.xyz, port: 11132, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
-  - {name: 🇸🇬 新加坡01, server: dxshanghai.99zf.xyz, port: 31771, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
-  - {name: 🇸🇬 新加坡02, server: dxshanghai.99zf.xyz, port: 37973, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
-  - {name: 🇸🇬 新加坡03, server: dxshanghai.99zf.xyz, port: 13305, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
-  - {name: 🇸🇬 新加坡04, server: dxshanghai.99zf.xyz, port: 47345, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
-  - {name: 🇸🇬 新加坡05, server: dxshanghai.99zf.xyz, port: 40928, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
+  - {name: 🇸🇬 新加坡01 2, server: dxshanghai.99zf.xyz, port: 31771, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
+  - {name: 🇸🇬 新加坡02 2, server: dxshanghai.99zf.xyz, port: 37973, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
+  - {name: 🇸🇬 新加坡03 2, server: dxshanghai.99zf.xyz, port: 13305, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
+  - {name: 🇸🇬 新加坡04 2, server: dxshanghai.99zf.xyz, port: 47345, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
+  - {name: 🇸🇬 新加坡05 2, server: dxshanghai.99zf.xyz, port: 40928, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇸🇬 新加坡06, server: dxshanghai.99zf.xyz, port: 13693, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇸🇬 新加坡07, server: dxshanghai.99zf.xyz, port: 51226, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇸🇬 新加坡08, server: dxshanghai.99zf.xyz, port: 21628, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
@@ -178,88 +165,39 @@ proxies:
   - {name: 🇯🇵 日本03, server: dxshanghai.99zf.xyz, port: 46972, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇯🇵 日本04, server: dxshanghai.99zf.xyz, port: 38112, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
   - {name: 🇯🇵 日本05, server: dxshanghai.99zf.xyz, port: 30670, type: ss, cipher: aes-256-gcm, password: 46b4640f-cc43-4b35-8e01-69ea54d5a2e8, udp: true}
-  - {name: 距离下次重置剩余：7 天, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
-  - {name: 🇳🇱 荷兰10G | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/nl1?ed=2048", headers: {Host: nl1.guolicheng.cyou}}, udp: true}
-  - {name: 🇹🇷 土耳其 2, server: 104.29.64.3, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/tr1?ed=2048", headers: {Host: tr1.guolicheng.cyou}}, udp: true}
-  - {name: 🇦🇷 阿根廷 2, server: 104.29.64.3, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/agt?ed=2048", headers: {Host: agt.guolicheng.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡OVH | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/sgovh?ed=2048", headers: {Host: sgovh.guolicheng.cyou}}, udp: true}
-  - {name: 🇯🇵 日本path | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/jp1?ed=2048", headers: {Host: jp1.guolicheng.cyou}}, udp: true}
-  - {name: 🇭🇰 香港HGC-1号 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/hkhgc?ed=2048", headers: {Host: hkhgc.guolicheng.cyou}}, udp: true}
-  - {name: 🇨🇳 台湾Hinet-1号 | 解锁流媒体, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/hinet?ed=2048", headers: {Host: hinet.guolicheng.cyou}}, udp: true}
-  - {name: 🇺🇸 美国洛杉矶 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/us1?ed=2048", headers: {Host: us1.guolicheng.cyou}}, udp: true}
-  - {name: 🇺🇸 美国圣何塞 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/us2?ed=2048", headers: {Host: us2.guolicheng.cyou}}, udp: true}
-  - {name: 🇺🇸 美国凤凰城 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/us3?ed=2048", headers: {Host: us3.guolicheng.cyou}}, udp: true}
-  - {name: 🇩🇪 德国 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/de?ed=2048", headers: {Host: de.guolicheng.cyou}}, udp: true}
-  - {name: 🇫🇷 法国 | 解锁流媒体 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/meizhiyuan/fr?ed=2048", headers: {Host: fr.guolicheng.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/sgovh, headers: {Host: www.189.cn}}, udp: true}
-  - {name: 🇯🇵 日本path-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/jp1, headers: {Host: www.189.cn}}, udp: true}
-  - {name: 🇳🇱 荷兰10G-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/nl1, headers: {Host: www.189.cn}}, udp: true}
-  - {name: 🇭🇰 香港HGC-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/hkhgc, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/hinet, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/us1, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/us2, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/us3, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇩🇪 德国-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/de, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇫🇷 法国-江移-ws | 解锁流媒体, server: 223.111.202.148, port: 38080, type: vmess, uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /meizhiyuan/fr, headers: {Host: i0.hdslb.com}}, udp: true}
-  - {name: 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2, server: 4.194.24.210, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本path-江移 | 解锁流媒体, server: 223.111.202.167, port: 30120, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南1G | 解锁流媒体 2, server: 103.195.236.24, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-1号 2, server: 103.173.255.21, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-2号 2, server: 103.173.255.127, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-3号 2, server: 103.81.85.238, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-4号 2, server: 103.173.255.234, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港HGC-江移 | 解锁流媒体, server: 223.111.202.167, port: 30060, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-江移 | 解锁流媒体, server: 223.111.202.167, port: 30010, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国圣何塞-江移 | 解锁流媒体, server: 223.111.202.167, port: 30020, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国凤凰城-江移 | 解锁流媒体, server: 223.111.202.167, port: 30030, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-江移 | 解锁流媒体, server: 223.111.202.167, port: 30070, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate.lol, port: 28443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet-江移 | 解锁流媒体, server: 223.111.202.167, port: 30050, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate.lol, port: 443, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港HKT-江移 | 解锁流媒体, server: 223.111.202.167, port: 30100, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡OVH-江移 | 解锁流媒体, server: 223.111.202.167, port: 30040, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国-江移 | 解锁流媒体, server: 223.111.202.167, port: 30080, type: trojan, password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca, sni: mzy.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本1丨福利, server: ah.zhuanfa.tk, port: 18466, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本2丨福利, server: ah.zhuanfa.tk, port: 18469, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本3丨福利, server: ah.zhuanfa.tk, port: 18489, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本4丨福利, server: ah.zhuanfa.tk, port: 18420, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本5丨福利, server: gdzf.zhuanfa.tk, port: 34851, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本6, server: ah.zhuanfa.tk, port: 18440, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: DMM NETWORK 独家解锁Fanza流媒体, server: ah.zhuanfa.tk, port: 18466, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇸🇬 新加坡01 2, server: 110.52.234.104, port: 28474, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇸🇬 新加坡02 2, server: 120.240.45.167, port: 28347, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇸🇬 新加坡03 2, server: 120.240.45.167, port: 28348, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇸🇬 新加坡04 2, server: 120.240.45.167, port: 28349, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇸🇬 新加坡05 2, server: 120.240.45.167, port: 28340, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇺🇸 美国1, server: dxnanjing01.baipiaozf.com, port: 29153, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇨🇳 台湾01, server: ah.zhuanfa.tk, port: 15468, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇭🇰 香港02, server: 120.240.45.167, port: 18181, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇭🇰 香港03, server: dxnanning01.baipiaozf.com, port: 65175, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本07, server: ah.zhuanfa.tk, port: 18468, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本08, server: ah.zhuanfa.tk, port: 15847, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本09, server: ah.zhuanfa.tk, port: 15848, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
-  - {name: 🇯🇵 日本10, server: ah.zhuanfa.tk, port: 15849, type: ss, cipher: chacha20-ietf-poly1305, password: a3222cd4-d1ff-4a8c-bcdf-1f15a55b8163, udp: true}
+  - {name: 三分机场.xyz 站内返利65%, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-01, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-02, server: hk2.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-03, server: hk3.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-04, server: hk4.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: sg1.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-02, server: sg2.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-03, server: sg3.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-04, server: sg4.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 🇯🇵 日本高速接入点-01, server: jp1.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇯🇵 日本高速接入点-02, server: jp2.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 🇺🇸 美国高速接入点-01, server: us2.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfen001.pics}}, udp: true}
+  - {name: 🇺🇸 美国高速接入点-02, server: us2.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfen001.pics}}, udp: true}
+  - {name: 🇰🇷 韩国高速接入点-01, server: kr1.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇰🇷 韩国高速接入点-02, server: kr2.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 台北高级接入点-01, server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港高级接入点-01, server: hk11.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港高级接入点-02, server: hk12.sanfen001.pics, port: 2001, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港-80端口-01, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港-80端口-02, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇺🇸 美国-80端口-03, server: us80-3.sanfen001.pics, port: 80, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇯🇵 日本-80端口-04, server: jp80-4.sanfen001.pics, port: 80, type: vmess, uuid: 90662c7b-37f1-467e-be00-98757a53b95a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇸🇬 临时-新加坡1-高级节点-2x, server: 9bdc7f3764a60fb0.sanfen001.pics, port: 17525, type: ss, cipher: chacha20-ietf-poly1305, password: 90662c7b-37f1-467e-be00-98757a53b95a, udp: true}
+  - {name: 🇸🇬 临时-新加坡2-高级节点-2x, server: 699897b29d1a.sanfen001.pics, port: 40601, type: ss, cipher: chacha20-ietf-poly1305, password: 90662c7b-37f1-467e-be00-98757a53b95a, udp: true}
+  - {name: 🇯🇵 临时-日本1-高级节点-2x, server: 9bdc7f3764a60fb0.sanfen001.pics, port: 54079, type: ss, cipher: chacha20-ietf-poly1305, password: 90662c7b-37f1-467e-be00-98757a53b95a, udp: true}
+  - {name: 🇯🇵 临时-日本2-高级节点-2x, server: 699897b29d1a.sanfen001.pics, port: 40602, type: ss, cipher: chacha20-ietf-poly1305, password: 90662c7b-37f1-467e-be00-98757a53b95a, udp: true}
+  - {name: 🇭🇰 临时-香港1-高级节点-2x, server: 699897b29d1a.sanfen001.pics, port: 40604, type: ss, cipher: chacha20-ietf-poly1305, password: 90662c7b-37f1-467e-be00-98757a53b95a, udp: true}
+  - {name: 🇭🇰 临时-香港2-高级节点-2x, server: 699897b29d1a.sanfen001.pics, port: 40603, type: ss, cipher: chacha20-ietf-poly1305, password: 90662c7b-37f1-467e-be00-98757a53b95a, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 距离下次重置剩余：10 天
-      - 🇯🇵 Tokyo, Tj
-      - Incheon, Tj
-      - 🇸🇬 Singapore, Tj
-      - 🇭🇰 Hongkong, Tj
-      - California, Tj
-      - 🇯🇵 Tokyo, SS
-      - Incheon, SS
-      - 🇸🇬 Singapore, SS
-      - 🇭🇰 Hongkong, SS
-      - California, SS
-      - 🇯🇵 Tokyo, V2
-      - Incheon, V2
-      - 🇸🇬 Singapore, V2
-      - 🇭🇰 Hongkong, V2
-      - California, V2
-      - 距离下次重置剩余：27 天
+      - 距离下次重置剩余：26 天
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -271,16 +209,56 @@ proxy-groups:
       - 🇮🇳 印度 咖喱玩泥巴专线 1x
       - 🇮🇳 印度 联通不怕墙专线 1x
       - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本大阪1
       - 🇸🇬 新加坡|优化|高速|优秀|
       - 🇸🇬 新加坡2|优化|高速|1x
       - 🇸🇬 新加坡3|优化|高速 2
-      - 🇸🇬 港新|优化|高速 2
       - 🇸🇬 新加坡|解锁奈飞 1x
       - 🇸🇬 新加坡直连|高达战姬|新加密|1x
       - 🇸🇬 日本大阪直连|高达战姬|新加密|1x
       - 🇺🇸 美国 1x
+      - 距离下次重置剩余：6 天
+      - 🇳🇱 荷兰10G | 解锁流媒体
+      - 🇹🇷 土耳其
+      - 🇦🇷 阿根廷
+      - 🇸🇬 新加坡OVH | 解锁流媒体
+      - 🇯🇵 日本path | 解锁流媒体
+      - 🇭🇰 香港HGC-1号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体
+      - 🇺🇸 美国圣何塞 | 解锁流媒体
+      - 🇺🇸 美国凤凰城 | 解锁流媒体
+      - 🇩🇪 德国 | 解锁流媒体
+      - 🇫🇷 法国 | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
+      - 🇯🇵 日本path-江移-ws | 解锁流媒体
+      - 🇳🇱 荷兰10G-ws | 解锁流媒体
+      - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
+      - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
+      - 🇩🇪 德国-江移-ws | 解锁流媒体
+      - 🇫🇷 法国-江移-ws | 解锁流媒体
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
+      - 🇯🇵 日本path-江移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇭🇰 香港HKT-江移 | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 距离下次重置剩余：30 天
       - ♡备用网站：niuzixiaoxiao.top♡
       - 🇸🇬 ♡建议每天更新订阅♡
       - ♡使用前卸载国家反诈中心♡
@@ -300,112 +278,75 @@ proxy-groups:
       - 🇸🇬 新加坡04|流媒体
       - 🇯🇵 日本01
       - 🇯🇵 日本02
-      - 距离下次重置剩余：22 天
-      - 🇳🇱 荷兰10G | 解锁流媒体
-      - 🇹🇷 土耳其
-      - 🇦🇷 阿根廷
-      - 🇸🇬 新加坡OVH | 解锁流媒体
-      - 🇯🇵 日本path | 解锁流媒体
+      - 距离下次重置剩余：21 天
+      - 🇳🇱 荷兰10G | 解锁流媒体 2
+      - 🇹🇷 土耳其 2
+      - 🇦🇷 阿根廷 2
+      - 🇸🇬 新加坡OVH | 解锁流媒体 2
+      - 🇯🇵 日本path | 解锁流媒体 2
       - 🇭🇰 香港HGC-1号线路 | 解锁流媒体
       - 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体
-      - 🇺🇸 美国圣何塞 | 解锁流媒体
-      - 🇺🇸 美国凤凰城 | 解锁流媒体
-      - 🇩🇪 德国 | 解锁流媒体
-      - 🇫🇷 法国 | 解锁流媒体
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Phoenix
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-LosAngeles
-      - 距离下次重置剩余：18 天
-      - 🇸🇬 SG新加坡001 两元店yyds
-      - 🇺🇸 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001 两元店.com
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇸 USA美国002
-      - 🇺🇸 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - 🇱🇺 lu卢森堡001
-      - 🇱🇺 lu卢森堡002
-      - 🇱🇺 lu卢森堡003
-      - 🇮🇳 IN印度001
-      - 🇮🇳 IN印度002
-      - 🇮🇳 IN印度003
-      - 🇷🇺 V108-0.4x-Russia
-      - V111-1.2x-Chuncheon
-      - V112-1.2x-Chuncheon
-      - V113-1.2x-Seoul
-      - V114-1.2x-Seoul
-      - 🇯🇵 V115-1.2x-Tokyo
-      - 🇯🇵 V116-1.2x-Tokyo
-      - 🇯🇵 V117-1.2x-Osaka
-      - V118-1.2x-Sanjose
-      - 🇸🇬 V119-1.5x-Singapore
-      - 🇸🇬 V120-1.5x-Singapore
-      - V131-1.2x-Chuncheon
-      - V132-1.2x-Chuncheon
-      - V133-1.2x-Seoul
-      - V134-1.2x-Seoul
-      - 🇯🇵 V135-1.2x-Tokyo
-      - 🇯🇵 V136-1.2x-Tokyo
-      - 🇯🇵 V137-1.2x-Osaka
-      - V138-1.2x-Sanjose
-      - 🇸🇬 V139-1.5x-Singapore
-      - 🇸🇬 V140-1.5x-Singapore
-      - V141-0.5x-Saopaulo
-      - 🇨🇦 V142-0.5x-Montreal
-      - V143-0.5x-Vinhedo
-      - V144-0.5x-Jeddah
-      - V145-0.5x-Melbourne
-      - 🇬🇧 V146-0.5x-London
-      - V147-0.5x-Marseille
-      - V148-1x-Ashburn
-      - V149-1x-Phoenix
-      - V150-0.5x-Hyderabad
-      - 负载均衡节点—主
-      - 负载均衡节点—备
-      - 🇸🇬 新加坡A—专线主
-      - 🇸🇬 新加坡A专线备
-      - 🇭🇰 香港A—专线主
-      - 🇭🇰 香港A专线备
-      - 🇯🇵 日本A—专线主
-      - 🇯🇵 日本A专线备
-      - 🇺🇸 美国A—专线主
-      - 🇺🇸 美国A专线备
-      - 🇳🇱 荷兰A—专线主
-      - 🇳🇱 荷兰A专线备
-      - 🇨🇳 台湾A—专线主
-      - 🇨🇳 台湾A专线备
-      - "防失联网址为:"
-      - https://github.com/i2ii/i
-      - 🇭🇰 香港01HKG 0.01x
-      - 🇺🇸 美国01
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
+      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
+      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
+      - 🇩🇪 德国 | 解锁流媒体 2
+      - 🇫🇷 法国 | 解锁流媒体 2
+      - 🇻🇳 越南1G | 解锁流媒体 2
+      - 🇻🇳 越南-1号 2
+      - 🇻🇳 越南-2号 2
+      - 🇻🇳 越南-3号 2
+      - 🇻🇳 越南-4号 2
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
+      - 🇯🇵 日本1丨福利
+      - 🇯🇵 日本2丨福利
+      - 🇯🇵 日本3丨福利
+      - 🇯🇵 日本4丨福利
+      - 🇯🇵 日本5丨福利
+      - 🇯🇵 日本6
+      - DMM NETWORK 独家解锁Fanza流媒体
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇸🇬 新加坡03
       - 🇸🇬 新加坡04
       - 🇸🇬 新加坡05
+      - 🇺🇸 美国1
+      - 🇨🇳 台湾01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - 距离下次重置剩余：9 天
+      - 🇯🇵 Tokyo, Tj
+      - Incheon, Tj
+      - 🇸🇬 Singapore, Tj
+      - 🇭🇰 Hongkong, Tj
+      - California, Tj
+      - 🇯🇵 Tokyo, SS
+      - Incheon, SS
+      - 🇸🇬 Singapore, SS
+      - 🇭🇰 Hongkong, SS
+      - California, SS
+      - 🇯🇵 Tokyo, V2
+      - Incheon, V2
+      - 🇸🇬 Singapore, V2
+      - 🇭🇰 Hongkong, V2
+      - California, V2
+      - 距离下次重置剩余：30 天 2
+      - 🇭🇰 香港01HKG 0.01x
+      - 🇺🇸 美国01
+      - 🇸🇬 新加坡01 2
+      - 🇸🇬 新加坡02 2
+      - 🇸🇬 新加坡03 2
+      - 🇸🇬 新加坡04 2
+      - 🇸🇬 新加坡05 2
       - 🇸🇬 新加坡06
       - 🇸🇬 新加坡07
       - 🇸🇬 新加坡08
@@ -416,90 +357,41 @@ proxy-groups:
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - 距离下次重置剩余：7 天
-      - 🇳🇱 荷兰10G | 解锁流媒体 2
-      - 🇹🇷 土耳其 2
-      - 🇦🇷 阿根廷 2
-      - 🇸🇬 新加坡OVH | 解锁流媒体 2
-      - 🇯🇵 日本path | 解锁流媒体 2
-      - 🇭🇰 香港HGC-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
-      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
-      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
-      - 🇩🇪 德国 | 解锁流媒体 2
-      - 🇫🇷 法国 | 解锁流媒体 2
-      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
-      - 🇯🇵 日本path-江移-ws | 解锁流媒体
-      - 🇳🇱 荷兰10G-ws | 解锁流媒体
-      - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
-      - 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体
-      - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
-      - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
-      - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
-      - 🇩🇪 德国-江移-ws | 解锁流媒体
-      - 🇫🇷 法国-江移-ws | 解锁流媒体
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
-      - 🇯🇵 日本path-江移 | 解锁流媒体
-      - 🇻🇳 越南1G | 解锁流媒体 2
-      - 🇻🇳 越南-1号 2
-      - 🇻🇳 越南-2号 2
-      - 🇻🇳 越南-3号 2
-      - 🇻🇳 越南-4号 2
-      - 🇭🇰 香港HGC-江移 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
-      - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
-      - 🇩🇪 德国-江移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-江移 | 解锁流媒体
-      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
-      - 🇫🇷 法国-江移 | 解锁流媒体
-      - 🇯🇵 日本1丨福利
-      - 🇯🇵 日本2丨福利
-      - 🇯🇵 日本3丨福利
-      - 🇯🇵 日本4丨福利
-      - 🇯🇵 日本5丨福利
-      - 🇯🇵 日本6
-      - DMM NETWORK 独家解锁Fanza流媒体
-      - 🇸🇬 新加坡01 2
-      - 🇸🇬 新加坡02 2
-      - 🇸🇬 新加坡03 2
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05 2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇯🇵 日本09
-      - 🇯🇵 日本10
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 🇭🇰 香港高速接入点-04
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇰🇷 韩国高速接入点-01
+      - 🇰🇷 韩国高速接入点-02
+      - 台北高级接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇭🇰 香港高级接入点-02
+      - 🇭🇰 香港-80端口-01
+      - 🇭🇰 香港-80端口-02
+      - 🇺🇸 美国-80端口-03
+      - 🇯🇵 日本-80端口-04
+      - 🇸🇬 临时-新加坡1-高级节点-2x
+      - 🇸🇬 临时-新加坡2-高级节点-2x
+      - 🇯🇵 临时-日本1-高级节点-2x
+      - 🇯🇵 临时-日本2-高级节点-2x
+      - 🇭🇰 临时-香港1-高级节点-2x
+      - 🇭🇰 临时-香港2-高级节点-2x
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 距离下次重置剩余：10 天
-      - 🇯🇵 Tokyo, Tj
-      - Incheon, Tj
-      - 🇸🇬 Singapore, Tj
-      - 🇭🇰 Hongkong, Tj
-      - California, Tj
-      - 🇯🇵 Tokyo, SS
-      - Incheon, SS
-      - 🇸🇬 Singapore, SS
-      - 🇭🇰 Hongkong, SS
-      - California, SS
-      - 🇯🇵 Tokyo, V2
-      - Incheon, V2
-      - 🇸🇬 Singapore, V2
-      - 🇭🇰 Hongkong, V2
-      - California, V2
-      - 距离下次重置剩余：27 天
+      - 距离下次重置剩余：26 天
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -511,16 +403,56 @@ proxy-groups:
       - 🇮🇳 印度 咖喱玩泥巴专线 1x
       - 🇮🇳 印度 联通不怕墙专线 1x
       - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本大阪1
       - 🇸🇬 新加坡|优化|高速|优秀|
       - 🇸🇬 新加坡2|优化|高速|1x
       - 🇸🇬 新加坡3|优化|高速 2
-      - 🇸🇬 港新|优化|高速 2
       - 🇸🇬 新加坡|解锁奈飞 1x
       - 🇸🇬 新加坡直连|高达战姬|新加密|1x
       - 🇸🇬 日本大阪直连|高达战姬|新加密|1x
       - 🇺🇸 美国 1x
+      - 距离下次重置剩余：6 天
+      - 🇳🇱 荷兰10G | 解锁流媒体
+      - 🇹🇷 土耳其
+      - 🇦🇷 阿根廷
+      - 🇸🇬 新加坡OVH | 解锁流媒体
+      - 🇯🇵 日本path | 解锁流媒体
+      - 🇭🇰 香港HGC-1号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体
+      - 🇺🇸 美国圣何塞 | 解锁流媒体
+      - 🇺🇸 美国凤凰城 | 解锁流媒体
+      - 🇩🇪 德国 | 解锁流媒体
+      - 🇫🇷 法国 | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
+      - 🇯🇵 日本path-江移-ws | 解锁流媒体
+      - 🇳🇱 荷兰10G-ws | 解锁流媒体
+      - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
+      - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
+      - 🇩🇪 德国-江移-ws | 解锁流媒体
+      - 🇫🇷 法国-江移-ws | 解锁流媒体
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
+      - 🇯🇵 日本path-江移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇭🇰 香港HKT-江移 | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 距离下次重置剩余：30 天
       - ♡备用网站：niuzixiaoxiao.top♡
       - 🇸🇬 ♡建议每天更新订阅♡
       - ♡使用前卸载国家反诈中心♡
@@ -540,112 +472,75 @@ proxy-groups:
       - 🇸🇬 新加坡04|流媒体
       - 🇯🇵 日本01
       - 🇯🇵 日本02
-      - 距离下次重置剩余：22 天
-      - 🇳🇱 荷兰10G | 解锁流媒体
-      - 🇹🇷 土耳其
-      - 🇦🇷 阿根廷
-      - 🇸🇬 新加坡OVH | 解锁流媒体
-      - 🇯🇵 日本path | 解锁流媒体
+      - 距离下次重置剩余：21 天
+      - 🇳🇱 荷兰10G | 解锁流媒体 2
+      - 🇹🇷 土耳其 2
+      - 🇦🇷 阿根廷 2
+      - 🇸🇬 新加坡OVH | 解锁流媒体 2
+      - 🇯🇵 日本path | 解锁流媒体 2
       - 🇭🇰 香港HGC-1号线路 | 解锁流媒体
       - 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体
-      - 🇺🇸 美国圣何塞 | 解锁流媒体
-      - 🇺🇸 美国凤凰城 | 解锁流媒体
-      - 🇩🇪 德国 | 解锁流媒体
-      - 🇫🇷 法国 | 解锁流媒体
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Phoenix
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-LosAngeles
-      - 距离下次重置剩余：18 天
-      - 🇸🇬 SG新加坡001 两元店yyds
-      - 🇺🇸 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001 两元店.com
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇸 USA美国002
-      - 🇺🇸 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - 🇱🇺 lu卢森堡001
-      - 🇱🇺 lu卢森堡002
-      - 🇱🇺 lu卢森堡003
-      - 🇮🇳 IN印度001
-      - 🇮🇳 IN印度002
-      - 🇮🇳 IN印度003
-      - 🇷🇺 V108-0.4x-Russia
-      - V111-1.2x-Chuncheon
-      - V112-1.2x-Chuncheon
-      - V113-1.2x-Seoul
-      - V114-1.2x-Seoul
-      - 🇯🇵 V115-1.2x-Tokyo
-      - 🇯🇵 V116-1.2x-Tokyo
-      - 🇯🇵 V117-1.2x-Osaka
-      - V118-1.2x-Sanjose
-      - 🇸🇬 V119-1.5x-Singapore
-      - 🇸🇬 V120-1.5x-Singapore
-      - V131-1.2x-Chuncheon
-      - V132-1.2x-Chuncheon
-      - V133-1.2x-Seoul
-      - V134-1.2x-Seoul
-      - 🇯🇵 V135-1.2x-Tokyo
-      - 🇯🇵 V136-1.2x-Tokyo
-      - 🇯🇵 V137-1.2x-Osaka
-      - V138-1.2x-Sanjose
-      - 🇸🇬 V139-1.5x-Singapore
-      - 🇸🇬 V140-1.5x-Singapore
-      - V141-0.5x-Saopaulo
-      - 🇨🇦 V142-0.5x-Montreal
-      - V143-0.5x-Vinhedo
-      - V144-0.5x-Jeddah
-      - V145-0.5x-Melbourne
-      - 🇬🇧 V146-0.5x-London
-      - V147-0.5x-Marseille
-      - V148-1x-Ashburn
-      - V149-1x-Phoenix
-      - V150-0.5x-Hyderabad
-      - 负载均衡节点—主
-      - 负载均衡节点—备
-      - 🇸🇬 新加坡A—专线主
-      - 🇸🇬 新加坡A专线备
-      - 🇭🇰 香港A—专线主
-      - 🇭🇰 香港A专线备
-      - 🇯🇵 日本A—专线主
-      - 🇯🇵 日本A专线备
-      - 🇺🇸 美国A—专线主
-      - 🇺🇸 美国A专线备
-      - 🇳🇱 荷兰A—专线主
-      - 🇳🇱 荷兰A专线备
-      - 🇨🇳 台湾A—专线主
-      - 🇨🇳 台湾A专线备
-      - "防失联网址为:"
-      - https://github.com/i2ii/i
-      - 🇭🇰 香港01HKG 0.01x
-      - 🇺🇸 美国01
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
+      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
+      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
+      - 🇩🇪 德国 | 解锁流媒体 2
+      - 🇫🇷 法国 | 解锁流媒体 2
+      - 🇻🇳 越南1G | 解锁流媒体 2
+      - 🇻🇳 越南-1号 2
+      - 🇻🇳 越南-2号 2
+      - 🇻🇳 越南-3号 2
+      - 🇻🇳 越南-4号 2
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
+      - 🇯🇵 日本1丨福利
+      - 🇯🇵 日本2丨福利
+      - 🇯🇵 日本3丨福利
+      - 🇯🇵 日本4丨福利
+      - 🇯🇵 日本5丨福利
+      - 🇯🇵 日本6
+      - DMM NETWORK 独家解锁Fanza流媒体
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇸🇬 新加坡03
       - 🇸🇬 新加坡04
       - 🇸🇬 新加坡05
+      - 🇺🇸 美国1
+      - 🇨🇳 台湾01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - 距离下次重置剩余：9 天
+      - 🇯🇵 Tokyo, Tj
+      - Incheon, Tj
+      - 🇸🇬 Singapore, Tj
+      - 🇭🇰 Hongkong, Tj
+      - California, Tj
+      - 🇯🇵 Tokyo, SS
+      - Incheon, SS
+      - 🇸🇬 Singapore, SS
+      - 🇭🇰 Hongkong, SS
+      - California, SS
+      - 🇯🇵 Tokyo, V2
+      - Incheon, V2
+      - 🇸🇬 Singapore, V2
+      - 🇭🇰 Hongkong, V2
+      - California, V2
+      - 距离下次重置剩余：30 天 2
+      - 🇭🇰 香港01HKG 0.01x
+      - 🇺🇸 美国01
+      - 🇸🇬 新加坡01 2
+      - 🇸🇬 新加坡02 2
+      - 🇸🇬 新加坡03 2
+      - 🇸🇬 新加坡04 2
+      - 🇸🇬 新加坡05 2
       - 🇸🇬 新加坡06
       - 🇸🇬 新加坡07
       - 🇸🇬 新加坡08
@@ -656,67 +551,34 @@ proxy-groups:
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - 距离下次重置剩余：7 天
-      - 🇳🇱 荷兰10G | 解锁流媒体 2
-      - 🇹🇷 土耳其 2
-      - 🇦🇷 阿根廷 2
-      - 🇸🇬 新加坡OVH | 解锁流媒体 2
-      - 🇯🇵 日本path | 解锁流媒体 2
-      - 🇭🇰 香港HGC-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
-      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
-      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
-      - 🇩🇪 德国 | 解锁流媒体 2
-      - 🇫🇷 法国 | 解锁流媒体 2
-      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
-      - 🇯🇵 日本path-江移-ws | 解锁流媒体
-      - 🇳🇱 荷兰10G-ws | 解锁流媒体
-      - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
-      - 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体
-      - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
-      - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
-      - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
-      - 🇩🇪 德国-江移-ws | 解锁流媒体
-      - 🇫🇷 法国-江移-ws | 解锁流媒体
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
-      - 🇯🇵 日本path-江移 | 解锁流媒体
-      - 🇻🇳 越南1G | 解锁流媒体 2
-      - 🇻🇳 越南-1号 2
-      - 🇻🇳 越南-2号 2
-      - 🇻🇳 越南-3号 2
-      - 🇻🇳 越南-4号 2
-      - 🇭🇰 香港HGC-江移 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
-      - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
-      - 🇩🇪 德国-江移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-江移 | 解锁流媒体
-      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
-      - 🇫🇷 法国-江移 | 解锁流媒体
-      - 🇯🇵 日本1丨福利
-      - 🇯🇵 日本2丨福利
-      - 🇯🇵 日本3丨福利
-      - 🇯🇵 日本4丨福利
-      - 🇯🇵 日本5丨福利
-      - 🇯🇵 日本6
-      - DMM NETWORK 独家解锁Fanza流媒体
-      - 🇸🇬 新加坡01 2
-      - 🇸🇬 新加坡02 2
-      - 🇸🇬 新加坡03 2
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05 2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇯🇵 日本09
-      - 🇯🇵 日本10
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 🇭🇰 香港高速接入点-04
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇰🇷 韩国高速接入点-01
+      - 🇰🇷 韩国高速接入点-02
+      - 台北高级接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇭🇰 香港高级接入点-02
+      - 🇭🇰 香港-80端口-01
+      - 🇭🇰 香港-80端口-02
+      - 🇺🇸 美国-80端口-03
+      - 🇯🇵 日本-80端口-04
+      - 🇸🇬 临时-新加坡1-高级节点-2x
+      - 🇸🇬 临时-新加坡2-高级节点-2x
+      - 🇯🇵 临时-日本1-高级节点-2x
+      - 🇯🇵 临时-日本2-高级节点-2x
+      - 🇭🇰 临时-香港1-高级节点-2x
+      - 🇭🇰 临时-香港2-高级节点-2x
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -724,23 +586,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 距离下次重置剩余：10 天
-      - 🇯🇵 Tokyo, Tj
-      - Incheon, Tj
-      - 🇸🇬 Singapore, Tj
-      - 🇭🇰 Hongkong, Tj
-      - California, Tj
-      - 🇯🇵 Tokyo, SS
-      - Incheon, SS
-      - 🇸🇬 Singapore, SS
-      - 🇭🇰 Hongkong, SS
-      - California, SS
-      - 🇯🇵 Tokyo, V2
-      - Incheon, V2
-      - 🇸🇬 Singapore, V2
-      - 🇭🇰 Hongkong, V2
-      - California, V2
-      - 距离下次重置剩余：27 天
+      - 距离下次重置剩余：26 天
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -752,16 +598,56 @@ proxy-groups:
       - 🇮🇳 印度 咖喱玩泥巴专线 1x
       - 🇮🇳 印度 联通不怕墙专线 1x
       - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本大阪1
       - 🇸🇬 新加坡|优化|高速|优秀|
       - 🇸🇬 新加坡2|优化|高速|1x
       - 🇸🇬 新加坡3|优化|高速 2
-      - 🇸🇬 港新|优化|高速 2
       - 🇸🇬 新加坡|解锁奈飞 1x
       - 🇸🇬 新加坡直连|高达战姬|新加密|1x
       - 🇸🇬 日本大阪直连|高达战姬|新加密|1x
       - 🇺🇸 美国 1x
+      - 距离下次重置剩余：6 天
+      - 🇳🇱 荷兰10G | 解锁流媒体
+      - 🇹🇷 土耳其
+      - 🇦🇷 阿根廷
+      - 🇸🇬 新加坡OVH | 解锁流媒体
+      - 🇯🇵 日本path | 解锁流媒体
+      - 🇭🇰 香港HGC-1号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体
+      - 🇺🇸 美国圣何塞 | 解锁流媒体
+      - 🇺🇸 美国凤凰城 | 解锁流媒体
+      - 🇩🇪 德国 | 解锁流媒体
+      - 🇫🇷 法国 | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
+      - 🇯🇵 日本path-江移-ws | 解锁流媒体
+      - 🇳🇱 荷兰10G-ws | 解锁流媒体
+      - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
+      - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
+      - 🇩🇪 德国-江移-ws | 解锁流媒体
+      - 🇫🇷 法国-江移-ws | 解锁流媒体
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
+      - 🇯🇵 日本path-江移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇭🇰 香港HKT-江移 | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 距离下次重置剩余：30 天
       - ♡备用网站：niuzixiaoxiao.top♡
       - 🇸🇬 ♡建议每天更新订阅♡
       - ♡使用前卸载国家反诈中心♡
@@ -781,112 +667,75 @@ proxy-groups:
       - 🇸🇬 新加坡04|流媒体
       - 🇯🇵 日本01
       - 🇯🇵 日本02
-      - 距离下次重置剩余：22 天
-      - 🇳🇱 荷兰10G | 解锁流媒体
-      - 🇹🇷 土耳其
-      - 🇦🇷 阿根廷
-      - 🇸🇬 新加坡OVH | 解锁流媒体
-      - 🇯🇵 日本path | 解锁流媒体
+      - 距离下次重置剩余：21 天
+      - 🇳🇱 荷兰10G | 解锁流媒体 2
+      - 🇹🇷 土耳其 2
+      - 🇦🇷 阿根廷 2
+      - 🇸🇬 新加坡OVH | 解锁流媒体 2
+      - 🇯🇵 日本path | 解锁流媒体 2
       - 🇭🇰 香港HGC-1号线路 | 解锁流媒体
       - 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体
-      - 🇺🇸 美国圣何塞 | 解锁流媒体
-      - 🇺🇸 美国凤凰城 | 解锁流媒体
-      - 🇩🇪 德国 | 解锁流媒体
-      - 🇫🇷 法国 | 解锁流媒体
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Phoenix
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-LosAngeles
-      - 距离下次重置剩余：18 天
-      - 🇸🇬 SG新加坡001 两元店yyds
-      - 🇺🇸 USA美国001
-      - 🇩🇪 DE德国001
-      - 🇯🇵 JP日本001 两元店.com
-      - 🇨🇦 CA加拿大001
-      - 🇦🇺 AU澳大利亚001
-      - 🇬🇧 UK英国001
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇺🇸 USA美国002
-      - 🇺🇸 USA美国003
-      - 🇩🇪 DE德国002
-      - 🇩🇪 DE德国003
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇨🇦 CA加拿大002
-      - 🇨🇦 CA加拿大003
-      - 🇦🇺 AU澳大利亚002
-      - 🇦🇺 AU澳大利亚003
-      - 🇬🇧 UK英国002
-      - 🇱🇺 lu卢森堡001
-      - 🇱🇺 lu卢森堡002
-      - 🇱🇺 lu卢森堡003
-      - 🇮🇳 IN印度001
-      - 🇮🇳 IN印度002
-      - 🇮🇳 IN印度003
-      - 🇷🇺 V108-0.4x-Russia
-      - V111-1.2x-Chuncheon
-      - V112-1.2x-Chuncheon
-      - V113-1.2x-Seoul
-      - V114-1.2x-Seoul
-      - 🇯🇵 V115-1.2x-Tokyo
-      - 🇯🇵 V116-1.2x-Tokyo
-      - 🇯🇵 V117-1.2x-Osaka
-      - V118-1.2x-Sanjose
-      - 🇸🇬 V119-1.5x-Singapore
-      - 🇸🇬 V120-1.5x-Singapore
-      - V131-1.2x-Chuncheon
-      - V132-1.2x-Chuncheon
-      - V133-1.2x-Seoul
-      - V134-1.2x-Seoul
-      - 🇯🇵 V135-1.2x-Tokyo
-      - 🇯🇵 V136-1.2x-Tokyo
-      - 🇯🇵 V137-1.2x-Osaka
-      - V138-1.2x-Sanjose
-      - 🇸🇬 V139-1.5x-Singapore
-      - 🇸🇬 V140-1.5x-Singapore
-      - V141-0.5x-Saopaulo
-      - 🇨🇦 V142-0.5x-Montreal
-      - V143-0.5x-Vinhedo
-      - V144-0.5x-Jeddah
-      - V145-0.5x-Melbourne
-      - 🇬🇧 V146-0.5x-London
-      - V147-0.5x-Marseille
-      - V148-1x-Ashburn
-      - V149-1x-Phoenix
-      - V150-0.5x-Hyderabad
-      - 负载均衡节点—主
-      - 负载均衡节点—备
-      - 🇸🇬 新加坡A—专线主
-      - 🇸🇬 新加坡A专线备
-      - 🇭🇰 香港A—专线主
-      - 🇭🇰 香港A专线备
-      - 🇯🇵 日本A—专线主
-      - 🇯🇵 日本A专线备
-      - 🇺🇸 美国A—专线主
-      - 🇺🇸 美国A专线备
-      - 🇳🇱 荷兰A—专线主
-      - 🇳🇱 荷兰A专线备
-      - 🇨🇳 台湾A—专线主
-      - 🇨🇳 台湾A专线备
-      - "防失联网址为:"
-      - https://github.com/i2ii/i
-      - 🇭🇰 香港01HKG 0.01x
-      - 🇺🇸 美国01
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
+      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
+      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
+      - 🇩🇪 德国 | 解锁流媒体 2
+      - 🇫🇷 法国 | 解锁流媒体 2
+      - 🇻🇳 越南1G | 解锁流媒体 2
+      - 🇻🇳 越南-1号 2
+      - 🇻🇳 越南-2号 2
+      - 🇻🇳 越南-3号 2
+      - 🇻🇳 越南-4号 2
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
+      - 🇯🇵 日本1丨福利
+      - 🇯🇵 日本2丨福利
+      - 🇯🇵 日本3丨福利
+      - 🇯🇵 日本4丨福利
+      - 🇯🇵 日本5丨福利
+      - 🇯🇵 日本6
+      - DMM NETWORK 独家解锁Fanza流媒体
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇸🇬 新加坡03
       - 🇸🇬 新加坡04
       - 🇸🇬 新加坡05
+      - 🇺🇸 美国1
+      - 🇨🇳 台湾01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
+      - 🇯🇵 日本09
+      - 🇯🇵 日本10
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - 距离下次重置剩余：9 天
+      - 🇯🇵 Tokyo, Tj
+      - Incheon, Tj
+      - 🇸🇬 Singapore, Tj
+      - 🇭🇰 Hongkong, Tj
+      - California, Tj
+      - 🇯🇵 Tokyo, SS
+      - Incheon, SS
+      - 🇸🇬 Singapore, SS
+      - 🇭🇰 Hongkong, SS
+      - California, SS
+      - 🇯🇵 Tokyo, V2
+      - Incheon, V2
+      - 🇸🇬 Singapore, V2
+      - 🇭🇰 Hongkong, V2
+      - California, V2
+      - 距离下次重置剩余：30 天 2
+      - 🇭🇰 香港01HKG 0.01x
+      - 🇺🇸 美国01
+      - 🇸🇬 新加坡01 2
+      - 🇸🇬 新加坡02 2
+      - 🇸🇬 新加坡03 2
+      - 🇸🇬 新加坡04 2
+      - 🇸🇬 新加坡05 2
       - 🇸🇬 新加坡06
       - 🇸🇬 新加坡07
       - 🇸🇬 新加坡08
@@ -897,67 +746,34 @@ proxy-groups:
       - 🇯🇵 日本03
       - 🇯🇵 日本04
       - 🇯🇵 日本05
-      - 距离下次重置剩余：7 天
-      - 🇳🇱 荷兰10G | 解锁流媒体 2
-      - 🇹🇷 土耳其 2
-      - 🇦🇷 阿根廷 2
-      - 🇸🇬 新加坡OVH | 解锁流媒体 2
-      - 🇯🇵 日本path | 解锁流媒体 2
-      - 🇭🇰 香港HGC-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
-      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
-      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
-      - 🇩🇪 德国 | 解锁流媒体 2
-      - 🇫🇷 法国 | 解锁流媒体 2
-      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
-      - 🇯🇵 日本path-江移-ws | 解锁流媒体
-      - 🇳🇱 荷兰10G-ws | 解锁流媒体
-      - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
-      - 🇨🇳 台湾Hinet-江苏移动-ws | 解锁流媒体
-      - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
-      - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
-      - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
-      - 🇩🇪 德国-江移-ws | 解锁流媒体
-      - 🇫🇷 法国-江移-ws | 解锁流媒体
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
-      - 🇯🇵 日本path-江移 | 解锁流媒体
-      - 🇻🇳 越南1G | 解锁流媒体 2
-      - 🇻🇳 越南-1号 2
-      - 🇻🇳 越南-2号 2
-      - 🇻🇳 越南-3号 2
-      - 🇻🇳 越南-4号 2
-      - 🇭🇰 香港HGC-江移 | 解锁流媒体
-      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
-      - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
-      - 🇩🇪 德国-江移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-江移 | 解锁流媒体
-      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
-      - 🇫🇷 法国-江移 | 解锁流媒体
-      - 🇯🇵 日本1丨福利
-      - 🇯🇵 日本2丨福利
-      - 🇯🇵 日本3丨福利
-      - 🇯🇵 日本4丨福利
-      - 🇯🇵 日本5丨福利
-      - 🇯🇵 日本6
-      - DMM NETWORK 独家解锁Fanza流媒体
-      - 🇸🇬 新加坡01 2
-      - 🇸🇬 新加坡02 2
-      - 🇸🇬 新加坡03 2
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05 2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇯🇵 日本09
-      - 🇯🇵 日本10
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 🇭🇰 香港高速接入点-04
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇰🇷 韩国高速接入点-01
+      - 🇰🇷 韩国高速接入点-02
+      - 台北高级接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇭🇰 香港高级接入点-02
+      - 🇭🇰 香港-80端口-01
+      - 🇭🇰 香港-80端口-02
+      - 🇺🇸 美国-80端口-03
+      - 🇯🇵 日本-80端口-04
+      - 🇸🇬 临时-新加坡1-高级节点-2x
+      - 🇸🇬 临时-新加坡2-高级节点-2x
+      - 🇯🇵 临时-日本1-高级节点-2x
+      - 🇯🇵 临时-日本2-高级节点-2x
+      - 🇭🇰 临时-香港1-高级节点-2x
+      - 🇭🇰 临时-香港2-高级节点-2x
   - name: 中国节点
     type: select
     proxies:
@@ -965,15 +781,6 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港限速优化
-      - 🇭🇰 香港01|流媒体
-      - 🇭🇰 香港02|流媒体
-      - 🇭🇰 香港HGC-1号线路 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体
-      - 🇭🇰 香港A—专线主
-      - 🇭🇰 香港A专线备
-      - 🇨🇳 台湾A—专线主
-      - 🇨🇳 台湾A专线备
-      - 🇭🇰 香港01HKG 0.01x
       - 🇭🇰 香港HGC-1号 | 解锁流媒体
       - 🇨🇳 台湾Hinet-1号 | 解锁流媒体
       - 🇭🇰 香港HGC-江移-ws | 解锁流媒体
@@ -983,32 +790,38 @@ proxy-groups:
       - 🇨🇳 台湾Hinet-江移 | 解锁流媒体
       - 🇭🇰 香港HKT | 解锁流媒体
       - 🇭🇰 香港HKT-江移 | 解锁流媒体
+      - 🇭🇰 香港01|流媒体
+      - 🇭🇰 香港02|流媒体
+      - 🇭🇰 香港HGC-1号线路 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-1号线路 | 解锁流媒体
       - DMM NETWORK 独家解锁Fanza流媒体
       - 🇨🇳 台湾01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
+      - 🇭🇰 香港01HKG 0.01x
+      - 🇭🇰 香港高速接入点-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港高级接入点-01
+      - 🇭🇰 香港高级接入点-02
+      - 🇭🇰 香港-80端口-01
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 临时-香港1-高级节点-2x
+      - 🇭🇰 临时-香港2-高级节点-2x
   - name: 日本节点
     type: select
     proxies:
       - 🇯🇵 日本大阪1
       - 🇸🇬 日本大阪直连|高达战姬|新加密|1x
+      - 🇯🇵 日本path | 解锁流媒体
+      - 🇯🇵 日本path-江移-ws | 解锁流媒体
+      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
+      - 🇯🇵 日本path-江移 | 解锁流媒体
       - 🇯🇵 日本01
       - 🇯🇵 日本02
-      - 🇯🇵 日本path | 解锁流媒体
-      - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x
-      - 🇯🇵 JP日本001 两元店.com
-      - 🇯🇵 JP日本002
-      - 🇯🇵 JP日本003
-      - 🇯🇵 日本A—专线主
-      - 🇯🇵 日本A专线备
-      - 🇯🇵 日本02 2
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本05
       - 🇯🇵 日本path | 解锁流媒体 2
-      - 🇯🇵 日本path-江移-ws | 解锁流媒体
       - 🇯🇵 推荐线路 | AZ日本 | 解锁流媒体-0.1x 2
-      - 🇯🇵 日本path-江移 | 解锁流媒体
       - 🇯🇵 日本1丨福利
       - 🇯🇵 日本2丨福利
       - 🇯🇵 日本3丨福利
@@ -1019,6 +832,15 @@ proxy-groups:
       - 🇯🇵 日本08
       - 🇯🇵 日本09
       - 🇯🇵 日本10
+      - 🇯🇵 日本02 2
+      - 🇯🇵 日本03
+      - 🇯🇵 日本04
+      - 🇯🇵 日本05
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本-80端口-04
+      - 🇯🇵 临时-日本1-高级节点-2x
+      - 🇯🇵 临时-日本2-高级节点-2x
   - name: 新加坡节点
     type: select
     proxies:
@@ -1027,35 +849,36 @@ proxy-groups:
       - 🇸🇬 新加坡3|优化|高速 2
       - 🇸🇬 新加坡|解锁奈飞 1x
       - 🇸🇬 新加坡直连|高达战姬|新加密|1x
+      - 🇸🇬 新加坡OVH | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
+      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
       - 🇸🇬 新加坡01|流媒体
       - 🇸🇬 新加坡02|流媒体
       - 🇸🇬 新加坡03|流媒体
       - 🇸🇬 新加坡04|流媒体
-      - 🇸🇬 新加坡OVH | 解锁流媒体
-      - 🇸🇬 SG新加坡001 两元店yyds
-      - 🇸🇬 SG新加坡002
-      - 🇸🇬 SG新加坡003
-      - 🇸🇬 新加坡A—专线主
-      - 🇸🇬 新加坡A专线备
+      - 🇸🇬 新加坡OVH | 解锁流媒体 2
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇸🇬 新加坡03
       - 🇸🇬 新加坡04
       - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡01 2
+      - 🇸🇬 新加坡02 2
+      - 🇸🇬 新加坡03 2
+      - 🇸🇬 新加坡04 2
+      - 🇸🇬 新加坡05 2
       - 🇸🇬 新加坡06
       - 🇸🇬 新加坡07
       - 🇸🇬 新加坡08
       - 🇸🇬 新加坡09
       - 🇸🇬 新加坡10
       - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡OVH | 解锁流媒体 2
-      - 🇸🇬 新加坡OVH-江移-ws | 解锁流媒体
-      - 🇸🇬 新加坡OVH-江移 | 解锁流媒体
-      - 🇸🇬 新加坡01 2
-      - 🇸🇬 新加坡02 2
-      - 🇸🇬 新加坡03 2
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05 2
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇸🇬 临时-新加坡1-高级节点-2x
+      - 🇸🇬 临时-新加坡2-高级节点-2x
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
@@ -1063,28 +886,26 @@ proxy-groups:
     tolerance: 150
     proxies:
       - 🇺🇸 美国 1x
-      - 🇺🇸 美国01|流媒体
-      - 🇺🇸 美国02|流媒体
-      - 🇺🇸 美国03|流媒体
-      - 🇺🇸 美国04|流媒体
       - 🇺🇸 美国洛杉矶 | 解锁流媒体
       - 🇺🇸 美国圣何塞 | 解锁流媒体
       - 🇺🇸 美国凤凰城 | 解锁流媒体
-      - 🇺🇸 USA美国001
-      - 🇺🇸 USA美国002
-      - 🇺🇸 USA美国003
-      - 🇺🇸 美国A—专线主
-      - 🇺🇸 美国A专线备
-      - 🇺🇸 美国01
-      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
-      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
-      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
       - 🇺🇸 美国洛杉矶-江移-ws | 解锁流媒体
       - 🇺🇸 美国圣何塞-江移-ws | 解锁流媒体
       - 🇺🇸 美国凤凰城-江移-ws | 解锁流媒体
       - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
       - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
       - 🇺🇸 美国凤凰城-江移 | 解锁流媒体
+      - 🇺🇸 美国01|流媒体
+      - 🇺🇸 美国02|流媒体
+      - 🇺🇸 美国03|流媒体
+      - 🇺🇸 美国04|流媒体
+      - 🇺🇸 美国洛杉矶 | 解锁流媒体 2
+      - 🇺🇸 美国圣何塞 | 解锁流媒体 2
+      - 🇺🇸 美国凤凰城 | 解锁流媒体 2
       - 🇺🇸 美国1
+      - 🇺🇸 美国01
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国-80端口-03
 rules:
  - MATCH,手动切换
